@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+
+<!--
+window node params for monitoring mode
+render_timer_interval="1000" separate_render_thread="0"
+-->
+
+<glsl_hacker>
+	
+  <window name="win3d01" title="GL-Z" 
+          width="300" height="420" menubar="0"
+          render_timer_interval="1000" separate_render_thread="0"
+          gl_version_major="4" gl_version_minor="5" gl_forward_compatible="1" />
+  
+
+  
+	<script name="init0" run_mode="INIT" >
+		<raw_data><![CDATA[	
+monitoring_mode = 1
+
+show_cpu_box = 1
+show_gl_renderer_box = 1
+show_gl_renderer_box = 1
+show_gl_renderer_box_fullscreen = 0
+show_gl_renderer_box_show_caps = 1
+show_gl_renderer_box_show_alpha_slider = 0
+show_gl_extensions_box = 1
+show_vk_instance_box = 1
+show_vk_devices_box = 1
+show_gpu_box = 1
+display_main_menu = 1
+
+window_alpha = 0.6
+
+
+-- On Windows you can set this variable to 0 if CPU usage 
+-- initialization takes too much time...
+enable_cpu_usage_on_windows = 1
+
+
+cpumon_only = 1
+cpumon_include_gpumon = 1
+uvtiling_u = 1.0
+uvtiling_v = 1.0
+
+local demo_dir = gh_utils.get_demo_dir() 		
+--background_image = demo_dir .. "data/brigitte_by_liang_xing-dc9mi61.jpg"
+--background_image = demo_dir .. "data/lightning.jpg"
+background_image = ""
+
+		]]></raw_data>
+	</script> 
+    
+  
+	<script name="init_scene" run_mode="INIT" filename="lua/init.lua" />
+  <script name="wmi" run_mode="ZOMBIE" filename="lua/wmi.lua" />
+
+  <script name="terminate_scene" run_mode="TERMINATE" filename="lua/terminate.lua" />
+ 
+	<script name="update_scene" run_mode="FRAME" filename="lua/frame.lua" livecoding="0" />
+
+	<script name="resize_scene" run_mode="SIZE" filename="lua/resize.lua" />
+ 
+  
+</glsl_hacker>

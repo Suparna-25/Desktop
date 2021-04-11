@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommConfig>
+	<!--CommCfgEnable为使能开关。1：打开 0：关闭。默认值为0 -->
+	<CommCfgEnable>0</CommCfgEnable>
+	<!--PlatformDef为平台定义。0:CPU_WIN_X64   1:CPU_WIN_X86   2:CPU_ARM64-->
+	<PlatformDef>2</PlatformDef>
+</CommConfig>

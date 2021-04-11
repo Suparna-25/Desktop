@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="604,439">
+		<Include source="scrollbar.xml" />
+        <VerticalLayout bordersize="1" bordercolor="#FF000000">
+			<TabLayout name="switch" menu="true">
+				<HorizontalLayout>
+					<CoordDemoUI virtualwnd="CoordDemoUI"/>
+				</HorizontalLayout>
+				<HorizontalLayout inset="2,2,2,2" bordersize="1" name="coorVLayout" bordercolor="#FF000000">
+					<RichEdit font="2" name="edtTestInfo" multiline="true" vscrollbar="true" rich="true" readonly="true" />
+				</HorizontalLayout>				
+				<VerticalLayout inset="2,2,2,2" bordersize="1" menu="true" name="ResultLayout" bordercolor="#FF000000" childpadding="5">
+					<Label name="edtResultInfo" enable="true" bordercolor="0xFFFF0000" menu="true" minheight="200" padding="50,5,50,5"align="center" valign="center" multiline="false"  rich="true" readonly="true" />
+					<List font="2" name="lstErrorInfo" enable="false" itemtextcolor="0xFFFF0000"  itemlinecolor="0xFFFF0000" vscrollbar="true" hscrollbar="true"  readonly="true" >
+						<ListHeader height="24" menu="true">
+							<ListHeaderItem text="" font="1" width="250"  sepwidth="1"/>
+							<ListHeaderItem text="" font="1" width="250" sepwidth="1"/>
+							<ListHeaderItem text="" font="1" sepwidth="1"/>
+						</ListHeader>
+					</List>
+				</VerticalLayout>
+				<HorizontalLayout inset="2,2,2,2" bordersize="1" name="devUpdateVLayout" bordercolor="#FF000000">
+					<RichEdit font="2" name="edtUpdateInfo" multiline="true" vscrollbar="true" rich="true" readonly="true" />
+				</HorizontalLayout>						
+			</TabLayout>		
+
+			<HorizontalLayout height="120" inset="5,5,5,2" vscrollbar="true" >	
+				<VerticalLayout height="120"  >		
+					<HorizontalLayout height="28">
+						<Text text="测试板:" width="60" align="right" />
+						<Text name="stcBoardConn" font="2" align="left" text=""/>
+					</HorizontalLayout>
+					<HorizontalLayout height="28">
+						<HorizontalLayout height="28" >
+							<Text text="模组:" width="60" align="right" />
+							<Text name="stcICConnected" font="2" align="left" text=""/>
+						</HorizontalLayout>
+						<HorizontalLayout height="28" name="stcCobLayout" >
+							<Text text="COB:" width="60" align="right" />
+							<Text name="stcCobConnected" font="2" align="left" text=""/>
+						</HorizontalLayout>
+					</HorizontalLayout>
+					<HorizontalLayout height="28">
+						<Text text="电流:" width="60" align="right" />
+						<Text name="stcCurrent" font="2" align="left" text="" />
+					</HorizontalLayout>			
+					<HorizontalLayout height="28">
+						<Text text="配置版本:" width="80" align="right" />
+						<Text name="stcConfigVersion"  font="1" align="left" text="**"/>
+						<Button name="btnRead" width="60" text="读取" align="center" normalimage="file='TestViewObjImg/frame_btn_startall_normal.bmp'" hotimage="file='TestViewObjImg/frame_btn_startall_hot.bmp'" pushedimage="file='TestViewObjImg/frame_btn_startall_push.bmp'"/>
+						<Control width="20"/>
+					</HorizontalLayout>
+				</VerticalLayout>
+				<VerticalLayout height="120" >	
+					<HorizontalLayout height="28">
+						<Text text="板Uid:" width="60" align="right" />
+						<Text name="stcBoardGUID" font="2" align="left" text=""/>
+					</HorizontalLayout>
+					<HorizontalLayout height="28">
+						<Text text="IC版本:" width="60" align="right" />
+						<Text name="stcICVersion" font="2" align="left" text=""/>
+					</HorizontalLayout>
+					<HorizontalLayout height="28">
+						<Text text="板版本:" width="60" align="right" />
+						<Text name="stcBoardVersion" font="2" align="left" text=""/>
+					</HorizontalLayout>
+				</VerticalLayout>
+			</HorizontalLayout>
+			<HorizontalLayout height="5"/>	
+			<HorizontalLayout height="36" vscrollbar="true" inset="5,1,5,1">
+				<HorizontalLayout name="BarcodeLayout">
+					<Edit name="edtBarcode" text="" bordersize="1" inset="2,3,3,2" bordercolor="#FF000000" nativebkcolor="#FFFFFFFF" bkcolor="#FFFFFFFF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+					<Control width="5"/>
+				</HorizontalLayout>	
+				<Button name="btnStart" width="90" text="开始测试" align="center" normalimage="file='TestViewObjImg/frame_btn_startall_normal.bmp'" hotimage="file='TestViewObjImg/frame_btn_startall_hot.bmp'" pushedimage="file='TestViewObjImg/frame_btn_startall_push.bmp'"/>			
+			</HorizontalLayout>
+			<HorizontalLayout height="3" />
+        </VerticalLayout>
+</Window>

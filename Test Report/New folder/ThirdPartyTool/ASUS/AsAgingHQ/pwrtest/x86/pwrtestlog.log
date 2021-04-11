@@ -1,0 +1,6 @@
+Start: PwrTest
+Error: WoW64 is not supported, must execute the native binary in order to support ETW tracing.
+    File: base\power\tools\pwrtest\exe\pwrtestscenario.cpp
+    Line: 1402
+    Error Code: 0x800f0235
+End: Pass, PwrTest, (null)

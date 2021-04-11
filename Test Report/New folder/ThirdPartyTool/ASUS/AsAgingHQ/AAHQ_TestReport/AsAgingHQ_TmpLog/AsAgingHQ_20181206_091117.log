@@ -1,0 +1,50 @@
+[09:11:17] ASUS, NB BU, Aging HQ, Version 2.2.5.0 (Date: 2018/6/22)
+[09:11:17] Log path: E:\WTP weekly update\20181202\WTP\advance_test\AsAgingHQ
+[09:11:18] 1.listSymptomLayer1.size()=1
+[09:11:18] 1.listSymptomLayer1.size()=2
+[09:11:18] 1.listSymptomLayer1.size()=3
+[09:11:18] 1.listSymptomLayer1.size()=4
+[09:11:18] OS: Windows 10.0, buildno =10586
+[09:11:18] Intel CPU
+[09:11:18] Find shark bay info fail!
+[09:11:18] Checking E:\WTP weekly update\20181202\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[09:11:18] Checking E:\WTP weekly update\20181202\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[09:11:18] Load CPUUsage.dll success
+[09:11:18] Checking E:\WTP weekly update\20181202\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[09:11:18] E:\WTP weekly update\20181202\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[09:11:18] Checking E:\WTP weekly update\20181202\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[09:11:18] Generic_Identity Fail, error code =%1
+[09:11:18] Called blATKGFunc fail
+[09:11:18] Configuration file: E:\WTP weekly update\20181202\WTP\advance_test\AsAgingHQ\aging.conf
+[09:11:18] Read configuration file --
+[09:11:18] TestS5: 0
+[09:11:18] blCSC_SymptomSetting: 0
+[09:11:18] bNoUseTaskScheduler: 0
+[09:11:18] bTestCinebench: 0
+[09:11:18] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[09:11:18] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[09:11:18] Failed to check for AAHQ power scheme
+[09:11:18] C:\windows\EnterpriseG.XML not exist
+[09:11:18] 2.listSymptomLayer1.size()=4
+[09:11:18] Model Name: GL553VW
+[09:11:19] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[09:12:31] Generic_Identity Fail, error code =%1
+[09:12:31] Called blATKGFunc fail
+[09:12:31] Configuration file: E:\WTP weekly update\20181202\WTP\advance_test\AsAgingHQ\aging.conf
+[09:12:31] Read configuration file --
+[09:12:31] TestS5: 0
+[09:12:31] blCSC_SymptomSetting: 0
+[09:12:31] bNoUseTaskScheduler: 0
+[09:12:31] bTestCinebench: 0
+[09:13:48] Generic_Identity Fail, error code =%1
+[09:13:48] Called blATKGFunc fail
+[09:13:48] Configuration file: E:\WTP weekly update\20181202\WTP\advance_test\AsAgingHQ\aging.conf
+[09:13:48] Read configuration file --
+[09:13:48] TestS5: 0
+[09:13:48] blCSC_SymptomSetting: 0
+[09:13:48] bNoUseTaskScheduler: 0
+[09:13:48] bTestCinebench: 0
+[09:15:53] 2.Index:0, pSearchSchemeBuf= ??
+[09:15:53] 2.Index:1, pSearchSchemeBuf= ???
+[09:15:53] 2.Index:2, pSearchSchemeBuf= ??
+[09:15:53] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

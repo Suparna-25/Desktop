@@ -1,0 +1,43 @@
+[16:09:34] ASUS, NB BU, Aging HQ, Version 2.2.1.1 (Date: 2017/09/18)
+[16:09:34] Log path: E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ
+[16:09:34] OS: Windows 10
+[16:09:34] Intel CPU
+[16:09:34] Find shark bay info fail!
+[16:09:34] Checking E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[16:09:37] Checking E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[16:09:39] Load CPUUsage.dll success
+[16:09:39] Checking E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[16:09:39] E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[16:09:39] Checking E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[16:09:41] Configuration file: E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ\aging.conf
+[16:09:41] Read configuration file --
+[16:09:41] TestS5: 1
+[16:09:41] blCSC_SymptomSetting: 1
+[16:09:41] bNoUseTaskScheduler: 0
+[16:09:41] bTestCinebench: 0
+[16:09:41] CSC symptom Configuration file: E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[16:09:41] Read csc symptom configuration file --
+[16:09:41] CSC_SymptomSetting[0]: 02000000h
+[16:09:41] CSCTestPeriod[0]: 60 minutes
+[16:09:41] 2.problem_code = N0FH01
+[16:09:41] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[16:09:41] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[16:09:41] Failed to check for AAHQ power scheme
+[16:09:41] Model Name: GL553VW
+[16:09:41] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[16:09:53] Symptom Layer 2 item selected.
+[16:09:53] The 2nd selected symptom is item 0.0: <N0Z060 - System Blue Screen (When boot into Windows)>
+[16:09:53] 1.problem_code = N0Z060
+[16:09:55] 0.0.strTmp = S5(60minutes)
+[16:09:55] 0.0.TestS5
+[16:09:55] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 02000000h
+[16:09:55] iLayer1SelectedItem = 0, iLayer1SelectedItem2 = 0
+[16:09:55] listSymptomLayer2[0].at(0).item[3] = 65minutes
+[16:09:55] Test time is 1 hour, 5 minutes.
+[16:09:55] Save aging.conf
+[16:09:55] Write TestS5=1 into aging.conf
+[16:09:55] Save agingCSCSymptom.conf
+[16:57:35] 2.Index:0, pSearchSchemeBuf= ??
+[16:57:35] 2.Index:1, pSearchSchemeBuf= ???
+[16:57:35] 2.Index:2, pSearchSchemeBuf= ??
+[16:57:35] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

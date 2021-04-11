@@ -1,0 +1,11 @@
+LICENSE AGREEMENT: 
+
+Your use of FurMark ROG Edition is governed by the following conditions. Please read this information carefully before using this software. By using it you are agreeing to the following conditions:
+
+1. FurMark ROG Edition can be only distributed electronically through https://geeks3d.com/furmark/rog/ . Distribution through other websites or in any other form without permission of FurMark ROG Edition is prohibited.
+
+2. FurMark ROG Edition is supplied "as-is". ASUS and Geeks3D assume no liability for damages, direct or consequential, which may result from the use of FurMark ROG Edition.
+
+3. You may not decompile, disassemble or otherwise reverse engineer FurMark ROG Edition. You may not alter or modify FurMark ROG Edition in any way or create a new installer for it. 
+
+Copyright (C) 2016-2018, ASUS / Geeks3D

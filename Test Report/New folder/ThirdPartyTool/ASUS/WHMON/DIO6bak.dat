@@ -1,0 +1,159 @@
+;===========================================================================
+;>>>>>>F81866 SIO TestDIO dat file<<<<<<<;
+;>>>>>>DAT file version 1.0.2<<<<<<<;
+;===========================================================================
+_START_ITEM_TEST_  (TestDIO)
+	SET_SIO -IGNORE
+
+	WSMB 0x40 0x6 0xF0 0
+	WSMB 0x40 0x4 0x0 0
+	delay 10
+
+	WSMB 0x40 0x2 0x05 0
+	delay 10
+	set_value 0
+	RSMB 0x40 0x0 0
+	AND 0xf0
+	High_limit 0x50
+	Low_limit 0x50
+	delay 10
+
+	print_return
+	RSMB 0x40 0x0 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x1 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x2 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x3 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x4 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x5 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x6 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x7 0
+	print_hex
+	print_str "-"
+	print_return
+
+	WSMB 0x40 0x2 0x0A 0
+	delay 10
+	set_value 0
+	RSMB 0x40 0x0 0
+	AND 0xf0
+	High_limit 0xA0
+	Low_limit 0xA0
+	delay 10
+
+	print_return
+	RSMB 0x40 0x0 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x1 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x2 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x3 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x4 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x5 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x6 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x7 0
+	print_hex
+	print_str "-"
+	print_return
+
+	WSMB 0x40 0x6 0x0F 0
+	WSMB 0x40 0x4 0x0 0
+	delay 10
+
+	WSMB 0x40 0x2 0x50 0
+	delay 10
+	set_value 0
+	RSMB 0x40 0x0 0
+	AND 0x0f
+	High_limit 0x05	
+	Low_limit 0x05
+	delay 10
+	print_return
+
+	RSMB 0x40 0x0 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x1 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x2 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x3 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x4 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x5 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x6 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x7 0
+	print_hex
+	print_str "-"
+	print_return
+
+	WSMB 0x40 0x2 0xA0 0
+	delay 10
+	set_value 0
+	RSMB 0x40 0x0 0
+	AND 0x0f
+	High_limit 0x0A	
+	Low_limit 0x0A
+	delay 10
+	print_return
+	RSMB 0x40 0x0 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x1 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x2 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x3 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x4 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x5 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x6 0
+	print_hex
+	print_str "-"
+	RSMB 0x40 0x7 0
+	print_hex
+	print_str "-"
+	print_return
+
+_END_ITEM_TEST_	

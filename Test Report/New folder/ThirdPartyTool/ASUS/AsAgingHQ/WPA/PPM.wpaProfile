@@ -1,0 +1,531 @@
+﻿<WpaProfile xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" SavedWith="6.2.9200.16384 (win8_rtm.120725-1247)" AppendNtSymbolPath="" AppendNtSymCachePath="" xmlns="clr-namespace:Microsoft.Performance.Shell;assembly=Microsoft.Performance.Shell">
+  <WpaProfile.DocumentGroupContainer>
+    <DocumentGroupContainer Orientation="Vertical" IsVisible="True" DockedHeight="*" DockedWidth="*" xmlns="clr-namespace:Microsoft.VisualStudio.PlatformUI.Shell;assembly=Microsoft.Performance.Shell">
+      <DocumentGroup IsVisible="True">
+        <AnalysisView Name="bd67c724-f500-43d3-be1b-84de93302ece" IsSelected="True" IsVisible="True" xmlns="clr-namespace:Microsoft.Performance.Shell.Graphing;assembly=Microsoft.Performance.Shell">
+          <AnalysisView.Title>
+            <ViewTitle Title="Processor Power Management" xmlns="clr-namespace:Microsoft.Performance.Shell;assembly=Microsoft.Performance.Shell" />
+          </AnalysisView.Title>
+          <Core4SummaryTableFillerGraphTreeItem ClsID="8d943a59-1562-425a-a65e-3932e457258b" xmlns="clr-namespace:Microsoft.Performance.Shell.Tables;assembly=Microsoft.Performance.Shell">
+            <Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+              <HdvViewModelPreset Name="State by Type, Cpu" GraphColumnCount="15" KeyColumnCount="3" RightFrozenColumnCount="14" InitialFilterQuery="" InitialSelectionQuery="([Series Name]:=&quot;CPU&quot;)" xmlns="clr-namespace:Microsoft.Performance.UI.DataEngine.ViewModelPresets;assembly=Microsoft.Performance.UI.DataEngine">
+                <HdvViewModelPreset.ColumnMetadataEntries>
+                  <ColumnMetadataEntry Name="Sum:Duration (ms)" ColumnMetadata="Duration" />
+                  <ColumnMetadataEntry Name="Exit Time (s)" ColumnMetadata="EndTime" />
+                  <ColumnMetadataEntry Name="CPU" ColumnMetadata="ResourceId" />
+                </HdvViewModelPreset.ColumnMetadataEntries>
+                <HdvViewModelPreset.ConfigurableColumns>
+                  <HdvColumnViewModelPreset Name="Type" IsVisible="True" Width="120" />
+                  <HdvColumnViewModelPreset Name="CPU" IsVisible="True" SortPriority="1" TextAlignment="Right" Width="80" />
+                  <HdvColumnViewModelPreset Name="Entry Time (s)" IsVisible="True" SortPriority="2" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Exit Time (s)" IsVisible="True" SortPriority="3" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Sum:Duration (ms)" AggregationMode="Sum" IsVisible="True" SortPriority="8" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Prev State" SortPriority="4" Width="120" />
+                  <HdvColumnViewModelPreset Name="State" SortPriority="5" Width="120" />
+                  <HdvColumnViewModelPreset Name="Next State" SortPriority="7" Width="120" />
+                  <HdvColumnViewModelPreset Name="Min:Duration (ms)" AggregationMode="Min" SortPriority="9" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Max:Duration (ms)" AggregationMode="Max" SortPriority="10" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Idle Duration Hint (ms)" AggregationMode="Sum" IsVisible="True" SortPriority="-1" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Table" Width="80" />
+                  <HdvColumnViewModelPreset Name="State (Numeric)" AggregationMode="Average" IsVisible="True" SortPriority="6" TextAlignment="Right" Width="80" />
+                </HdvViewModelPreset.ConfigurableColumns>
+              </HdvViewModelPreset>
+            </Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+          </Core4SummaryTableFillerGraphTreeItem>
+          <Core4SummaryTableFillerGraphTreeItem DataTableHeight="0" GraphHeight="150" ClsID="2513fe15-6fe6-4279-aace-338307d1f63d" xmlns="clr-namespace:Microsoft.Performance.Shell.Tables;assembly=Microsoft.Performance.Shell">
+            <Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+              <HdvViewModelPreset Name="Utilization by Processor" GraphColumnCount="11" KeyColumnCount="2" RightFrozenColumnCount="10" InitialFilterQuery="" InitialSelectionQuery="" xmlns="clr-namespace:Microsoft.Performance.UI.DataEngine.ViewModelPresets;assembly=Microsoft.Performance.UI.DataEngine">
+                <HdvViewModelPreset.ColumnMetadataEntries>
+                  <ColumnMetadataEntry Name="Entry Time (s)" ColumnMetadata="StartTime" />
+                  <ColumnMetadataEntry Name="Exit Time (s)" ColumnMetadata="EndTime" />
+                  <ColumnMetadataEntry Name="CPU" ColumnMetadata="ResourceId" />
+                </HdvViewModelPreset.ColumnMetadataEntries>
+                <HdvViewModelPreset.ConfigurableColumns>
+                  <HdvColumnViewModelPreset Name="CPU" IsVisible="True" SortOrder="Ascending" SortPriority="1" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Entry Time (s)" IsVisible="True" SortOrder="Ascending" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Exit Time (s)" IsVisible="True" SortPriority="2" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="% Duration" AggregationMode="Sum" IsVisible="True" SortPriority="3" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Sum:Duration (ms)" AggregationMode="Sum" IsVisible="True" SortPriority="4" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Min:Duration (ms)" AggregationMode="Min" SortPriority="5" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Max:Duration (ms)" AggregationMode="Max" SortPriority="7" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Table" SortPriority="8" Width="80" />
+                  <HdvColumnViewModelPreset Name="Utilization" AggregationMode="Average" IsVisible="True" SortPriority="6" TextAlignment="Right" Width="160" />
+                </HdvViewModelPreset.ConfigurableColumns>
+              </HdvViewModelPreset>
+            </Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+          </Core4SummaryTableFillerGraphTreeItem>
+          <Core4SummaryTableFillerGraphTreeItem DataTableHeight="0" GraphHeight="150" ClsID="d0b4b788-cf4e-40f0-973f-7abc33e53f08" xmlns="clr-namespace:Microsoft.Performance.Shell.Tables;assembly=Microsoft.Performance.Shell">
+            <Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+              <HdvViewModelPreset Name="Performance by Processor" GraphColumnCount="13" KeyColumnCount="3" RightFrozenColumnCount="12" InitialFilterQuery="" InitialSelectionQuery="" xmlns="clr-namespace:Microsoft.Performance.UI.DataEngine.ViewModelPresets;assembly=Microsoft.Performance.UI.DataEngine">
+                <HdvViewModelPreset.ColumnMetadataEntries>
+                  <ColumnMetadataEntry Name="Entry Time (s)" ColumnMetadata="StartTime" />
+                  <ColumnMetadataEntry Name="Exit Time (s)" ColumnMetadata="EndTime" />
+                  <ColumnMetadataEntry Name="CPU" ColumnMetadata="ResourceId" />
+                </HdvViewModelPreset.ColumnMetadataEntries>
+                <HdvViewModelPreset.ConfigurableColumns>
+                  <HdvColumnViewModelPreset Name="Type" IsVisible="True" SortPriority="2" Width="100" />
+                  <HdvColumnViewModelPreset Name="CPU" IsVisible="True" SortOrder="Ascending" SortPriority="1" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Count" AggregationMode="Count" IsVisible="True" SortPriority="3" TextAlignment="Right" Width="80" />
+                  <HdvColumnViewModelPreset Name="Entry Time (s)" IsVisible="True" SortOrder="Ascending" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Exit Time (s)" IsVisible="True" SortPriority="4" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="% Duration" AggregationMode="Sum" IsVisible="True" SortPriority="5" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Sum:Duration (ms)" AggregationMode="Sum" IsVisible="True" SortPriority="6" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Min:Duration (ms)" AggregationMode="Min" SortPriority="7" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Max:Duration (ms)" AggregationMode="Max" SortPriority="9" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Table" SortPriority="10" Width="80" />
+                  <HdvColumnViewModelPreset Name="Performance %" AggregationMode="Average" IsVisible="True" SortPriority="8" TextAlignment="Right" Width="160" />
+                </HdvViewModelPreset.ConfigurableColumns>
+              </HdvViewModelPreset>
+            </Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+          </Core4SummaryTableFillerGraphTreeItem>
+          <Core4SummaryTableFillerGraphTreeItem DataTableHeight="79" GraphHeight="150" LayoutStyleFree="All" ClsID="5f5dc039-1901-464b-9260-a03801fde9c2" xmlns="clr-namespace:Microsoft.Performance.Shell.Tables;assembly=Microsoft.Performance.Shell">
+            <Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+              <HdvViewModelPreset Name="Utility by Processor" GraphColumnCount="12" KeyColumnCount="2" RightFrozenColumnCount="11" InitialFilterQuery="" InitialSelectionQuery="" xmlns="clr-namespace:Microsoft.Performance.UI.DataEngine.ViewModelPresets;assembly=Microsoft.Performance.UI.DataEngine">
+                <HdvViewModelPreset.ColumnMetadataEntries>
+                  <ColumnMetadataEntry Name="Entry Time (s)" ColumnMetadata="StartTime" />
+                  <ColumnMetadataEntry Name="Exit Time (s)" ColumnMetadata="EndTime" />
+                  <ColumnMetadataEntry Name="CPU" ColumnMetadata="ResourceId" />
+                </HdvViewModelPreset.ColumnMetadataEntries>
+                <HdvViewModelPreset.ConfigurableColumns>
+                  <HdvColumnViewModelPreset Name="CPU" IsVisible="True" SortOrder="Ascending" SortPriority="1" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Affinitized Utility" AggregationMode="Average" IsVisible="True" SortPriority="2" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Entry Time (s)" IsVisible="True" SortOrder="Ascending" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Exit Time (s)" IsVisible="True" SortPriority="3" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="% Duration" AggregationMode="Sum" IsVisible="True" SortPriority="4" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Sum:Duration (ms)" AggregationMode="Sum" IsVisible="True" SortPriority="5" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Min:Duration (ms)" AggregationMode="Min" SortPriority="6" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Max:Duration (ms)" AggregationMode="Max" SortPriority="8" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Table" SortPriority="9" Width="80" />
+                  <HdvColumnViewModelPreset Name="Utility" AggregationMode="Average" IsVisible="True" SortPriority="7" TextAlignment="Right" Width="160" />
+                </HdvViewModelPreset.ConfigurableColumns>
+              </HdvViewModelPreset>
+            </Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+          </Core4SummaryTableFillerGraphTreeItem>
+          <Core4SummaryTableFillerGraphTreeItem Color="#FFFFFF00" ClsID="bb7beac5-55df-4c09-a2c2-f313dd29ce3d" xmlns="clr-namespace:Microsoft.Performance.Shell.Tables;assembly=Microsoft.Performance.Shell">
+            <Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+              <HdvViewModelPreset Name="Frequency by Processor" GraphColumnCount="12" KeyColumnCount="3" RightFrozenColumnCount="10" InitialFilterQuery="" InitialSelectionQuery="" InitialExpansionQuery="" GraphFilterColumnName="% Duration" xmlns="clr-namespace:Microsoft.Performance.UI.DataEngine.ViewModelPresets;assembly=Microsoft.Performance.UI.DataEngine">
+                <HdvViewModelPreset.ColumnMetadataEntries>
+                  <ColumnMetadataEntry Name="Exit Time (s)" ColumnMetadata="EndTime" />
+                  <ColumnMetadataEntry Name="CPU" ColumnMetadata="ResourceId" />
+                  <ColumnMetadataEntry Name="Entry Time (s)" ColumnMetadata="StartTime" />
+                </HdvViewModelPreset.ColumnMetadataEntries>
+                <HdvViewModelPreset.ConfigurableColumns>
+                  <HdvColumnViewModelPreset Name="Type" IsVisible="True" SortOrder="Ascending" SortPriority="-1" Width="160" />
+                  <HdvColumnViewModelPreset Name="CPU" IsVisible="True" SortOrder="Ascending" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Entry Time (s)" IsVisible="True" SortOrder="Ascending" SortPriority="1" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Exit Time (s)" IsVisible="True" SortPriority="3" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="% Duration" AggregationMode="Sum" IsVisible="True" SortPriority="4" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Sum:Duration (ms)" AggregationMode="Sum" IsVisible="True" SortPriority="5" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Min:Duration (ms)" AggregationMode="Min" SortPriority="7" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Max:Duration (ms)" AggregationMode="Max" SortPriority="8" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Table" SortPriority="2" Width="80" />
+                  <HdvColumnViewModelPreset Name="Frequency (MHz)" AggregationMode="Average" IsVisible="True" SortOrder="Ascending" SortPriority="-1" TextAlignment="Right" Width="160" />
+                </HdvViewModelPreset.ConfigurableColumns>
+              </HdvViewModelPreset>
+            </Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+          </Core4SummaryTableFillerGraphTreeItem>
+          <Core4SummaryTableFillerGraphTreeItem DataTableHeight="0" GraphHeight="150" ClsID="50856918-ed01-4edb-9daa-70ba9360b891" xmlns="clr-namespace:Microsoft.Performance.Shell.Tables;assembly=Microsoft.Performance.Shell">
+            <Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+              <HdvViewModelPreset Name="Constraints by Processor" GraphColumnCount="13" KeyColumnCount="3" RightFrozenColumnCount="12" InitialFilterQuery="" InitialSelectionQuery="" xmlns="clr-namespace:Microsoft.Performance.UI.DataEngine.ViewModelPresets;assembly=Microsoft.Performance.UI.DataEngine">
+                <HdvViewModelPreset.ColumnMetadataEntries>
+                  <ColumnMetadataEntry Name="Entry Time (s)" ColumnMetadata="StartTime" />
+                  <ColumnMetadataEntry Name="Exit Time (s)" ColumnMetadata="EndTime" />
+                  <ColumnMetadataEntry Name="Type" ColumnMetadata="ResourceId" />
+                </HdvViewModelPreset.ColumnMetadataEntries>
+                <HdvViewModelPreset.ConfigurableColumns>
+                  <HdvColumnViewModelPreset Name="Type" IsVisible="True" SortPriority="1" Width="80" />
+                  <HdvColumnViewModelPreset Name="CPU" IsVisible="True" SortOrder="Ascending" SortPriority="2" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Count" AggregationMode="Count" IsVisible="True" SortPriority="3" TextAlignment="Right" Width="80" />
+                  <HdvColumnViewModelPreset Name="Entry Time (s)" IsVisible="True" SortOrder="Ascending" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Exit Time (s)" IsVisible="True" SortPriority="8" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="% Duration" AggregationMode="Sum" IsVisible="True" SortPriority="4" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Sum:Duration (ms)" AggregationMode="Sum" IsVisible="True" SortPriority="5" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Min:Duration (ms)" AggregationMode="Min" SortPriority="9" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Max:Duration (ms)" AggregationMode="Max" SortPriority="10" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Table" SortPriority="6" Width="80" />
+                  <HdvColumnViewModelPreset Name="Performance %" AggregationMode="Average" IsVisible="True" SortPriority="6" TextAlignment="Right" Width="160" />
+                </HdvViewModelPreset.ConfigurableColumns>
+              </HdvViewModelPreset>
+            </Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+          </Core4SummaryTableFillerGraphTreeItem>
+          <Core4SummaryTableFillerGraphTreeItem DataTableHeight="0" GraphHeight="150" ClsID="0fa1415e-10f0-40c3-a32a-5e1b9d0f49ea" xmlns="clr-namespace:Microsoft.Performance.Shell.Tables;assembly=Microsoft.Performance.Shell">
+            <Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+              <HdvViewModelPreset Name="Parking State by Processor" GraphColumnCount="13" KeyColumnCount="2" RightFrozenColumnCount="12" InitialFilterQuery="" InitialSelectionQuery="" xmlns="clr-namespace:Microsoft.Performance.UI.DataEngine.ViewModelPresets;assembly=Microsoft.Performance.UI.DataEngine">
+                <HdvViewModelPreset.ColumnMetadataEntries>
+                  <ColumnMetadataEntry Name="Entry Time (s)" ColumnMetadata="StartTime" />
+                  <ColumnMetadataEntry Name="Exit Time (s)" ColumnMetadata="EndTime" />
+                  <ColumnMetadataEntry Name="CPU" ColumnMetadata="ResourceId" />
+                </HdvViewModelPreset.ColumnMetadataEntries>
+                <HdvViewModelPreset.ConfigurableColumns>
+                  <HdvColumnViewModelPreset Name="CPU" IsVisible="True" SortOrder="Ascending" SortPriority="1" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Parking Node" IsVisible="True" SortPriority="2" Width="160" />
+                  <HdvColumnViewModelPreset Name="State" IsVisible="True" SortPriority="9" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Entry Time (s)" IsVisible="True" SortOrder="Ascending" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Exit Time (s)" IsVisible="True" SortPriority="3" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="% Duration" AggregationMode="Sum" IsVisible="True" SortPriority="4" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Sum:Duration (ms)" AggregationMode="Sum" IsVisible="True" SortPriority="5" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Min:Duration (ms)" AggregationMode="Min" SortPriority="6" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Max:Duration (ms)" AggregationMode="Max" SortPriority="8" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Table" SortPriority="10" Width="80" />
+                  <HdvColumnViewModelPreset Name="State (Number)" AggregationMode="Average" IsVisible="True" SortPriority="7" TextAlignment="Right" Width="160" />
+                </HdvViewModelPreset.ConfigurableColumns>
+              </HdvViewModelPreset>
+            </Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+          </Core4SummaryTableFillerGraphTreeItem>
+          <Core4SummaryTableFillerGraphTreeItem DataTableHeight="0" GraphHeight="150" ClsID="49ea9934-6513-42ea-acb1-f4440f84664f" xmlns="clr-namespace:Microsoft.Performance.Shell.Tables;assembly=Microsoft.Performance.Shell">
+            <Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+              <HdvViewModelPreset Name="Instant Concurrency by Parking Node" GraphColumnCount="12" KeyColumnCount="2" RightFrozenColumnCount="11" InitialFilterQuery="" InitialSelectionQuery="" xmlns="clr-namespace:Microsoft.Performance.UI.DataEngine.ViewModelPresets;assembly=Microsoft.Performance.UI.DataEngine">
+                <HdvViewModelPreset.ColumnMetadataEntries>
+                  <ColumnMetadataEntry Name="Exit Time (s)" ColumnMetadata="EndTime" />
+                  <ColumnMetadataEntry Name="Sum:Duration (ms)" ColumnMetadata="Duration" />
+                  <ColumnMetadataEntry Name="Parking Node" ColumnMetadata="ResourceId" />
+                </HdvViewModelPreset.ColumnMetadataEntries>
+                <HdvViewModelPreset.ConfigurableColumns>
+                  <HdvColumnViewModelPreset Name="Parking Node" IsVisible="True" SortOrder="Ascending" SortPriority="1" TextAlignment="Right" Width="204" />
+                  <HdvColumnViewModelPreset Name="Count" AggregationMode="Sum" SortPriority="5" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Entry Time (s)" IsVisible="True" SortOrder="Ascending" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Exit Time (s)" IsVisible="True" SortPriority="5" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="% Duration" AggregationMode="Sum" IsVisible="True" SortPriority="2" TextAlignment="Right" Width="80" />
+                  <HdvColumnViewModelPreset Name="Sum:Duration (ms)" AggregationMode="Sum" IsVisible="True" SortPriority="3" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Min:Duration (ms)" AggregationMode="Min" SortPriority="8" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Max:Duration (ms)" AggregationMode="Max" SortPriority="9" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Table" SortPriority="3" Width="80" />
+                  <HdvColumnViewModelPreset Name="Instant Concurrency" AggregationMode="Average" IsVisible="True" SortPriority="6" TextAlignment="Right" Width="160" />
+                </HdvViewModelPreset.ConfigurableColumns>
+              </HdvViewModelPreset>
+            </Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+          </Core4SummaryTableFillerGraphTreeItem>
+          <Core4SummaryTableFillerGraphTreeItem DataTableHeight="0" GraphHeight="150" ClsID="6eb7d9a5-fbcd-42b9-b2d4-18445e14e1ff" xmlns="clr-namespace:Microsoft.Performance.Shell.Tables;assembly=Microsoft.Performance.Shell">
+            <Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+              <HdvViewModelPreset Name="Concurrency by Parking Node" GraphColumnCount="12" KeyColumnCount="2" RightFrozenColumnCount="11" InitialFilterQuery="" InitialSelectionQuery="" xmlns="clr-namespace:Microsoft.Performance.UI.DataEngine.ViewModelPresets;assembly=Microsoft.Performance.UI.DataEngine">
+                <HdvViewModelPreset.ColumnMetadataEntries>
+                  <ColumnMetadataEntry Name="Exit Time (s)" ColumnMetadata="EndTime" />
+                  <ColumnMetadataEntry Name="Sum:Duration (ms)" ColumnMetadata="Duration" />
+                  <ColumnMetadataEntry Name="Parking Node" ColumnMetadata="ResourceId" />
+                </HdvViewModelPreset.ColumnMetadataEntries>
+                <HdvViewModelPreset.ConfigurableColumns>
+                  <HdvColumnViewModelPreset Name="Parking Node" IsVisible="True" SortOrder="Ascending" SortPriority="1" TextAlignment="Right" Width="204" />
+                  <HdvColumnViewModelPreset Name="Count" AggregationMode="Sum" SortPriority="5" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Entry Time (s)" IsVisible="True" SortOrder="Ascending" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Exit Time (s)" IsVisible="True" SortPriority="5" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="% Duration" AggregationMode="Sum" IsVisible="True" SortPriority="2" TextAlignment="Right" Width="80" />
+                  <HdvColumnViewModelPreset Name="Sum:Duration (ms)" AggregationMode="Sum" IsVisible="True" SortPriority="3" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Min:Duration (ms)" AggregationMode="Min" SortPriority="8" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Max:Duration (ms)" AggregationMode="Max" SortPriority="9" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Table" SortPriority="3" Width="80" />
+                  <HdvColumnViewModelPreset Name="Concurrency" AggregationMode="Average" IsVisible="True" SortPriority="6" TextAlignment="Right" Width="160" />
+                </HdvViewModelPreset.ConfigurableColumns>
+              </HdvViewModelPreset>
+            </Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+          </Core4SummaryTableFillerGraphTreeItem>
+          <Core4SummaryTableFillerGraphTreeItem DataTableHeight="0" GraphHeight="150" ClsID="69a8bf19-110a-40d8-bfb2-12fa8a5dff45" xmlns="clr-namespace:Microsoft.Performance.Shell.Tables;assembly=Microsoft.Performance.Shell">
+            <Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+              <HdvViewModelPreset Name="Unpark Cores by Parking Node" GraphColumnCount="12" KeyColumnCount="2" RightFrozenColumnCount="11" InitialFilterQuery="" InitialSelectionQuery="" xmlns="clr-namespace:Microsoft.Performance.UI.DataEngine.ViewModelPresets;assembly=Microsoft.Performance.UI.DataEngine">
+                <HdvViewModelPreset.ColumnMetadataEntries>
+                  <ColumnMetadataEntry Name="Exit Time (s)" ColumnMetadata="EndTime" />
+                  <ColumnMetadataEntry Name="Sum:Duration (ms)" ColumnMetadata="Duration" />
+                  <ColumnMetadataEntry Name="Parking Node" ColumnMetadata="ResourceId" />
+                </HdvViewModelPreset.ColumnMetadataEntries>
+                <HdvViewModelPreset.ConfigurableColumns>
+                  <HdvColumnViewModelPreset Name="Parking Node" IsVisible="True" SortOrder="Ascending" SortPriority="1" TextAlignment="Right" Width="188" />
+                  <HdvColumnViewModelPreset Name="Count" AggregationMode="Sum" SortPriority="6" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Entry Time (s)" IsVisible="True" SortOrder="Ascending" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Exit Time (s)" IsVisible="True" SortPriority="5" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="% Duration" AggregationMode="Sum" IsVisible="True" SortPriority="2" TextAlignment="Right" Width="80" />
+                  <HdvColumnViewModelPreset Name="Sum:Duration (ms)" AggregationMode="Sum" IsVisible="True" SortPriority="3" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Min:Duration (ms)" AggregationMode="Min" SortPriority="8" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Max:Duration (ms)" AggregationMode="Max" SortPriority="9" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Table" SortPriority="4" Width="80" />
+                  <HdvColumnViewModelPreset Name="Unpark Cores" AggregationMode="Average" IsVisible="True" SortPriority="6" TextAlignment="Right" Width="160" />
+                </HdvViewModelPreset.ConfigurableColumns>
+              </HdvViewModelPreset>
+            </Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+          </Core4SummaryTableFillerGraphTreeItem>
+          <Core4SummaryTableFillerGraphTreeItem DataTableHeight="0" GraphHeight="150" ClsID="be78b753-5471-4a6c-9b4f-80d5d5e0dc2d" xmlns="clr-namespace:Microsoft.Performance.Shell.Tables;assembly=Microsoft.Performance.Shell">
+            <Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+              <HdvViewModelPreset Name="Unpark Cores Cap by Parking Node" GraphColumnCount="12" KeyColumnCount="2" RightFrozenColumnCount="11" InitialFilterQuery="" InitialSelectionQuery="" xmlns="clr-namespace:Microsoft.Performance.UI.DataEngine.ViewModelPresets;assembly=Microsoft.Performance.UI.DataEngine">
+                <HdvViewModelPreset.ColumnMetadataEntries>
+                  <ColumnMetadataEntry Name="Exit Time (s)" ColumnMetadata="EndTime" />
+                  <ColumnMetadataEntry Name="Sum:Duration (ms)" ColumnMetadata="Duration" />
+                  <ColumnMetadataEntry Name="Parking Node" ColumnMetadata="ResourceId" />
+                </HdvViewModelPreset.ColumnMetadataEntries>
+                <HdvViewModelPreset.ConfigurableColumns>
+                  <HdvColumnViewModelPreset Name="Parking Node" IsVisible="True" SortOrder="Ascending" SortPriority="1" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Count" AggregationMode="Sum" SortPriority="4" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Entry Time (s)" IsVisible="True" SortOrder="Ascending" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="Exit Time (s)" IsVisible="True" SortPriority="5" TextAlignment="Right" Width="120" />
+                  <HdvColumnViewModelPreset Name="% Duration" AggregationMode="Sum" IsVisible="True" SortPriority="2" TextAlignment="Right" Width="80" />
+                  <HdvColumnViewModelPreset Name="Sum:Duration (ms)" AggregationMode="Sum" IsVisible="True" SortPriority="3" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Min:Duration (ms)" AggregationMode="Min" SortPriority="7" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Max:Duration (ms)" AggregationMode="Max" SortPriority="9" TextAlignment="Right" Width="160" />
+                  <HdvColumnViewModelPreset Name="Table" SortPriority="2" Width="80" />
+                  <HdvColumnViewModelPreset Name="Unpark Cores Cap" AggregationMode="Average" IsVisible="True" SortPriority="6" TextAlignment="Right" Width="160" />
+                </HdvViewModelPreset.ConfigurableColumns>
+              </HdvViewModelPreset>
+            </Core4SummaryTableFillerGraphTreeItem.HdvViewModelPreset>
+          </Core4SummaryTableFillerGraphTreeItem>
+        </AnalysisView>
+      </DocumentGroup>
+    </DocumentGroupContainer>
+  </WpaProfile.DocumentGroupContainer>
+  <WpaProfile.FloatSites />
+  <WpaProfile.HdvPresetCollections>
+    <HdvPresetCollections xmlns="clr-namespace:Microsoft.Performance.UI.DataEngine.ViewModelPresets;assembly=Microsoft.Performance.UI.DataEngine">
+      <HdvPresetCollections.PresetCollections>
+        <HdvViewModelPresetCollection Name="84255312-bf75-49e3-ab62-fa6acc6a10da">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="e24fd7fc-3c84-4d81-93b7-b690e4a24d11">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="31119377-4dc0-4c74-808d-3f45d34b6008">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="b186f02d-8d06-4bbb-9ad1-abf7985fb61a">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="04109c2c-d66b-46cf-8fd7-a7ea67c64cb0">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="88b342b3-e1b7-4ef3-95c2-664ce0d294d8">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="79926001-a767-4658-9d56-cdbfc8140de9">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="c58f5fea-0319-4046-932d-e695ebe20b47">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="b0b4901b-0981-4842-b282-2a9904c53280">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="8d943a59-1562-425a-a65e-3932e457258b">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="9cfb2296-2c89-45af-a5bd-23b4885dcbab">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="7c60aeff-a47f-4ba8-942c-d2b154087ab9">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="3c18eb9c-2211-4988-bf94-bb029e4ce96e">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="a4a4ee28-f3e3-43f0-8b35-6fc4e37e8675">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="5279a15b-e0ad-4ec4-8d80-a8bc6bb8b7c8">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="3b77a6f0-391f-4d84-9ee9-67e7bae59fd1">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="cb079a8b-de14-4516-9f83-6c5695b0845a">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="ec60ccb2-4409-444e-98fa-792c5b3c36da">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="1fe3bbaa-6738-41b9-941e-7a6825821b35">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="d68e0a4e-52b1-4e1a-b83a-cddf45661efb">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="96560002-ea30-4a11-af10-52b51dbdb2a6">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="0d63da12-a68a-4ea8-8a12-dadd30f0fa1d">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="f05d032f-f475-4f4f-bbf6-c24c2b594f0f">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="faa52878-623e-4f74-9ed9-a65e379ccdd5">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="a1df89f9-5b2a-449e-aaab-1bcc3fd25c84">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="00f566da-55ea-4e31-a242-fb28c798a63e">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="920e6241-3dea-46c4-8e4f-04ce08f62c0a">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="0588f34c-77f0-48a3-a4fd-2e0a462ea764">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="24d87055-643a-4424-af3b-275593bf0f72">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="04f69f98-176e-4d1c-b44e-97f734996ab8">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="cbbd1db6-d7e2-4410-8784-f3df48ad56a5">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="7ccef571-f72c-4bfa-891d-3106b7bbe54a">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="a3a3bf45-7ee8-45eb-95c1-0369c31420ce">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="3bc03cbc-93e0-4ffb-89ae-f80c8c03f568">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="da13748b-71c7-4ba1-a61d-6ae4e527e261">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="31b88db9-1be9-42fa-9452-3cd560899212">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="b855361e-7be0-4bc8-a754-3e8507715ca5">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="60578268-c574-4c17-9097-9c607b0b6c82">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="db839752-0e71-421f-99ff-51e2abbb4af5">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="54a0f0af-ac5d-4285-8276-ec3bf6b9b495">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="BBC8F512-A49B-451A-90FC-8497F20CFAD7">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="0F9F86E1-77EF-41FF-84AB-F412A49B1CB7">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="Wait Analysis">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="1fa85300-2351-4a29-9bb0-dc52c6390780">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="cb85d4d1-7c17-47df-81a8-909c7a491670">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="c0455219-9b7c-450a-a2c8-829bb2faac9d">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="7a719ad8-1b6a-4315-bbdd-58f25ae244fb">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="848d19c2-eeff-4a9c-8699-7a3f893b5756">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="f0b52614-f391-4038-8811-d42610f95413">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="05d86277-7e64-4117-ba99-7619c202c90e">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="a7e3971d-237e-49ae-ae58-c89d43b544b2">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="7551272a-91f8-4a43-853a-17f031218ed2">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="bf0c68f4-725d-4d5c-a95e-adad0b311b26">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="51dba6e1-eeba-4230-a152-ff5bed7dd696">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="b6fe3898-a7b0-42fb-90ec-84fbf31afc61">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="5f5dc039-1901-464b-9260-a03801fde9c2">
+          <HdvViewModelPresetCollection.UserPresets>
+            <HdvViewModelPreset Name="Utility by Processor" GraphColumnCount="11" KeyColumnCount="2" RightFrozenColumnCount="10" InitialFilterQuery="" InitialSelectionQuery="">
+              <HdvViewModelPreset.ColumnMetadataEntries>
+                <ColumnMetadataEntry Name="Entry Time (s)" ColumnMetadata="StartTime" />
+                <ColumnMetadataEntry Name="Exit Time (s)" ColumnMetadata="EndTime" />
+                <ColumnMetadataEntry Name="CPU" ColumnMetadata="ResourceId" />
+              </HdvViewModelPreset.ColumnMetadataEntries>
+              <HdvViewModelPreset.ConfigurableColumns>
+                <HdvColumnViewModelPreset Name="CPU" IsVisible="True" SortOrder="Ascending" SortPriority="-1" TextAlignment="Right" Width="160" />
+                <HdvColumnViewModelPreset Name="Affinitized Utility" AggregationMode="Average" IsVisible="True" SortOrder="Ascending" SortPriority="-1" TextAlignment="Right" Width="160" />
+                <HdvColumnViewModelPreset Name="Entry Time (s)" IsVisible="True" SortPriority="-1" TextAlignment="Right" Width="120" />
+                <HdvColumnViewModelPreset Name="Exit Time (s)" SortPriority="-1" TextAlignment="Right" Width="120" />
+                <HdvColumnViewModelPreset Name="% Duration" AggregationMode="Sum" IsVisible="True" SortPriority="-1" TextAlignment="Right" Width="160" />
+                <HdvColumnViewModelPreset Name="Sum:Duration (ms)" AggregationMode="Sum" IsVisible="True" SortPriority="-1" TextAlignment="Right" Width="160" />
+                <HdvColumnViewModelPreset Name="Min:Duration (ms)" AggregationMode="Min" SortPriority="-1" TextAlignment="Right" Width="160" />
+                <HdvColumnViewModelPreset Name="Max:Duration (ms)" AggregationMode="Max" SortPriority="-1" TextAlignment="Right" Width="160" />
+                <HdvColumnViewModelPreset Name="Utility" AggregationMode="Average" IsVisible="True" SortOrder="Ascending" SortPriority="-1" TextAlignment="Right" Width="160" />
+              </HdvViewModelPreset.ConfigurableColumns>
+            </HdvViewModelPreset>
+            <HdvViewModelPreset Name="Affinitized Utility by Processor" GraphColumnCount="11" KeyColumnCount="2" RightFrozenColumnCount="10" InitialFilterQuery="" InitialSelectionQuery="">
+              <HdvViewModelPreset.ColumnMetadataEntries>
+                <ColumnMetadataEntry Name="Entry Time (s)" ColumnMetadata="StartTime" />
+                <ColumnMetadataEntry Name="Exit Time (s)" ColumnMetadata="EndTime" />
+                <ColumnMetadataEntry Name="CPU" ColumnMetadata="ResourceId" />
+              </HdvViewModelPreset.ColumnMetadataEntries>
+              <HdvViewModelPreset.ConfigurableColumns>
+                <HdvColumnViewModelPreset Name="CPU" IsVisible="True" SortOrder="Ascending" SortPriority="-1" TextAlignment="Right" Width="160" />
+                <HdvColumnViewModelPreset Name="Utility" AggregationMode="Average" IsVisible="True" SortOrder="Ascending" SortPriority="-1" TextAlignment="Right" Width="160" />
+                <HdvColumnViewModelPreset Name="Entry Time (s)" IsVisible="True" SortPriority="-1" TextAlignment="Right" Width="120" />
+                <HdvColumnViewModelPreset Name="Exit Time (s)" SortPriority="-1" TextAlignment="Right" Width="120" />
+                <HdvColumnViewModelPreset Name="% Duration" AggregationMode="Sum" IsVisible="True" SortPriority="-1" TextAlignment="Right" Width="160" />
+                <HdvColumnViewModelPreset Name="Sum:Duration (ms)" AggregationMode="Sum" IsVisible="True" SortPriority="-1" TextAlignment="Right" Width="160" />
+                <HdvColumnViewModelPreset Name="Min:Duration (ms)" AggregationMode="Min" SortPriority="-1" TextAlignment="Right" Width="160" />
+                <HdvColumnViewModelPreset Name="Max:Duration (ms)" AggregationMode="Max" SortPriority="-1" TextAlignment="Right" Width="160" />
+                <HdvColumnViewModelPreset Name="Affinitized Utility" AggregationMode="Average" IsVisible="True" SortOrder="Ascending" SortPriority="-1" TextAlignment="Right" Width="160" />
+              </HdvViewModelPreset.ConfigurableColumns>
+            </HdvViewModelPreset>
+          </HdvViewModelPresetCollection.UserPresets>
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="2513FE15-6FE6-4279-AACE-338307D1F63D">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="0fa1415e-10f0-40c3-a32a-5e1b9d0f49ea">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="49ea9934-6513-42ea-acb1-f4440f84664f">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="6EB7D9A5-FBCD-42B9-B2D4-18445E14E1FF">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="69a8bf19-110a-40d8-bfb2-12fa8a5dff45">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="be78b753-5471-4a6c-9b4f-80d5d5e0dc2d">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="d0b4b788-cf4e-40f0-973f-7abc33e53f08">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="bb7beac5-55df-4c09-a2c2-f313dd29ce3d">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="50856918-ed01-4edb-9daa-70ba9360b891">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="F3F9ADE9-8670-4885-AED9-69E8EF5B7567">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="9F139D56-3E73-41f3-B0DD-D748427BC2AF">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="C10E1B04-AFB9-4E6B-A2F7-32BABF95B08F">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="5600eb08-e870-44f2-8729-fb4da8857b96">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="d5d92665-9d48-4efb-a720-c8b1415006ea">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="Wait Analysis Summary Table">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+        <HdvViewModelPresetCollection Name="91831745-db0d-4287-9d99-2cbef71247d1">
+          <HdvViewModelPresetCollection.UserPresets />
+        </HdvViewModelPresetCollection>
+      </HdvPresetCollections.PresetCollections>
+    </HdvPresetCollections>
+  </WpaProfile.HdvPresetCollections>
+</WpaProfile>

@@ -1,0 +1,42 @@
+[13:54:58] ?? ASUS Aging HQ, Version 2.2.5.0 (Date: 2018/6/22)
+[13:54:58] Log path: E:\WTP\advance_test\AsAgingHQ
+[13:54:58] 1.listSymptomLayer1.size()=1
+[13:54:58] 1.listSymptomLayer1.size()=2
+[13:54:58] 1.listSymptomLayer1.size()=3
+[13:54:58] 1.listSymptomLayer1.size()=4
+[13:54:58] OS: Windows 7
+[13:54:58] Intel CPU
+[13:54:58] Find shark bay info fail!
+[13:54:58] Checking E:\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[13:54:58] Checking E:\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[13:54:58] Load CPUUsage.dll success
+[13:54:58] Checking E:\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[13:54:58] E:\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[13:54:58] Checking E:\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[13:54:59] Configuration file: E:\WTP\advance_test\AsAgingHQ\aging.conf
+[13:54:59] Read configuration file --
+[13:54:59] TestS5: 0
+[13:54:59] blCSC_SymptomSetting: 0
+[13:54:59] bNoUseTaskScheduler: 0
+[13:54:59] bTestCinebench: 0
+[13:54:59] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[13:54:59] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[13:54:59] Failed to check for AAHQ power scheme
+[13:55:00] C:\windows\EnterpriseG.XML not exist
+[13:55:00] 2.listSymptomLayer1.size()=4
+[13:55:00] Model Name: B53S
+[13:55:00] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[13:55:04] Configuration file: E:\WTP\advance_test\AsAgingHQ\aging.conf
+[13:55:04] Read configuration file --
+[13:55:04] TestS5: 0
+[13:55:04] blCSC_SymptomSetting: 0
+[13:55:04] bNoUseTaskScheduler: 0
+[13:55:04] bTestCinebench: 0
+[13:55:09] 2.Index:0, pSearchSchemeBuf= ??
+[13:55:09] 2.Index:1, pSearchSchemeBuf= Power4Gear High Performance
+[13:55:09] 2.Index:2, pSearchSchemeBuf= Power4Gear Entertainment
+[13:55:09] 2.Index:3, pSearchSchemeBuf= Power4Gear Quiet Office
+[13:55:09] 2.Index:4, pSearchSchemeBuf= ???
+[13:55:09] 2.Index:5, pSearchSchemeBuf= ??
+[13:55:09] 2.Index:6, pSearchSchemeBuf= Power4Gear Battery Saving
+[13:55:09] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

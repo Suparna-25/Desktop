@@ -1,0 +1,7 @@
+test_name,renderer,vendor_id,device_id,api,api_version,width,height,fullscreen,duration_ms,score,avg_fps
+rog-01: FurMark(ROG)::OpenGL,GeForce GTX 1080/PCIe/SSE2,0,0,OpenGL,4.6.0 NVIDIA 388.13,1920,1080,YES,60000,7871,131
+rog-02: FurMark(ROG)::Vulkan,GeForce GTX 1080,4318,7040,Vulkan,1.0.56,1920,1080,YES,60000,8121,135
+rog-03: FurMark(donut)::OpenGL,GeForce GTX 1080/PCIe/SSE2,0,0,OpenGL,4.6.0 NVIDIA 388.13,1920,1080,YES,60000,8633,143
+rog-04: FurMark(donut)::Vulkan,GeForce GTX 1080,4318,7040,Vulkan,1.0.56,1920,1080,YES,60000,7046,117
+rog-05: TessMark::OpenGL,GeForce GTX 1080/PCIe/SSE2,0,0,OpenGL,4.6.0 NVIDIA 388.13,1920,1080,YES,60000,12727,212
+rog-06: TessMark::Vulkan,GeForce GTX 1080,4318,7040,Vulkan,1.0.56,1920,1080,YES,60000,11206,186

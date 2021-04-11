@@ -1,0 +1,54 @@
+           Name             R/W Status  Information
+--------------------------- --- ------ ----------------------------------
+(/IV)BIOS version            R   Done  "0701"
+(/ID)BIOS release date       R   Done  "06/24/2013"
+(/SM)System manufacture      R   Done  "ASUSTeK COMPUTER INC."
+(/SP)System product          R   Done  "BM1AF_BP1AF_BM6AF"
+(/SV)System version          R   Done  "System Version"
+(/SS)System Serial number    R   Done  "D9PFCG000N4P"
+(/SU)System UUID             R   Done  "27812D52CC9B791211A674D02B99CCDDh"
+(/SK)System SKU number       R   Done  "All"
+(/SF)System Family           R   Done  "ASUS MB"
+(/BM)Baseboard manufacture   R   Done  "ASUSTeK COMPUTER INC."
+(/BP)Baseboard product       R   Done  "BM1AF_BP1AF_BM6AF"
+(/BV)Baseboard version       R   Done  "Rev X.0x"
+(/BS)Baseboard Serial number R   Done  "130612451100243"
+(/BT)Baseboard Asset Tag     R   Done  "To be filled by O.E.M."
+(/BLC)BB. Loc. in Chassis    R   Done  "To be filled by O.E.M."
+BaseBoardHandle = "0002h"
+(/BMH)Baseboard manufacture   R   Done  "ASUSTeK COMPUTER INC."
+(/BPH)Baseboard product       R   Done  "BM1AF_BP1AF_BM6AF"
+(/BVH)Baseboard version       R   Done  "Rev X.0x"
+(/BSH)Baseboard Serial number R   Done  "130612451100243"
+(/BTH)Baseboard Asset Tag     R   Done  "To be filled by O.E.M."
+(/BLCH)BB. Loc. in Chassis    R   Done  "To be filled by O.E.M."
+(/CM)Chassis manufacture     R   Done  "Chassis Manufacture"
+(/CT)Chassis type            R   Done  "03h"
+(/CV)Chassis version         R   Done  "Chassis Version"
+(/CS)Chassis Serial number   R   Done  "Chassis Serial Number"
+(/CA)Chassis Tag number      R   Done  " "
+(/CO)Chassis OEM value       R   Done  "00000000h"
+(/CSK)Chassis SKU Number     R   Done  "To be filled by O.E.M."
+(/OS)OEM string              #1 R Done "To Be Filled By O.E.M."
+(/OS)OEM string              #2 R Done "02AI010F7EF1000000"
+(/OS)OEM string              #3 R Done "ASUS_FLASH/ASUSTeK Pegasus"
+(/OS)OEM string              #4 R Done "To Be Filled By O.E.M."
+(/OS)OEM string              #5 R Done "To Be Filled By O.E.M."
+(/OS)OEM string              #6 R Done "To Be Filled By O.E.M."
+(/OS)OEM string              #7 R Done "To Be Filled By O.E.M."
+(/OS)OEM string              #8 R Done "To Be Filled By O.E.M."
+(/SCO)System Conf. Op.        #1 R Done "To Be Filled By O.E.M."
+(/PBH)PortBat Handle          R Invalid 
+(/PBL)PortBat Location        R Invalid 
+(/PBM)PortBat Manufacturer    R Invalid 
+(/PBD)PortBat Manu. Date      R Invalid 
+(/PBS)PortBat Serial Num      R Invalid 
+(/PBN)PortBat Device Name     R Invalid 
+(/PBCH)PortBat Device Chem.    R Invalid 
+(/PBCA)PortBat Design Cap.     R Invalid 
+(/PBV)PortBat Design Volt.    R Invalid 
+(/PBSV)PortBat SBDS Ver.Num.   R Invalid 
+(/PBE)PortBat Maxmum Error    R Invalid 
+(/PBSN)PortBat SBDS Serial Num.R Invalid 
+(/PBSD)PortBat SBDS Manu. Date R Invalid 
+(/PBSC)PortBat SBDS Dev. Chem. R Invalid 

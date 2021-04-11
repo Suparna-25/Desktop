@@ -1,0 +1,459 @@
+[09:40:38] ASUS, NB BU, Aging HQ, Version 2.2.1.1 (Date: 2017/09/18)
+[09:40:38] Log path: E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ
+[09:40:38] OS: Windows 10
+[09:40:38] Intel CPU
+[09:40:38] Find shark bay info fail!
+[09:40:38] Checking E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[09:40:38] Checking E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[09:40:38] Load CPUUsage.dll success
+[09:40:38] Checking E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[09:40:38] E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[09:40:38] Checking E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[09:40:40] Configuration file: E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[09:40:40] Read configuration file --
+[09:40:40] TestS5: 0
+[09:40:40] blCSC_SymptomSetting: 1
+[09:40:40] bNoUseTaskScheduler: 0
+[09:40:40] bTestCinebench: 0
+[09:40:40] CSC symptom Configuration file: E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[09:40:40] Read csc symptom configuration file --
+[09:40:40] CSC_SymptomSetting[0]: 20000000h
+[09:40:40] CSCTestPeriod[0]: 30 minutes
+[09:40:40] 2.problem_code = N0FZ01
+[09:40:40] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[09:40:40] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[09:40:40] Failed to check for AAHQ power scheme
+[09:40:40] Model Name: GL553VW
+[09:40:40] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[09:40:50] Configuration file: E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[09:40:50] Read configuration file --
+[09:40:50] TestS5: 0
+[09:40:50] blCSC_SymptomSetting: 1
+[09:40:50] bNoUseTaskScheduler: 0
+[09:40:50] bTestCinebench: 0
+[09:40:50] CSC symptom Configuration file: E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[09:40:50] Read csc symptom configuration file --
+[09:40:50] CSC_SymptomSetting[0]: 20000000h
+[09:40:50] CSCTestPeriod[0]: 30 minutes
+[09:40:50] 2.problem_code = N0FZ01
+[09:41:02] Save aging.conf
+[09:41:02] Write TestS5=0 into aging.conf
+[09:41:03] Do pretest check
+[09:41:03] Checking E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\3DMARK06\3DMark06.exe
+[09:41:03] Checking C:\Program Files\Futuremark\3DMark\3DMark06.exe
+[09:41:03] Exe for 3DMark: C:\Program Files\Futuremark\3DMark\3DMark06.exe
+[09:41:03] 2.IsFurMarkInstalled func: g_aging_info.wszFurMarkPath =E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\Furmark\FurMark.exe
+[09:41:09] Do pretest check
+[09:41:09] Checking E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\3DMARK06\3DMark06.exe
+[09:41:09] Checking C:\Program Files\Futuremark\3DMark\3DMark06.exe
+[09:41:09] Exe for 3DMark: C:\Program Files\Futuremark\3DMark\3DMark06.exe
+[09:41:09] 2.IsFurMarkInstalled func: g_aging_info.wszFurMarkPath =E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\Furmark\FurMark.exe
+[09:41:20] Configuration file: E:\WTP weekly update\20170925\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[09:41:20] Read configuration file --
+[09:41:20] TestS5: 0
+[09:41:20] blCSC_SymptomSetting: 0
+[09:41:20] bNoUseTaskScheduler: 0
+[09:41:20] bTestCinebench: 0
+[09:41:29] Save aging.conf
+[09:41:29] Write TestS5=0 into aging.conf
+[09:41:33] Symptom Layer 2 item selected.
+[09:41:33] The 2nd selected symptom is item 3.0: <N0FZ01 - Battery can't be charged>
+[09:41:33] 1.problem_code = N0FZ01
+[09:41:35] 0.0.strTmp = CPU Usage 100%(30minutes)
+[09:41:35] 0.0.CPUUsage100Percent
+[09:41:35] 0.g_user_conf.nCPUUsage100PercentMinutes = 30
+[09:41:35] 0.CSCTestPeriod = 30 minutes, SymptomSetting[0] = 20000000h
+[09:41:35] iLayer1SelectedItem = 3, iLayer1SelectedItem2 = 0
+[09:41:35] listSymptomLayer2[3].at(0).item[3] = 35minutes
+[09:41:35] Test time is 0 hour, 35 minutes.
+[09:41:35] Save aging.conf
+[09:41:35] Write TestS5=0 into aging.conf
+[09:41:35] Save agingCSCSymptom.conf
+[09:41:37] Do pretest check
+[09:41:37] Finished pretest check
+[09:41:37] Program was ran in not AUTO mode
+[09:41:37] Total test time: 2100
+[09:41:37] ****AsAgingTool::StartTimer(), nTotalCPUUsageTestSeconds=1800
+[09:41:37] 13.intCollection.nCSC_S5RebootRemainingTime: 0
+[09:41:37] CSCStageNo=0, g_user_conf.CSCConf.nCSCTotalStageNo=1
+[09:41:37] Start Aging HQ
+[09:41:37] Loaded IO driver
+[09:41:37] UpdateCSCSeriesStageSetting: CSC_SymptomSetting[0] = 20000000, CSCTestPeriod_Min[0] = 30 minutes
+[09:41:37] bCPUUsage100Percent is true
+[09:41:37] Thread ID 8136, Process ID 12492 - CPU Usage 100%, Cinebench
+[09:41:37] Set CPU Usage=100%, CoreNum=8
+[09:41:57] Now CPU Temp.(-96deg.), Speed (3083.84MHz), PP=118.975, PF=2592
+[09:41:58] Now CPU Temp.(-96deg.), Speed (3084.26MHz), PP=118.992, PF=2592
+[09:41:59] Now CPU Temp.(-96deg.), Speed (3084.32MHz), PP=118.994, PF=2592
+[09:41:59] CPUCore:0/8, usage = 100
+[09:42:00] Now CPU Temp.(-96deg.), Speed (3083.51MHz), PP=118.962, PF=2592
+[09:42:01] Now CPU Temp.(-96deg.), Speed (3084.03MHz), PP=118.982, PF=2592
+[09:42:01] CPUCore:1/8, usage = 100
+[09:42:02] Now CPU Temp.(-96deg.), Speed (3083.98MHz), PP=118.981, PF=2592
+[09:42:03] Now CPU Temp.(-96deg.), Speed (3084.28MHz), PP=118.992, PF=2592
+[09:42:03] CPUCore:2/8, usage = 100
+[09:42:04] Now CPU Temp.(-96deg.), Speed (3084.18MHz), PP=118.989, PF=2592
+[09:42:05] Now CPU Temp.(-96deg.), Speed (3084.24MHz), PP=118.991, PF=2592
+[09:42:05] CPUCore:3/8, usage = 100
+[09:42:06] Now CPU Temp.(-96deg.), Speed (3084.13MHz), PP=118.987, PF=2592
+[09:42:07] Reset system idle timer!
+[09:42:07] Now CPU Temp.(-96deg.), Speed (3083.99MHz), PP=118.981, PF=2592
+[09:42:07] CPUCore:4/8, usage = 100
+[09:42:08] Now CPU Temp.(-96deg.), Speed (3084.21MHz), PP=118.989, PF=2592
+[09:42:09] Now CPU Temp.(-96deg.), Speed (3084.19MHz), PP=118.989, PF=2592
+[09:42:09] CPUCore:5/8, usage = 100
+[09:42:10] Now CPU Temp.(-96deg.), Speed (3084.07MHz), PP=118.984, PF=2592
+[09:42:11] Now CPU Temp.(-96deg.), Speed (3084.24MHz), PP=118.991, PF=2592
+[09:42:12] CPUCore:6/8, usage = 100
+[09:42:12] Now CPU Temp.(-96deg.), Speed (3083.89MHz), PP=118.977, PF=2592
+[09:42:13] Now CPU Temp.(-96deg.), Speed (3084.12MHz), PP=118.986, PF=2592
+[09:42:14] CPUCore:7/8, usage = 100
+[09:42:14] Now CPU Temp.(-96deg.), Speed (3084.28MHz), PP=118.992, PF=2592
+[09:42:15] Now CPU Temp.(-96deg.), Speed (3084.11MHz), PP=118.986, PF=2592
+[09:42:16] Now CPU Temp.(-96deg.), Speed (3083.98MHz), PP=118.981, PF=2592
+[09:42:17] Now CPU Temp.(-96deg.), Speed (3084.25MHz), PP=118.991, PF=2592
+[09:42:18] Now CPU Temp.(-96deg.), Speed (3084.03MHz), PP=118.983, PF=2592
+[09:42:19] Now CPU Temp.(-96deg.), Speed (3084.05MHz), PP=118.983, PF=2592
+[09:42:20] Now CPU Temp.(-96deg.), Speed (3084.33MHz), PP=118.994, PF=2592
+[09:42:21] Now CPU Temp.(-96deg.), Speed (3084.21MHz), PP=118.99, PF=2592
+[09:42:22] Now CPU Temp.(-96deg.), Speed (3084.07MHz), PP=118.984, PF=2592
+[09:42:23] Now CPU Temp.(-96deg.), Speed (3084.22MHz), PP=118.99, PF=2592
+[09:42:24] Now CPU Temp.(-96deg.), Speed (3083.9MHz), PP=118.978, PF=2592
+[09:42:25] Now CPU Temp.(-96deg.), Speed (3084.26MHz), PP=118.991, PF=2592
+[09:42:26] Now CPU Temp.(-96deg.), Speed (3080.62MHz), PP=118.851, PF=2592
+[09:42:27] Now CPU Temp.(-96deg.), Speed (3084.26MHz), PP=118.992, PF=2592
+[09:42:28] Now CPU Temp.(-96deg.), Speed (3084.38MHz), PP=118.996, PF=2592
+[09:42:29] Now CPU Temp.(-96deg.), Speed (3084.08MHz), PP=118.984, PF=2592
+[09:42:30] Now CPU Temp.(-96deg.), Speed (3084.14MHz), PP=118.987, PF=2592
+[09:42:31] Now CPU Temp.(-96deg.), Speed (3084.13MHz), PP=118.986, PF=2592
+[09:42:32] Now CPU Temp.(-96deg.), Speed (3083.94MHz), PP=118.979, PF=2592
+[09:42:33] Now CPU Temp.(-96deg.), Speed (3084.54MHz), PP=119.002, PF=2592
+[09:42:34] Now CPU Temp.(-96deg.), Speed (3083.71MHz), PP=118.97, PF=2592
+[09:42:35] Now CPU Temp.(-96deg.), Speed (3083.66MHz), PP=118.968, PF=2592
+[09:42:36] Now CPU Temp.(-96deg.), Speed (3084.26MHz), PP=118.992, PF=2592
+[09:42:37] Reset system idle timer!
+[09:42:37] Now CPU Temp.(-96deg.), Speed (3084.14MHz), PP=118.987, PF=2592
+[09:42:38] Now CPU Temp.(-96deg.), Speed (3084.29MHz), PP=118.993, PF=2592
+[09:42:39] Now CPU Temp.(-96deg.), Speed (3084.31MHz), PP=118.994, PF=2592
+[09:42:40] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:42:41] Now CPU Temp.(-96deg.), Speed (3083.74MHz), PP=118.971, PF=2592
+[09:42:42] Now CPU Temp.(-96deg.), Speed (3084.26MHz), PP=118.991, PF=2592
+[09:42:43] Now CPU Temp.(-96deg.), Speed (3084.06MHz), PP=118.984, PF=2592
+[09:42:44] Now CPU Temp.(-96deg.), Speed (3083.78MHz), PP=118.973, PF=2592
+[09:42:45] Now CPU Temp.(-96deg.), Speed (3084.47MHz), PP=119, PF=2592
+[09:42:46] Now CPU Temp.(-96deg.), Speed (3083.9MHz), PP=118.978, PF=2592
+[09:42:47] Now CPU Temp.(-96deg.), Speed (3083.65MHz), PP=118.968, PF=2592
+[09:42:48] Now CPU Temp.(-96deg.), Speed (3084.28MHz), PP=118.992, PF=2592
+[09:42:49] Now CPU Temp.(-96deg.), Speed (3084.03MHz), PP=118.983, PF=2592
+[09:42:50] Now CPU Temp.(-96deg.), Speed (3084MHz), PP=118.981, PF=2592
+[09:42:51] Now CPU Temp.(-96deg.), Speed (3084.34MHz), PP=118.995, PF=2592
+[09:42:52] Now CPU Temp.(-96deg.), Speed (3084.28MHz), PP=118.992, PF=2592
+[09:42:53] Now CPU Temp.(-96deg.), Speed (3084.19MHz), PP=118.989, PF=2592
+[09:42:54] Now CPU Temp.(-96deg.), Speed (3084.19MHz), PP=118.989, PF=2592
+[09:42:55] Now CPU Temp.(-96deg.), Speed (3084.2MHz), PP=118.989, PF=2592
+[09:42:56] Now CPU Temp.(-96deg.), Speed (3083.67MHz), PP=118.969, PF=2592
+[09:42:57] Now CPU Temp.(-96deg.), Speed (3084.31MHz), PP=118.994, PF=2592
+[09:42:58] Now CPU Temp.(-96deg.), Speed (3084.08MHz), PP=118.984, PF=2592
+[09:42:59] Now CPU Temp.(-96deg.), Speed (3083.45MHz), PP=118.96, PF=2592
+[09:43:00] Now CPU Temp.(-96deg.), Speed (3084.57MHz), PP=119.004, PF=2592
+[09:43:01] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:43:02] Now CPU Temp.(-96deg.), Speed (3083.92MHz), PP=118.978, PF=2592
+[09:43:03] Now CPU Temp.(-96deg.), Speed (3084.38MHz), PP=118.996, PF=2592
+[09:43:04] Now CPU Temp.(-96deg.), Speed (3084.23MHz), PP=118.99, PF=2592
+[09:43:05] Now CPU Temp.(-96deg.), Speed (3084.16MHz), PP=118.988, PF=2592
+[09:43:06] Now CPU Temp.(-96deg.), Speed (3084.3MHz), PP=118.993, PF=2592
+[09:43:07] Reset system idle timer!
+[09:43:07] Now CPU Temp.(-96deg.), Speed (3084.01MHz), PP=118.982, PF=2592
+[09:43:08] Now CPU Temp.(-96deg.), Speed (3083.91MHz), PP=118.978, PF=2592
+[09:43:09] Now CPU Temp.(-96deg.), Speed (3084.21MHz), PP=118.99, PF=2592
+[09:43:10] Now CPU Temp.(-96deg.), Speed (3083.94MHz), PP=118.979, PF=2592
+[09:43:11] Now CPU Temp.(-96deg.), Speed (3084.05MHz), PP=118.983, PF=2592
+[09:43:12] Now CPU Temp.(-96deg.), Speed (3084.05MHz), PP=118.983, PF=2592
+[09:43:13] Now CPU Temp.(-96deg.), Speed (3084.23MHz), PP=118.99, PF=2592
+[09:43:14] Now CPU Temp.(-96deg.), Speed (3084.28MHz), PP=118.992, PF=2592
+[09:43:15] Now CPU Temp.(-96deg.), Speed (3084.39MHz), PP=118.997, PF=2592
+[09:43:16] Now CPU Temp.(-96deg.), Speed (3084.3MHz), PP=118.993, PF=2592
+[09:43:17] Now CPU Temp.(-96deg.), Speed (3083.5MHz), PP=118.962, PF=2592
+[09:43:18] Now CPU Temp.(-96deg.), Speed (3084.1MHz), PP=118.985, PF=2592
+[09:43:19] Now CPU Temp.(-96deg.), Speed (3084.1MHz), PP=118.985, PF=2592
+[09:43:20] Now CPU Temp.(-96deg.), Speed (3084.07MHz), PP=118.984, PF=2592
+[09:43:21] Now CPU Temp.(-96deg.), Speed (3084.32MHz), PP=118.994, PF=2592
+[09:43:22] Now CPU Temp.(-96deg.), Speed (3084.36MHz), PP=118.995, PF=2592
+[09:43:23] Now CPU Temp.(-96deg.), Speed (3084.3MHz), PP=118.993, PF=2592
+[09:43:24] Now CPU Temp.(-96deg.), Speed (3084.25MHz), PP=118.991, PF=2592
+[09:43:25] Now CPU Temp.(-96deg.), Speed (3084.18MHz), PP=118.988, PF=2592
+[09:43:26] Now CPU Temp.(-96deg.), Speed (3084.32MHz), PP=118.994, PF=2592
+[09:43:27] Now CPU Temp.(-96deg.), Speed (3084.15MHz), PP=118.987, PF=2592
+[09:43:28] Now CPU Temp.(-96deg.), Speed (3084.36MHz), PP=118.996, PF=2592
+[09:43:29] Now CPU Temp.(-96deg.), Speed (3084.05MHz), PP=118.983, PF=2592
+[09:43:30] Now CPU Temp.(-96deg.), Speed (3084.28MHz), PP=118.992, PF=2592
+[09:43:31] Now CPU Temp.(-96deg.), Speed (3084.04MHz), PP=118.983, PF=2592
+[09:43:32] Now CPU Temp.(-96deg.), Speed (3084.02MHz), PP=118.982, PF=2592
+[09:43:33] Now CPU Temp.(-96deg.), Speed (3083.96MHz), PP=118.98, PF=2592
+[09:43:34] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:43:35] Now CPU Temp.(-96deg.), Speed (3084.24MHz), PP=118.991, PF=2592
+[09:43:36] Now CPU Temp.(-96deg.), Speed (3084.33MHz), PP=118.994, PF=2592
+[09:43:37] Reset system idle timer!
+[09:43:37] Now CPU Temp.(-96deg.), Speed (3084.19MHz), PP=118.989, PF=2592
+[09:43:38] Now CPU Temp.(-96deg.), Speed (3084.13MHz), PP=118.986, PF=2592
+[09:43:39] Now CPU Temp.(-96deg.), Speed (3084.33MHz), PP=118.994, PF=2592
+[09:43:40] Now CPU Temp.(-96deg.), Speed (3084.32MHz), PP=118.994, PF=2592
+[09:43:41] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:43:42] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:43:43] Now CPU Temp.(-96deg.), Speed (3084.19MHz), PP=118.989, PF=2592
+[09:43:44] Now CPU Temp.(-96deg.), Speed (3083.96MHz), PP=118.98, PF=2592
+[09:43:45] Now CPU Temp.(-96deg.), Speed (3083.99MHz), PP=118.981, PF=2592
+[09:43:46] Now CPU Temp.(-96deg.), Speed (3084.2MHz), PP=118.989, PF=2592
+[09:43:47] Now CPU Temp.(-96deg.), Speed (3084.13MHz), PP=118.987, PF=2592
+[09:43:48] Now CPU Temp.(-96deg.), Speed (3084.32MHz), PP=118.994, PF=2592
+[09:43:49] Now CPU Temp.(-96deg.), Speed (3084.28MHz), PP=118.992, PF=2592
+[09:43:50] Now CPU Temp.(-96deg.), Speed (3083.85MHz), PP=118.976, PF=2592
+[09:43:51] Now CPU Temp.(-96deg.), Speed (3084.48MHz), PP=119, PF=2592
+[09:43:52] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:43:53] Now CPU Temp.(-96deg.), Speed (3083.96MHz), PP=118.98, PF=2592
+[09:43:54] Now CPU Temp.(-96deg.), Speed (3084.08MHz), PP=118.985, PF=2592
+[09:43:55] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:43:56] Now CPU Temp.(-96deg.), Speed (3083.67MHz), PP=118.969, PF=2592
+[09:43:57] Now CPU Temp.(-96deg.), Speed (3084.35MHz), PP=118.995, PF=2592
+[09:43:58] Now CPU Temp.(-96deg.), Speed (3083.92MHz), PP=118.978, PF=2592
+[09:43:59] Now CPU Temp.(-96deg.), Speed (3084.2MHz), PP=118.989, PF=2592
+[09:44:00] Now CPU Temp.(-96deg.), Speed (3084.44MHz), PP=118.999, PF=2592
+[09:44:01] Now CPU Temp.(-96deg.), Speed (3084.15MHz), PP=118.987, PF=2592
+[09:44:02] Now CPU Temp.(-96deg.), Speed (3084.01MHz), PP=118.982, PF=2592
+[09:44:03] Now CPU Temp.(-96deg.), Speed (3084.39MHz), PP=118.996, PF=2592
+[09:44:04] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:44:05] Now CPU Temp.(-96deg.), Speed (3083.69MHz), PP=118.97, PF=2592
+[09:44:06] Now CPU Temp.(-96deg.), Speed (3084.29MHz), PP=118.993, PF=2592
+[09:44:07] Reset system idle timer!
+[09:44:07] Now CPU Temp.(-96deg.), Speed (3083.86MHz), PP=118.976, PF=2592
+[09:44:08] Now CPU Temp.(-96deg.), Speed (3084.04MHz), PP=118.983, PF=2592
+[09:44:09] Now CPU Temp.(-96deg.), Speed (3084.33MHz), PP=118.994, PF=2592
+[09:44:10] Now CPU Temp.(-96deg.), Speed (3083.83MHz), PP=118.975, PF=2592
+[09:44:11] Now CPU Temp.(-96deg.), Speed (3084.59MHz), PP=119.004, PF=2592
+[09:44:12] Now CPU Temp.(-96deg.), Speed (3084.33MHz), PP=118.994, PF=2592
+[09:44:13] Now CPU Temp.(-96deg.), Speed (3083.83MHz), PP=118.975, PF=2592
+[09:44:14] Now CPU Temp.(-96deg.), Speed (3083.95MHz), PP=118.98, PF=2592
+[09:44:15] Now CPU Temp.(-96deg.), Speed (3084.23MHz), PP=118.99, PF=2592
+[09:44:16] Now CPU Temp.(-96deg.), Speed (3084.1MHz), PP=118.985, PF=2592
+[09:44:17] Now CPU Temp.(-96deg.), Speed (3083.61MHz), PP=118.967, PF=2592
+[09:44:18] Now CPU Temp.(-96deg.), Speed (3084.37MHz), PP=118.996, PF=2592
+[09:44:19] Now CPU Temp.(-96deg.), Speed (3084.06MHz), PP=118.984, PF=2592
+[09:44:20] Now CPU Temp.(-96deg.), Speed (3084.22MHz), PP=118.99, PF=2592
+[09:44:21] Now CPU Temp.(-96deg.), Speed (3083.71MHz), PP=118.97, PF=2592
+[09:44:22] Now CPU Temp.(-96deg.), Speed (3084.22MHz), PP=118.99, PF=2592
+[09:44:23] Now CPU Temp.(-96deg.), Speed (3084.37MHz), PP=118.996, PF=2592
+[09:44:24] Now CPU Temp.(-96deg.), Speed (3084.39MHz), PP=118.996, PF=2592
+[09:44:25] Now CPU Temp.(-96deg.), Speed (3084.19MHz), PP=118.989, PF=2592
+[09:44:26] Now CPU Temp.(-96deg.), Speed (3084.18MHz), PP=118.989, PF=2592
+[09:44:27] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:44:28] Now CPU Temp.(-96deg.), Speed (3084.08MHz), PP=118.985, PF=2592
+[09:44:29] Now CPU Temp.(-96deg.), Speed (3084.16MHz), PP=118.988, PF=2592
+[09:44:30] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:44:31] Now CPU Temp.(-96deg.), Speed (3084.26MHz), PP=118.991, PF=2592
+[09:44:32] Now CPU Temp.(-96deg.), Speed (3084.09MHz), PP=118.985, PF=2592
+[09:44:33] Now CPU Temp.(-96deg.), Speed (3084.33MHz), PP=118.994, PF=2592
+[09:44:34] Now CPU Temp.(-96deg.), Speed (3084.07MHz), PP=118.984, PF=2592
+[09:44:35] Now CPU Temp.(-96deg.), Speed (3084.32MHz), PP=118.994, PF=2592
+[09:44:36] Now CPU Temp.(-96deg.), Speed (3087.35MHz), PP=119.111, PF=2592
+[09:44:37] Reset system idle timer!
+[09:44:37] Now CPU Temp.(-96deg.), Speed (3084.19MHz), PP=118.989, PF=2592
+[09:44:38] Now CPU Temp.(-96deg.), Speed (3084.22MHz), PP=118.99, PF=2592
+[09:44:39] Now CPU Temp.(-96deg.), Speed (3084.29MHz), PP=118.993, PF=2592
+[09:44:40] Now CPU Temp.(-96deg.), Speed (3084.04MHz), PP=118.983, PF=2592
+[09:44:41] Now CPU Temp.(-96deg.), Speed (3084.21MHz), PP=118.99, PF=2592
+[09:44:42] Now CPU Temp.(-96deg.), Speed (3084.3MHz), PP=118.993, PF=2592
+[09:44:43] Now CPU Temp.(-96deg.), Speed (3084.16MHz), PP=118.988, PF=2592
+[09:44:44] Now CPU Temp.(-96deg.), Speed (3084.36MHz), PP=118.995, PF=2592
+[09:44:45] Now CPU Temp.(-96deg.), Speed (3084.34MHz), PP=118.995, PF=2592
+[09:44:46] Now CPU Temp.(-96deg.), Speed (3083.82MHz), PP=118.975, PF=2592
+[09:44:47] Now CPU Temp.(-96deg.), Speed (3084.19MHz), PP=118.989, PF=2592
+[09:44:48] Now CPU Temp.(-96deg.), Speed (3084.14MHz), PP=118.987, PF=2592
+[09:44:49] Now CPU Temp.(-96deg.), Speed (3084.12MHz), PP=118.986, PF=2592
+[09:44:50] Now CPU Temp.(-96deg.), Speed (3084.19MHz), PP=118.989, PF=2592
+[09:44:51] Now CPU Temp.(-96deg.), Speed (3084.33MHz), PP=118.994, PF=2592
+[09:44:52] Now CPU Temp.(-96deg.), Speed (3084.02MHz), PP=118.982, PF=2592
+[09:44:53] Now CPU Temp.(-96deg.), Speed (3084.44MHz), PP=118.999, PF=2592
+[09:44:54] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:44:55] Now CPU Temp.(-96deg.), Speed (3084.14MHz), PP=118.987, PF=2592
+[09:44:56] Now CPU Temp.(-96deg.), Speed (3084.35MHz), PP=118.995, PF=2592
+[09:44:57] Now CPU Temp.(-96deg.), Speed (3084.21MHz), PP=118.99, PF=2592
+[09:44:58] Now CPU Temp.(-96deg.), Speed (3084.03MHz), PP=118.983, PF=2592
+[09:44:59] Now CPU Temp.(-96deg.), Speed (3084.13MHz), PP=118.987, PF=2592
+[09:45:00] Now CPU Temp.(-96deg.), Speed (3084.23MHz), PP=118.99, PF=2592
+[09:45:01] Now CPU Temp.(-96deg.), Speed (3083.99MHz), PP=118.981, PF=2592
+[09:45:02] Now CPU Temp.(-96deg.), Speed (3084.46MHz), PP=118.999, PF=2592
+[09:45:03] Now CPU Temp.(-96deg.), Speed (3084.22MHz), PP=118.99, PF=2592
+[09:45:04] Now CPU Temp.(-96deg.), Speed (3084.05MHz), PP=118.983, PF=2592
+[09:45:05] Now CPU Temp.(-96deg.), Speed (3084.31MHz), PP=118.994, PF=2592
+[09:45:06] Now CPU Temp.(-96deg.), Speed (3084.24MHz), PP=118.991, PF=2592
+[09:45:07] Reset system idle timer!
+[09:45:07] Now CPU Temp.(-96deg.), Speed (3084.19MHz), PP=118.989, PF=2592
+[09:45:08] Now CPU Temp.(-96deg.), Speed (3084.41MHz), PP=118.997, PF=2592
+[09:45:09] Now CPU Temp.(-96deg.), Speed (3084.24MHz), PP=118.991, PF=2592
+[09:45:10] Now CPU Temp.(-96deg.), Speed (3084.15MHz), PP=118.987, PF=2592
+[09:45:11] Now CPU Temp.(-96deg.), Speed (3084.22MHz), PP=118.99, PF=2592
+[09:45:12] Now CPU Temp.(-96deg.), Speed (3083.84MHz), PP=118.975, PF=2592
+[09:45:13] Now CPU Temp.(-96deg.), Speed (3084.24MHz), PP=118.991, PF=2592
+[09:45:14] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:45:15] Now CPU Temp.(-96deg.), Speed (3084.11MHz), PP=118.986, PF=2592
+[09:45:16] Now CPU Temp.(-96deg.), Speed (3084.37MHz), PP=118.996, PF=2592
+[09:45:17] Now CPU Temp.(-96deg.), Speed (3084.12MHz), PP=118.986, PF=2592
+[09:45:18] Now CPU Temp.(-96deg.), Speed (3084.03MHz), PP=118.983, PF=2592
+[09:45:19] Now CPU Temp.(-96deg.), Speed (3084.46MHz), PP=118.999, PF=2592
+[09:45:20] Now CPU Temp.(-96deg.), Speed (3084.09MHz), PP=118.985, PF=2592
+[09:45:21] Now CPU Temp.(-96deg.), Speed (3084.1MHz), PP=118.985, PF=2592
+[09:45:22] Now CPU Temp.(-96deg.), Speed (3084.26MHz), PP=118.992, PF=2592
+[09:45:23] Now CPU Temp.(-96deg.), Speed (3084.07MHz), PP=118.984, PF=2592
+[09:45:24] Now CPU Temp.(-96deg.), Speed (3084.07MHz), PP=118.984, PF=2592
+[09:45:25] Now CPU Temp.(-96deg.), Speed (3084.23MHz), PP=118.99, PF=2592
+[09:45:26] Now CPU Temp.(-96deg.), Speed (3084.24MHz), PP=118.991, PF=2592
+[09:45:27] Now CPU Temp.(-96deg.), Speed (3084.34MHz), PP=118.995, PF=2592
+[09:45:28] Now CPU Temp.(-96deg.), Speed (3084.45MHz), PP=118.999, PF=2592
+[09:45:29] Now CPU Temp.(-96deg.), Speed (3084.21MHz), PP=118.99, PF=2592
+[09:45:30] Now CPU Temp.(-96deg.), Speed (3084.18MHz), PP=118.988, PF=2592
+[09:45:31] Now CPU Temp.(-96deg.), Speed (3084.44MHz), PP=118.998, PF=2592
+[09:45:32] Now CPU Temp.(-96deg.), Speed (3084.2MHz), PP=118.989, PF=2592
+[09:45:33] Now CPU Temp.(-96deg.), Speed (3084.06MHz), PP=118.984, PF=2592
+[09:45:34] Now CPU Temp.(-96deg.), Speed (3084.3MHz), PP=118.993, PF=2592
+[09:45:35] Now CPU Temp.(-96deg.), Speed (3084.21MHz), PP=118.99, PF=2592
+[09:45:36] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:45:37] Reset system idle timer!
+[09:45:37] Now CPU Temp.(-96deg.), Speed (3084.21MHz), PP=118.989, PF=2592
+[09:45:38] Now CPU Temp.(-96deg.), Speed (3084.15MHz), PP=118.987, PF=2592
+[09:45:39] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:45:40] Now CPU Temp.(-96deg.), Speed (3084.04MHz), PP=118.983, PF=2592
+[09:45:41] Now CPU Temp.(-96deg.), Speed (3084.11MHz), PP=118.986, PF=2592
+[09:45:42] Now CPU Temp.(-96deg.), Speed (3084.16MHz), PP=118.988, PF=2592
+[09:45:43] Now CPU Temp.(-96deg.), Speed (3084.4MHz), PP=118.997, PF=2592
+[09:45:44] Now CPU Temp.(-96deg.), Speed (3084.31MHz), PP=118.993, PF=2592
+[09:45:45] Now CPU Temp.(-96deg.), Speed (3084.33MHz), PP=118.994, PF=2592
+[09:45:46] Now CPU Temp.(-96deg.), Speed (3084.26MHz), PP=118.992, PF=2592
+[09:45:47] Now CPU Temp.(-96deg.), Speed (3084.13MHz), PP=118.986, PF=2592
+[09:45:48] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:45:49] Now CPU Temp.(-96deg.), Speed (3083.98MHz), PP=118.981, PF=2592
+[09:45:50] Now CPU Temp.(-96deg.), Speed (3083.28MHz), PP=118.954, PF=2592
+[09:45:51] Now CPU Temp.(-96deg.), Speed (3084.11MHz), PP=118.986, PF=2592
+[09:45:52] Now CPU Temp.(-96deg.), Speed (3084.31MHz), PP=118.993, PF=2592
+[09:45:53] Now CPU Temp.(-96deg.), Speed (3083.9MHz), PP=118.977, PF=2592
+[09:45:54] Now CPU Temp.(-96deg.), Speed (3084.2MHz), PP=118.989, PF=2592
+[09:45:55] Now CPU Temp.(-96deg.), Speed (3084.21MHz), PP=118.99, PF=2592
+[09:45:56] Now CPU Temp.(-96deg.), Speed (3084.2MHz), PP=118.989, PF=2592
+[09:45:57] Now CPU Temp.(-96deg.), Speed (3084.14MHz), PP=118.987, PF=2592
+[09:45:58] Now CPU Temp.(-96deg.), Speed (3084.36MHz), PP=118.995, PF=2592
+[09:45:59] Now CPU Temp.(-96deg.), Speed (3084.08MHz), PP=118.985, PF=2592
+[09:46:00] Now CPU Temp.(-96deg.), Speed (3084.44MHz), PP=118.999, PF=2592
+[09:46:01] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:46:02] Now CPU Temp.(-96deg.), Speed (3084.24MHz), PP=118.991, PF=2592
+[09:46:03] Now CPU Temp.(-96deg.), Speed (3084.28MHz), PP=118.992, PF=2592
+[09:46:04] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:46:05] Now CPU Temp.(-96deg.), Speed (3084MHz), PP=118.982, PF=2592
+[09:46:06] Now CPU Temp.(-96deg.), Speed (3084.05MHz), PP=118.983, PF=2592
+[09:46:07] Reset system idle timer!
+[09:46:07] Now CPU Temp.(-96deg.), Speed (3084.19MHz), PP=118.989, PF=2592
+[09:46:08] Now CPU Temp.(-96deg.), Speed (3084.09MHz), PP=118.985, PF=2592
+[09:46:09] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:46:10] Now CPU Temp.(-96deg.), Speed (3084.23MHz), PP=118.99, PF=2592
+[09:46:11] Now CPU Temp.(-96deg.), Speed (3084.15MHz), PP=118.987, PF=2592
+[09:46:12] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:46:13] Now CPU Temp.(-96deg.), Speed (3084.23MHz), PP=118.99, PF=2592
+[09:46:14] Now CPU Temp.(-96deg.), Speed (3084.12MHz), PP=118.986, PF=2592
+[09:46:15] Now CPU Temp.(-96deg.), Speed (3084.36MHz), PP=118.995, PF=2592
+[09:46:16] Now CPU Temp.(-96deg.), Speed (3084.22MHz), PP=118.99, PF=2592
+[09:46:17] Now CPU Temp.(-96deg.), Speed (3084.31MHz), PP=118.993, PF=2592
+[09:46:18] Now CPU Temp.(-96deg.), Speed (3084.25MHz), PP=118.991, PF=2592
+[09:46:19] Now CPU Temp.(-96deg.), Speed (3084.44MHz), PP=118.999, PF=2592
+[09:46:20] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:46:21] Now CPU Temp.(-96deg.), Speed (3084.15MHz), PP=118.987, PF=2592
+[09:46:22] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:46:23] Now CPU Temp.(-96deg.), Speed (3084.06MHz), PP=118.984, PF=2592
+[09:46:24] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:46:25] Now CPU Temp.(-96deg.), Speed (3084.2MHz), PP=118.989, PF=2592
+[09:46:26] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:46:27] Now CPU Temp.(-96deg.), Speed (3084.14MHz), PP=118.987, PF=2592
+[09:46:28] Now CPU Temp.(-96deg.), Speed (3084.28MHz), PP=118.992, PF=2592
+[09:46:29] Now CPU Temp.(-96deg.), Speed (3084.24MHz), PP=118.991, PF=2592
+[09:46:30] Now CPU Temp.(-96deg.), Speed (3084.32MHz), PP=118.994, PF=2592
+[09:46:31] Now CPU Temp.(-96deg.), Speed (3084.37MHz), PP=118.996, PF=2592
+[09:46:32] Now CPU Temp.(-96deg.), Speed (3084.14MHz), PP=118.987, PF=2592
+[09:46:33] Now CPU Temp.(-96deg.), Speed (3084.22MHz), PP=118.99, PF=2592
+[09:46:34] Now CPU Temp.(-96deg.), Speed (3084.25MHz), PP=118.991, PF=2592
+[09:46:35] Now CPU Temp.(-96deg.), Speed (3084.15MHz), PP=118.987, PF=2592
+[09:46:36] Now CPU Temp.(-96deg.), Speed (3083.99MHz), PP=118.981, PF=2592
+[09:46:37] Failed to set recovery option
+[09:46:37] No problem! It's our power scheme
+[09:46:37] Reset our power scheme setting
+[09:46:52] Active our power scheme setting
+[09:46:52] Reset system idle timer!
+[09:46:53] Now CPU Temp.(-96deg.), Speed (3083.46MHz), PP=118.961, PF=2592
+[09:46:53] Now CPU Temp.(-96deg.), Speed (3084.22MHz), PP=118.99, PF=2592
+[09:46:54] Now CPU Temp.(-96deg.), Speed (3084.09MHz), PP=118.985, PF=2592
+[09:46:55] Now CPU Temp.(-96deg.), Speed (3084.24MHz), PP=118.991, PF=2592
+[09:46:56] Now CPU Temp.(-96deg.), Speed (3084.48MHz), PP=119, PF=2592
+[09:46:57] Now CPU Temp.(-96deg.), Speed (3084.16MHz), PP=118.988, PF=2592
+[09:46:58] Now CPU Temp.(-96deg.), Speed (3084.4MHz), PP=118.997, PF=2592
+[09:46:59] Now CPU Temp.(-96deg.), Speed (3084.18MHz), PP=118.988, PF=2592
+[09:47:00] Now CPU Temp.(-96deg.), Speed (3084.29MHz), PP=118.993, PF=2592
+[09:47:01] Now CPU Temp.(-96deg.), Speed (3084.38MHz), PP=118.996, PF=2592
+[09:47:02] Now CPU Temp.(-96deg.), Speed (3084.26MHz), PP=118.991, PF=2592
+[09:47:03] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:47:04] Now CPU Temp.(-96deg.), Speed (3084.37MHz), PP=118.996, PF=2592
+[09:47:05] Now CPU Temp.(-96deg.), Speed (3084.15MHz), PP=118.987, PF=2592
+[09:47:06] Now CPU Temp.(-96deg.), Speed (3084.19MHz), PP=118.989, PF=2592
+[09:47:07] Reset system idle timer!
+[09:47:07] Now CPU Temp.(-96deg.), Speed (3084.22MHz), PP=118.99, PF=2592
+[09:47:08] Now CPU Temp.(-96deg.), Speed (3084.2MHz), PP=118.989, PF=2592
+[09:47:09] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:47:10] Now CPU Temp.(-96deg.), Speed (3084.13MHz), PP=118.987, PF=2592
+[09:47:11] Now CPU Temp.(-96deg.), Speed (3084.37MHz), PP=118.996, PF=2592
+[09:47:12] Now CPU Temp.(-96deg.), Speed (3084.24MHz), PP=118.991, PF=2592
+[09:47:13] Now CPU Temp.(-96deg.), Speed (3084.19MHz), PP=118.989, PF=2592
+[09:47:14] Now CPU Temp.(-96deg.), Speed (3084.22MHz), PP=118.99, PF=2592
+[09:47:15] Now CPU Temp.(-96deg.), Speed (3084.31MHz), PP=118.994, PF=2592
+[09:47:16] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:47:17] Now CPU Temp.(-96deg.), Speed (3084.28MHz), PP=118.992, PF=2592
+[09:47:18] Now CPU Temp.(-96deg.), Speed (3083.91MHz), PP=118.978, PF=2592
+[09:47:19] Now CPU Temp.(-96deg.), Speed (3084.21MHz), PP=118.989, PF=2592
+[09:47:20] Now CPU Temp.(-96deg.), Speed (3081.76MHz), PP=118.895, PF=2592
+[09:47:21] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:47:22] Now CPU Temp.(-96deg.), Speed (3084.21MHz), PP=118.99, PF=2592
+[09:47:23] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:47:24] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:47:25] Now CPU Temp.(-96deg.), Speed (3084.22MHz), PP=118.99, PF=2592
+[09:47:26] Now CPU Temp.(-96deg.), Speed (3084.14MHz), PP=118.987, PF=2592
+[09:47:27] Now CPU Temp.(-96deg.), Speed (3084.17MHz), PP=118.988, PF=2592
+[09:47:28] Now CPU Temp.(-96deg.), Speed (3084.33MHz), PP=118.994, PF=2592
+[09:47:29] Now CPU Temp.(-96deg.), Speed (3084.15MHz), PP=118.987, PF=2592
+[09:47:30] Now CPU Temp.(-96deg.), Speed (3084.23MHz), PP=118.99, PF=2592
+[09:47:31] Now CPU Temp.(-96deg.), Speed (3084.35MHz), PP=118.995, PF=2592
+[09:47:32] Now CPU Temp.(-96deg.), Speed (3084.16MHz), PP=118.988, PF=2592
+[09:47:33] Now CPU Temp.(-96deg.), Speed (3084.11MHz), PP=118.986, PF=2592
+[09:47:34] Now CPU Temp.(-96deg.), Speed (3084.35MHz), PP=118.995, PF=2592
+[09:47:35] Now CPU Temp.(-96deg.), Speed (3084.26MHz), PP=118.992, PF=2592
+[09:47:36] Now CPU Temp.(-96deg.), Speed (3084.33MHz), PP=118.994, PF=2592
+[09:47:37] Reset system idle timer!
+[09:47:37] Now CPU Temp.(-96deg.), Speed (3084.16MHz), PP=118.988, PF=2592
+[09:47:38] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:47:39] Now CPU Temp.(-96deg.), Speed (3084.26MHz), PP=118.991, PF=2592
+[09:47:40] Now CPU Temp.(-96deg.), Speed (3083.85MHz), PP=118.976, PF=2592
+[09:47:41] Now CPU Temp.(-96deg.), Speed (3084.27MHz), PP=118.992, PF=2592
+[09:47:42] Now CPU Temp.(-96deg.), Speed (3084.34MHz), PP=118.995, PF=2592
+[09:47:43] Now CPU Temp.(-96deg.), Speed (3084.1MHz), PP=118.985, PF=2592
+[09:47:44] Now CPU Temp.(-96deg.), Speed (3084.05MHz), PP=118.983, PF=2592
+[09:47:45] Now CPU Temp.(-96deg.), Speed (3083.43MHz), PP=118.96, PF=2592
+[09:47:46] Now CPU Temp.(-96deg.), Speed (3084.16MHz), PP=118.988, PF=2592
+[09:47:47] Now CPU Temp.(-96deg.), Speed (3084.32MHz), PP=118.994, PF=2592
+[09:47:48] Now CPU Temp.(-96deg.), Speed (3084.31MHz), PP=118.993, PF=2592
+[09:47:49] Now CPU Temp.(-96deg.), Speed (3083.92MHz), PP=118.978, PF=2592
+[09:47:50] Now CPU Temp.(-96deg.), Speed (3084.31MHz), PP=118.993, PF=2592
+[09:47:51] Now CPU Temp.(-96deg.), Speed (3084.09MHz), PP=118.985, PF=2592
+[09:47:52] Now CPU Temp.(-96deg.), Speed (3084.25MHz), PP=118.991, PF=2592
+[09:47:53] Now CPU Temp.(-96deg.), Speed (3084.22MHz), PP=118.99, PF=2592
+[09:47:54] Now CPU Temp.(-96deg.), Speed (3084.1MHz), PP=118.985, PF=2592
+[09:47:55] Now CPU Temp.(-96deg.), Speed (3084.06MHz), PP=118.984, PF=2592
+[09:47:56] Now CPU Temp.(-96deg.), Speed (3084.29MHz), PP=118.993, PF=2592
+[09:47:57] Now CPU Temp.(-96deg.), Speed (3084.69MHz), PP=119.008, PF=2592
+[09:47:58] Unloaded IO driver
+[09:48:00] 2.Index:0, pSearchSchemeBuf= ??
+[09:48:00] 2.Index:1, pSearchSchemeBuf= ???
+[09:48:00] 2.Index:2, pSearchSchemeBuf= ??
+[09:48:00] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

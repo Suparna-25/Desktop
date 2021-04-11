@@ -1,0 +1,589 @@
+
+==============================================
+GL-Z 0.4.0.
+==============================================
+
+
+======================================================
+CPU
+======================================================
+- CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz
+- cores: 4C/8T
+- speed: 4200.0 MHz
+- memory: 32768.0MB
+======================================================
+OpenGL
+======================================================
+- GL_RENDERER: GeForce GTX 1080/PCIe/SSE2
+- GL_VENDOR: NVIDIA Corporation
+- GL_VERSION: 4.6.0 NVIDIA 397.31
+- GL_MAX_VERTEX_ATTRIBS: 16
+- GL_MAX_TEXTURE_SIZE: 32768
+- GL_MAX_TEXTURE_IMAGE_UNITS: 32
+- GL_MAX_COLOR_ATTACHMENTS: 8
+- GL_MAX_VIEWPORT_DIMS: 32768
+- GL_MAX_SAMPLES: 32
+- GL_MAX_TESS_GEN_LEVEL: 64
+- GL_MAX_PATCH_VERTICES: 32
+- GL_MAX_COMPUTE_WORK_GROUP_SIZE: 1536
+- # of OpenGL extensions: 406
+  001/ GL_AMD_multi_draw_indirect
+  002/ GL_AMD_seamless_cubemap_per_texture
+  003/ GL_AMD_vertex_shader_viewport_index
+  004/ GL_AMD_vertex_shader_layer
+  005/ GL_ARB_arrays_of_arrays (OpenGL 4.3)
+  006/ GL_ARB_base_instance (OpenGL 4.2)
+  007/ GL_ARB_bindless_texture (OpenGL 4.4)
+  008/ GL_ARB_blend_func_extended (OpenGL 3.3)
+  009/ GL_ARB_buffer_storage (OpenGL 4.4)
+  010/ GL_ARB_clear_buffer_object (OpenGL 4.3)
+  011/ GL_ARB_clear_texture (OpenGL 4.4)
+  012/ GL_ARB_clip_control (OpenGL 4.5)
+  013/ GL_ARB_color_buffer_float (OpenGL 3.0)
+  014/ GL_ARB_compatibility
+  015/ GL_ARB_compressed_texture_pixel_storage (OpenGL 4.2)
+  016/ GL_ARB_conservative_depth (OpenGL 4.2)
+  017/ GL_ARB_compute_shader (OpenGL 4.3)
+  018/ GL_ARB_compute_variable_group_size (OpenGL 4.3)
+  019/ GL_ARB_conditional_render_inverted (OpenGL 4.5)
+  020/ GL_ARB_copy_buffer (OpenGL 3.1)
+  021/ GL_ARB_copy_image (OpenGL 4.3)
+  022/ GL_ARB_cull_distance (OpenGL 4.5)
+  023/ GL_ARB_debug_output2 (OpenGL 4.3)
+  024/ GL_ARB_depth_buffer_float (OpenGL 3.0)
+  025/ GL_ARB_depth_clamp (OpenGL 3.2)
+  026/ GL_ARB_depth_texture
+  027/ GL_ARB_derivative_control (OpenGL 4.5)
+  028/ GL_ARB_direct_state_access (OpenGL 4.5)
+  029/ GL_ARB_draw_buffers_blend (OpenGL 4.0)
+  030/ GL_ARB_draw_buffers_blend (OpenGL 4.0)
+  031/ GL_ARB_draw_indirect (OpenGL 4.0)
+  032/ GL_ARB_draw_elements_base_vertex (OpenGL 3.2)
+  033/ GL_ARB_draw_instanced (OpenGL 3.1)
+  034/ GL_ARB_enhanced_layouts (OpenGL 4.4)
+  035/ GL_ARB_ES2_compatibility
+  036/ GL_ARB_ES3_compatibility (OpenGL 4.3)
+  037/ GL_ARB_ES3_1_compatibility (OpenGL 4.5)
+  038/ GL_ARB_ES3_2_compatibility
+  039/ GL_ARB_explicit_attrib_location (OpenGL 3.3)
+  040/ GL_ARB_explicit_uniform_location (OpenGL 4.3)
+  041/ GL_ARB_fragment_coord_conventions (OpenGL 3.2)
+  042/ GL_ARB_fragment_layer_viewport (OpenGL 4.3)
+  043/ GL_ARB_fragment_program
+  044/ GL_ARB_fragment_program_shadow
+  045/ GL_ARB_fragment_shader
+  046/ GL_ARB_fragment_shader_interlock
+  047/ GL_ARB_framebuffer_no_attachments (OpenGL 4.3)
+  048/ GL_ARB_framebuffer_object (OpenGL 3.0)
+  049/ GL_ARB_framebuffer_sRGB (OpenGL 3.0)
+  050/ GL_ARB_geometry_shader4 (OpenGL 3.2)
+  051/ GL_ARB_get_program_binary (OpenGL 4.1)
+  052/ GL_ARB_get_texture_sub_image (OpenGL 4.5)
+  053/ GL_ARB_gl_spirv (OpenGL 4.6)
+  054/ GL_ARB_gpu_shader5 (OpenGL 4.0)
+  055/ GL_ARB_gpu_shader_fp64 (OpenGL 4.0)
+  056/ GL_ARB_gpu_shader_int64
+  057/ GL_ARB_half_float_pixel (OpenGL 3.0)
+  058/ GL_ARB_half_float_vertex
+  059/ GL_ARB_imaging
+  060/ GL_ARB_indirect_parameters (OpenGL 4.3)
+  061/ GL_ARB_instanced_arrays (OpenGL 3.3)
+  062/ GL_ARB_internalformat_query (OpenGL 4.2)
+  063/ GL_ARB_internalformat_query2 (OpenGL 4.3)
+  064/ GL_ARB_invalidate_subdata (OpenGL 4.3)
+  065/ GL_ARB_map_buffer_alignment (OpenGL 4.2)
+  066/ GL_ARB_map_buffer_range
+  067/ GL_ARB_multi_bind (OpenGL 4.4)
+  068/ GL_ARB_multi_draw_indirect (OpenGL 4.3)
+  069/ GL_ARB_multisample
+  070/ GL_ARB_multitexture
+  071/ GL_ARB_occlusion_query2 (OpenGL 3.3)
+  072/ GL_ARB_occlusion_query2 (OpenGL 3.3)
+  073/ GL_ARB_parallel_shader_compile
+  074/ GL_ARB_pipeline_statistics_query (OpenGL 4.6)
+  075/ GL_ARB_pixel_buffer_object
+  076/ GL_ARB_point_parameters
+  077/ GL_ARB_point_sprite
+  078/ GL_ARB_polygon_offset_clamp (OpenGL 4.6)
+  079/ GL_ARB_post_depth_coverage
+  080/ GL_ARB_program_interface_query (OpenGL 4.3)
+  081/ GL_ARB_provoking_vertex (OpenGL 3.2)
+  082/ GL_ARB_query_buffer_object (OpenGL 4.4)
+  083/ GL_ARB_robust_buffer_access_behavior (OpenGL 4.3)
+  084/ GL_ARB_robustness
+  085/ GL_ARB_sample_locations
+  086/ GL_ARB_sample_shading (OpenGL 4.0)
+  087/ GL_ARB_sampler_objects (OpenGL 3.3)
+  088/ GL_ARB_seamless_cube_map (OpenGL 3.2)
+  089/ GL_ARB_seamless_cubemap_per_texture (OpenGL 4.3)
+  090/ GL_ARB_separate_shader_objects (OpenGL 4.1)
+  091/ GL_ARB_shader_atomic_counter_ops (OpenGL 4.6)
+  092/ GL_ARB_shader_atomic_counters (OpenGL 4.2)
+  093/ GL_ARB_shader_ballot
+  094/ GL_ARB_shader_bit_encoding (OpenGL 3.3)
+  095/ GL_ARB_shader_clock
+  096/ GL_ARB_shader_draw_parameters (OpenGL 4.3)
+  097/ GL_ARB_shader_group_vote (OpenGL 4.3)
+  098/ GL_ARB_shader_image_load_store (OpenGL 4.2)
+  099/ GL_ARB_shader_image_size (OpenGL 4.3)
+  100/ GL_ARB_shader_objects
+  101/ GL_ARB_shader_precision (OpenGL 4.1)
+  102/ GL_ARB_shader_storage_buffer_object (OpenGL 4.3)
+  103/ GL_ARB_shader_subroutine (OpenGL 4.0)
+  104/ GL_ARB_shader_texture_image_samples (OpenGL 4.5)
+  105/ GL_ARB_shader_texture_lod
+  106/ GL_ARB_shading_language_100
+  107/ GL_ARB_shader_viewport_layer_array
+  108/ GL_ARB_shading_language_420pack (OpenGL 4.2)
+  109/ GL_ARB_shading_language_include
+  110/ GL_ARB_shading_language_packing
+  111/ GL_ARB_shadow
+  112/ GL_ARB_sparse_buffer
+  113/ GL_ARB_sparse_texture (OpenGL 4.3)
+  114/ GL_ARB_sparse_texture2
+  115/ GL_ARB_sparse_texture_clamp
+  116/ GL_ARB_spirv_extensions (OpenGL 4.6)
+  117/ GL_ARB_stencil_texturing (OpenGL 4.3)
+  118/ GL_ARB_sync (OpenGL 3.2)
+  119/ GL_ARB_tessellation_shader (OpenGL 4.0)
+  120/ GL_ARB_texture_barrier (OpenGL 4.5)
+  121/ GL_ARB_texture_border_clamp
+  122/ GL_ARB_texture_buffer_object (OpenGL 3.1)
+  123/ GL_ARB_texture_buffer_object_rgb32 (OpenGL 4.0)
+  124/ GL_ARB_texture_buffer_range (OpenGL 4.3)
+  125/ GL_ARB_texture_compression_rgtc (OpenGL 3.0)
+  126/ GL_ARB_texture_compression_bptc (OpenGL 4.2)
+  127/ GL_ARB_texture_compression_rgtc (OpenGL 3.0)
+  128/ GL_ARB_texture_cube_map_array (OpenGL 4.0)
+  129/ GL_ARB_texture_cube_map_array (OpenGL 4.0)
+  130/ GL_ARB_texture_env_add
+  131/ GL_ARB_texture_env_combine
+  132/ GL_ARB_texture_env_crossbar
+  133/ GL_ARB_texture_env_dot3
+  134/ GL_ARB_texture_filter_anisotropic (OpenGL 4.6)
+  135/ GL_ARB_texture_filter_minmax
+  136/ GL_ARB_texture_float (OpenGL 3.0)
+  137/ GL_ARB_texture_gather (OpenGL 4.0)
+  138/ GL_ARB_texture_mirror_clamp_to_edge (OpenGL 4.4)
+  139/ GL_ARB_texture_mirrored_repeat
+  140/ GL_ARB_texture_multisample (OpenGL 3.2)
+  141/ GL_ARB_texture_non_power_of_two
+  142/ GL_ARB_texture_query_levels (OpenGL 4.3)
+  143/ GL_ARB_texture_query_lod (OpenGL 4.0)
+  144/ GL_ARB_texture_rectangle (OpenGL 3.1)
+  145/ GL_ARB_texture_rg (OpenGL 3.0)
+  146/ GL_ARB_texture_rgb10_a2ui (OpenGL 3.3)
+  147/ GL_ARB_texture_stencil8 (OpenGL 4.4) 
+  148/ GL_ARB_texture_storage (OpenGL 4.2)
+  149/ GL_ARB_texture_storage_multisample (OpenGL 4.3)
+  150/ GL_ARB_texture_swizzle (OpenGL 3.3)
+  151/ GL_ARB_texture_view (OpenGL 4.3)
+  152/ GL_ARB_timer_query (OpenGL 3.3)
+  153/ GL_ARB_transform_feedback2 (OpenGL 4.0)
+  154/ GL_ARB_transform_feedback3 (OpenGL 4.0)
+  155/ GL_ARB_transform_feedback_instanced (OpenGL 4.2)
+  156/ GL_ARB_transform_feedback_overflow_query (OpenGL 4.6)
+  157/ GL_ARB_transpose_matrix
+  158/ GL_ARB_uniform_buffer_object (OpenGL 3.1)
+  159/ GL_ARB_vertex_array_bgra (OpenGL 3.2)
+  160/ GL_ARB_vertex_array_object
+  161/ GL_ARB_vertex_attrib_64bit (OpenGL 4.1)
+  162/ GL_ARB_vertex_attrib_binding (OpenGL 4.3)
+  163/ GL_ARB_vertex_buffer_object
+  164/ GL_ARB_vertex_program
+  165/ GL_ARB_vertex_shader
+  166/ GL_ARB_vertex_type_10f_11f_11f_rev (OpenGL 4.4)
+  167/ GL_ARB_vertex_type_2_10_10_10_rev (OpenGL 3.3)
+  168/ GL_ARB_viewport_array (OpenGL 4.1)
+  169/ GL_ARB_window_pos
+  170/ GL_ATI_draw_buffers
+  171/ GL_ATI_texture_float
+  172/ GL_ATI_texture_mirror_once
+  173/ GL_S3_s3tc
+  174/ GL_EXT_texture_env_add
+  175/ GL_EXT_abgr
+  176/ GL_EXT_bgra
+  177/ GL_EXT_bindable_uniform
+  178/ GL_EXT_blend_color
+  179/ GL_EXT_blend_equation_separate
+  180/ GL_EXT_blend_func_separate
+  181/ GL_EXT_blend_minmax
+  182/ GL_EXT_blend_subtract
+  183/ GL_EXT_compiled_vertex_array
+  184/ GL_EXT_Cg_shader
+  185/ GL_EXT_depth_bounds_test
+  186/ GL_EXT_direct_state_access
+  187/ GL_EXT_draw_buffers2
+  188/ GL_EXT_draw_instanced
+  189/ GL_EXT_draw_range_elements
+  190/ GL_EXT_fog_coord
+  191/ GL_EXT_framebuffer_blit
+  192/ GL_EXT_framebuffer_multisample
+  193/ GL_EXTX_framebuffer_mixed_formats
+  194/ GL_EXT_framebuffer_multisample_blit_scaled
+  195/ GL_EXT_framebuffer_object
+  196/ GL_EXT_framebuffer_sRGB
+  197/ GL_EXT_geometry_shader4
+  198/ GL_EXT_gpu_program_parameters
+  199/ GL_EXT_gpu_shader4
+  200/ GL_EXT_multi_draw_arrays
+  201/ GL_EXT_packed_depth_stencil
+  202/ GL_EXT_packed_float
+  203/ GL_EXT_packed_pixels
+  204/ GL_EXT_pixel_buffer_object
+  205/ GL_EXT_point_parameters
+  206/ GL_EXT_polygon_offset_clamp
+  207/ GL_EXT_post_depth_coverage
+  208/ GL_EXT_provoking_vertex
+  209/ GL_EXT_raster_multisample
+  210/ GL_EXT_rescale_normal
+  211/ GL_EXT_secondary_color
+  212/ GL_EXT_separate_shader_objects
+  213/ GL_EXT_separate_specular_color
+  214/ GL_EXT_shader_image_load_formatted
+  215/ GL_EXT_shader_image_load_store
+  216/ GL_EXT_shader_integer_mix
+  217/ GL_EXT_shadow_funcs
+  218/ GL_EXT_sparse_texture2
+  219/ GL_EXT_stencil_two_side
+  220/ GL_EXT_stencil_wrap
+  221/ GL_EXT_texture3D
+  222/ GL_EXT_texture_array
+  223/ GL_EXT_texture_buffer_object
+  224/ GL_EXT_texture_compression_dxt1
+  225/ GL_EXT_texture_compression_latc
+  226/ GL_EXT_texture_compression_rgtc
+  227/ GL_EXT_texture_compression_s3tc
+  228/ GL_EXT_texture_cube_map
+  229/ GL_EXT_texture_edge_clamp
+  230/ GL_EXT_texture_env_combine
+  231/ GL_EXT_texture_env_dot3
+  232/ GL_EXT_texture_filter_anisotropic
+  233/ GL_EXT_texture_filter_minmax
+  234/ GL_EXT_texture_integer
+  235/ GL_EXT_texture_lod
+  236/ GL_EXT_texture_lod_bias
+  237/ GL_EXT_texture_mirror_clamp
+  238/ GL_EXT_texture_object
+  239/ GL_EXT_texture_shared_exponent
+  240/ GL_EXT_texture_sRGB
+  241/ GL_EXT_texture_sRGB_decode
+  242/ GL_EXT_texture_storage
+  243/ GL_EXT_texture_swizzle
+  244/ GL_EXT_timer_query
+  245/ GL_EXT_transform_feedback2
+  246/ GL_EXT_vertex_array
+  247/ GL_EXT_vertex_array_bgra
+  248/ GL_EXT_vertex_attrib_64bit
+  249/ GL_EXT_window_rectangles
+  250/ GL_EXT_import_sync_object
+  251/ GL_IBM_rasterpos_clip
+  252/ GL_IBM_texture_mirrored_repeat
+  253/ GL_KHR_context_flush_control (OpenGL 4.5)
+  254/ GL_KHR_debug
+  255/ GL_EXT_memory_object
+  256/ GL_EXT_memory_object_win32
+  257/ GL_EXT_win32_keyed_mutex
+  258/ GL_KHR_parallel_shader_compile
+  259/ GL_KHR_no_error (OpenGL 4.6)
+  260/ GL_KHR_robust_buffer_access_behavior
+  261/ GL_KHR_robustness (OpenGL 4.5)
+  262/ GL_EXT_semaphore
+  263/ GL_EXT_semaphore_win32
+  264/ GL_KTX_buffer_region
+  265/ GL_NV_alpha_to_coverage_dither_control
+  266/ GL_NV_bindless_multi_draw_indirect
+  267/ GL_NV_bindless_multi_draw_indirect_count
+  268/ GL_NV_bindless_texture
+  269/ GL_NV_blend_equation_advanced
+  270/ GL_NV_blend_equation_advanced_coherent
+  271/ GL_NVX_blend_equation_advanced_multi_draw_buffers
+  272/ GL_NV_blend_minmax_factor
+  273/ GL_NV_blend_square
+  274/ GL_NV_clip_space_w_scaling
+  275/ GL_NV_command_list
+  276/ GL_NV_compute_program5
+  277/ GL_NV_conditional_render
+  278/ GL_NV_conservative_raster
+  279/ GL_NV_conservative_raster_dilate
+  280/ GL_NV_conservative_raster_pre_snap_triangles
+  281/ GL_NV_copy_depth_to_color
+  282/ GL_NV_copy_image
+  283/ GL_NV_depth_buffer_float
+  284/ GL_NV_depth_clamp
+  285/ GL_NV_draw_texture
+  286/ GL_NV_draw_vulkan_image
+  287/ GL_NV_ES1_1_compatibility
+  288/ GL_NV_ES3_1_compatibility
+  289/ GL_NV_explicit_multisample
+  290/ GL_NV_feature_query
+  291/ GL_NV_fence
+  292/ GL_NV_fill_rectangle
+  293/ GL_NV_float_buffer
+  294/ GL_NV_fog_distance
+  295/ GL_NV_fragment_coverage_to_color
+  296/ GL_NV_fragment_program
+  297/ GL_NV_fragment_program_option
+  298/ GL_NV_fragment_program2
+  299/ GL_NV_fragment_shader_interlock
+  300/ GL_NV_framebuffer_mixed_samples
+  301/ GL_NV_framebuffer_multisample_coverage
+  302/ GL_NV_geometry_shader4
+  303/ GL_NV_geometry_shader_passthrough
+  304/ GL_NV_gpu_program4
+  305/ GL_NV_internalformat_sample_query
+  306/ GL_NV_gpu_program4_1
+  307/ GL_NV_gpu_program5
+  308/ GL_NV_gpu_program5_mem_extended
+  309/ GL_NV_gpu_program_fp64
+  310/ GL_NV_gpu_shader5
+  311/ GL_NV_half_float
+  312/ GL_NV_light_max_exponent
+  313/ GL_NV_multisample_coverage
+  314/ GL_NV_multisample_filter_hint
+  315/ GL_NV_occlusion_query
+  316/ GL_NV_packed_depth_stencil
+  317/ GL_NV_parameter_buffer_object
+  318/ GL_NV_parameter_buffer_object2
+  319/ GL_NV_path_rendering
+  320/ GL_NV_path_rendering_shared_edge
+  321/ GL_NV_pixel_data_range
+  322/ GL_NV_point_sprite
+  323/ GL_NV_primitive_restart (OpenGL 3.1)
+  324/ GL_NV_query_resource
+  325/ GL_NV_query_resource_tag
+  326/ GL_NV_register_combiners
+  327/ GL_NV_register_combiners2
+  328/ GL_NV_sample_locations
+  329/ GL_NV_sample_mask_override_coverage
+  330/ GL_NV_shader_atomic_counters
+  331/ GL_NV_shader_atomic_float
+  332/ GL_NV_shader_atomic_float64
+  333/ GL_NV_shader_atomic_fp16_vector
+  334/ GL_NV_shader_atomic_int64
+  335/ GL_NV_shader_buffer_load
+  336/ GL_NV_shader_storage_buffer_object
+  337/ GL_NV_stereo_view_rendering
+  338/ GL_NV_texgen_reflection
+  339/ GL_NV_texture_barrier
+  340/ GL_NV_texture_compression_vtc
+  341/ GL_NV_texture_env_combine4
+  342/ GL_NV_texture_multisample
+  343/ GL_NV_texture_rectangle
+  344/ GL_NV_texture_rectangle_compressed
+  345/ GL_NV_texture_shader
+  346/ GL_NV_texture_shader2
+  347/ GL_NV_texture_shader3
+  348/ GL_NV_transform_feedback
+  349/ GL_NV_transform_feedback2
+  350/ GL_NV_uniform_buffer_unified_memory
+  351/ GL_NV_vertex_array_range
+  352/ GL_NV_vertex_array_range2
+  353/ GL_NV_vertex_attrib_integer_64bit
+  354/ GL_NV_vertex_buffer_unified_memory
+  355/ GL_NV_vertex_program
+  356/ GL_NV_vertex_program1_1
+  357/ GL_NV_vertex_program2
+  358/ GL_NV_vertex_program2_option
+  359/ GL_NV_vertex_program3
+  360/ GL_NV_viewport_array2
+  361/ GL_NV_viewport_swizzle
+  362/ GL_NVX_conditional_render
+  363/ GL_NVX_gpu_memory_info
+  364/ GL_NVX_multigpu_info
+  365/ GL_NVX_nvenc_interop
+  366/ GL_NV_shader_thread_group
+  367/ GL_NV_shader_thread_shuffle
+  368/ GL_KHR_blend_equation_advanced
+  369/ GL_KHR_blend_equation_advanced_coherent
+  370/ GL_SGIS_generate_mipmap
+  371/ GL_SGIS_texture_lod
+  372/ GL_SGIX_depth_texture
+  373/ GL_SGIX_shadow
+  374/ GL_SUN_slice_accum
+  375/ GL_WIN_swap_hint
+  376/ WGL_EXT_swap_control
+  377/ WGL_ARB_buffer_region
+  378/ WGL_ARB_create_context
+  379/ WGL_ARB_create_context_no_error
+  380/ WGL_ARB_create_context_profile
+  381/ WGL_ARB_create_context_robustness
+  382/ WGL_ARB_context_flush_control
+  383/ WGL_ARB_extensions_string
+  384/ WGL_ARB_make_current_read
+  385/ WGL_ARB_multisample
+  386/ WGL_ARB_pbuffer
+  387/ WGL_ARB_pixel_format
+  388/ WGL_ARB_pixel_format_float
+  389/ WGL_ARB_render_texture
+  390/ WGL_ATI_pixel_format_float
+  391/ WGL_EXT_colorspace
+  392/ WGL_EXT_create_context_es_profile
+  393/ WGL_EXT_create_context_es2_profile
+  394/ WGL_EXT_extensions_string
+  395/ WGL_EXT_framebuffer_sRGB
+  396/ WGL_EXT_pixel_format_packed_float
+  397/ WGL_EXT_swap_control_tear
+  398/ WGL_NVX_DX_interop
+  399/ WGL_NV_DX_interop
+  400/ WGL_NV_DX_interop2
+  401/ WGL_NV_copy_image
+  402/ WGL_NV_delay_before_swap
+  403/ WGL_NV_float_buffer
+  404/ WGL_NV_multisample_coverage
+  405/ WGL_NV_render_depth_texture
+  406/ WGL_NV_render_texture_rectangle
+======================================================
+Vulkan Instance
+======================================================
+- # of extensions: 12
+  001/ VK_EXT_debug_report
+  002/ VK_EXT_display_surface_counter
+  003/ VK_KHR_get_physical_device_properties2
+  004/ VK_KHR_get_surface_capabilities2
+  005/ VK_KHR_surface
+  006/ VK_KHR_win32_surface
+  007/ VK_KHR_device_group_creation
+  008/ VK_KHR_external_fence_capabilities
+  009/ VK_KHR_external_memory_capabilities
+  010/ VK_KHR_external_semaphore_capabilities
+  011/ VK_NV_external_memory_capabilities
+  012/ VK_EXT_debug_utils
+- # of layers: 5
+  001/ VK_LAYER_ZX_overlay
+  002/ VK_LAYER_NV_optimus
+  003/ VK_LAYER_RENDERDOC_Capture
+  004/ VK_LAYER_NV_nsight
+  005/ VK_LAYER_LUNARG_standard_validation
+--------------------------
+Vulkan GPU 1
+--------------------------
+- name: GeForce GTX 1080
+- type: VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU
+- deviceID: 10DE-1B80
+- API version: 1.1.70
+- # of memory heaps: 2
+  heap 1 - size 8079 MB
+  heap 2 - size 32706 MB
+- # of extensions: 53
+  001/ VK_KHR_swapchain
+  002/ VK_KHR_16bit_storage
+  003/ VK_KHR_bind_memory2
+  004/ VK_KHR_dedicated_allocation
+  005/ VK_KHR_descriptor_update_template
+  006/ VK_KHR_device_group
+  007/ VK_KHR_get_memory_requirements2
+  008/ VK_KHR_image_format_list
+  009/ VK_KHR_maintenance1
+  010/ VK_KHR_maintenance2
+  011/ VK_KHR_maintenance3
+  012/ VK_KHR_multiview
+  013/ VK_KHR_push_descriptor
+  014/ VK_KHR_relaxed_block_layout
+  015/ VK_KHR_sampler_mirror_clamp_to_edge
+  016/ VK_KHR_sampler_ycbcr_conversion
+  017/ VK_KHR_shader_draw_parameters
+  018/ VK_KHR_storage_buffer_storage_class
+  019/ VK_KHR_external_memory
+  020/ VK_KHR_external_memory_win32
+  021/ VK_KHR_external_semaphore
+  022/ VK_KHR_external_semaphore_win32
+  023/ VK_KHR_win32_keyed_mutex
+  024/ VK_KHR_external_fence
+  025/ VK_KHR_external_fence_win32
+  026/ VK_KHR_variable_pointers
+  027/ VK_KHX_device_group
+  028/ VK_KHX_multiview
+  029/ VK_EXT_blend_operation_advanced
+  030/ VK_EXT_conservative_rasterization
+  031/ VK_EXT_depth_range_unrestricted
+  032/ VK_EXT_discard_rectangles
+  033/ VK_EXT_post_depth_coverage
+  034/ VK_EXT_sample_locations
+  035/ VK_EXT_sampler_filter_minmax
+  036/ VK_EXT_shader_subgroup_ballot
+  037/ VK_EXT_shader_subgroup_vote
+  038/ VK_EXT_shader_viewport_index_layer
+  039/ VK_NV_dedicated_allocation
+  040/ VK_NV_external_memory
+  041/ VK_NV_external_memory_win32
+  042/ VK_NV_fill_rectangle
+  043/ VK_NV_fragment_coverage_to_color
+  044/ VK_NV_framebuffer_mixed_samples
+  045/ VK_NV_glsl_shader
+  046/ VK_NV_win32_keyed_mutex
+  047/ VK_NV_clip_space_w_scaling
+  048/ VK_NV_sample_mask_override_coverage
+  049/ VK_NV_viewport_array2
+  050/ VK_NV_viewport_swizzle
+  051/ VK_NV_geometry_shader_passthrough
+  052/ VK_NVX_device_generated_commands
+  053/ VK_NVX_multiview_per_view_attributes
+# of layers: 1
+  001/ VK_LAYER_NV_optimus
+--------------------------
+Vulkan GPU 2
+--------------------------
+- name: GeForce GT 1030
+- type: VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU
+- deviceID: 10DE-1D01
+- API version: 1.1.70
+- # of memory heaps: 2
+  heap 1 - size 1982 MB
+  heap 2 - size 32706 MB
+- # of extensions: 53
+  001/ VK_KHR_swapchain
+  002/ VK_KHR_16bit_storage
+  003/ VK_KHR_bind_memory2
+  004/ VK_KHR_dedicated_allocation
+  005/ VK_KHR_descriptor_update_template
+  006/ VK_KHR_device_group
+  007/ VK_KHR_get_memory_requirements2
+  008/ VK_KHR_image_format_list
+  009/ VK_KHR_maintenance1
+  010/ VK_KHR_maintenance2
+  011/ VK_KHR_maintenance3
+  012/ VK_KHR_multiview
+  013/ VK_KHR_push_descriptor
+  014/ VK_KHR_relaxed_block_layout
+  015/ VK_KHR_sampler_mirror_clamp_to_edge
+  016/ VK_KHR_sampler_ycbcr_conversion
+  017/ VK_KHR_shader_draw_parameters
+  018/ VK_KHR_storage_buffer_storage_class
+  019/ VK_KHR_external_memory
+  020/ VK_KHR_external_memory_win32
+  021/ VK_KHR_external_semaphore
+  022/ VK_KHR_external_semaphore_win32
+  023/ VK_KHR_win32_keyed_mutex
+  024/ VK_KHR_external_fence
+  025/ VK_KHR_external_fence_win32
+  026/ VK_KHR_variable_pointers
+  027/ VK_KHX_device_group
+  028/ VK_KHX_multiview
+  029/ VK_EXT_blend_operation_advanced
+  030/ VK_EXT_conservative_rasterization
+  031/ VK_EXT_depth_range_unrestricted
+  032/ VK_EXT_discard_rectangles
+  033/ VK_EXT_post_depth_coverage
+  034/ VK_EXT_sample_locations
+  035/ VK_EXT_sampler_filter_minmax
+  036/ VK_EXT_shader_subgroup_ballot
+  037/ VK_EXT_shader_subgroup_vote
+  038/ VK_EXT_shader_viewport_index_layer
+  039/ VK_NV_dedicated_allocation
+  040/ VK_NV_external_memory
+  041/ VK_NV_external_memory_win32
+  042/ VK_NV_fill_rectangle
+  043/ VK_NV_fragment_coverage_to_color
+  044/ VK_NV_framebuffer_mixed_samples
+  045/ VK_NV_glsl_shader
+  046/ VK_NV_win32_keyed_mutex
+  047/ VK_NV_clip_space_w_scaling
+  048/ VK_NV_sample_mask_override_coverage
+  049/ VK_NV_viewport_array2
+  050/ VK_NV_viewport_swizzle
+  051/ VK_NV_geometry_shader_passthrough
+  052/ VK_NVX_device_generated_commands
+  053/ VK_NVX_multiview_per_view_attributes
+# of layers: 1
+  001/ VK_LAYER_NV_optimus

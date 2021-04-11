@@ -1,0 +1,253 @@
+[09:42:13] ASUS, NB BU, Aging HQ, Version 2.2.1.1 (Date: 2017/09/18)
+[09:42:13] Log path: E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ
+[09:42:13] OS: Windows 10
+[09:42:13] Intel CPU
+[09:42:13] Find shark bay info fail!
+[09:42:13] Checking E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[09:42:13] Checking E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[09:42:13] Load CPUUsage.dll success
+[09:42:13] Checking E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[09:42:13] E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[09:42:13] Checking E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[09:42:15] Configuration file: E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\aging.conf
+[09:42:15] Read configuration file --
+[09:42:15] TestS5: 0
+[09:42:15] blCSC_SymptomSetting: 1
+[09:42:15] bNoUseTaskScheduler: 0
+[09:42:15] bTestCinebench: 0
+[09:42:15] CSC symptom Configuration file: E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[09:42:15] Read csc symptom configuration file --
+[09:42:15] CSC_SymptomSetting[0]: 20000000h
+[09:42:15] CSCTestPeriod[0]: 60 minutes
+[09:42:15] 2.problem_code = N0Z060
+[09:42:15] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[09:42:15] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[09:42:16] Model Name: GL553VW
+[09:42:16] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[09:42:39] Symptom Layer 2 item selected.
+[09:42:39] The 2nd selected symptom is item 0.1: <N0Z060 - System Blue Screen (Under Windows)>
+[09:42:39] 1.problem_code = N0Z060
+[09:42:46] 0.0.strTmp = CPU Usage 100%(60minutes)
+[09:42:46] 0.0.CPUUsage100Percent
+[09:42:46] 0.g_user_conf.nCPUUsage100PercentMinutes = 60
+[09:42:46] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 20000000h
+[09:42:46] iLayer1SelectedItem = 0, iLayer1SelectedItem2 = 1
+[09:42:46] listSymptomLayer2[0].at(1).item[3] = 65minutes
+[09:42:46] Test time is 1 hour, 5 minutes.
+[09:42:46] Save aging.conf
+[09:42:46] Write TestS5=0 into aging.conf
+[09:42:46] Save agingCSCSymptom.conf
+[09:42:49] Symptom Layer 2 item selected.
+[09:42:49] Symptom Layer 2 item selected.
+[09:42:49] The 2nd selected symptom is item 0.0: <N0Z060 - System Blue Screen (When boot into Windows)>
+[09:42:49] 1.problem_code = N0Z060
+[09:42:51] 0.0.strTmp = S5(60minutes)
+[09:42:51] 0.0.TestS5
+[09:42:51] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 02000000h
+[09:42:51] iLayer1SelectedItem = 0, iLayer1SelectedItem2 = 0
+[09:42:51] listSymptomLayer2[0].at(0).item[3] = 65minutes
+[09:42:51] Test time is 1 hour, 5 minutes.
+[09:42:51] Save aging.conf
+[09:42:51] Write TestS5=1 into aging.conf
+[09:42:51] Save agingCSCSymptom.conf
+[09:43:03] Symptom Layer 2 item selected.
+[09:43:03] Symptom Layer 2 item selected.
+[09:43:03] The 2nd selected symptom is item 0.2: <N0Z061 - System Frozen (Touchpad/Keyboard/Touch screen freezing)>
+[09:43:03] 1.problem_code = N0Z061
+[09:43:04] 0.0.strTmp = CPU Usage 100%(60minutes)
+[09:43:04] 0.0.CPUUsage100Percent
+[09:43:04] 0.g_user_conf.nCPUUsage100PercentMinutes = 60
+[09:43:04] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 20000000h
+[09:43:04] 1.0.strTmp = S5(60minutes)
+[09:43:04] 1.0.TestS5
+[09:43:04] 1.CSCTestPeriod = 60 minutes, SymptomSetting[1] = 02000000h
+[09:43:04] iLayer1SelectedItem = 0, iLayer1SelectedItem2 = 2
+[09:43:04] listSymptomLayer2[0].at(2).item[3] = 130minutes
+[09:43:04] Test time is 2 hour, 10 minutes.
+[09:43:04] Save aging.conf
+[09:43:04] Write TestS5=1 into aging.conf
+[09:43:04] Save agingCSCSymptom.conf
+[09:43:09] Configuration file: E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\aging.conf
+[09:43:09] Read configuration file --
+[09:43:09] TestS5: 1
+[09:43:09] blCSC_SymptomSetting: 1
+[09:43:09] bNoUseTaskScheduler: 0
+[09:43:09] bTestCinebench: 0
+[09:43:09] CSC symptom Configuration file: E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[09:43:09] Read csc symptom configuration file --
+[09:43:09] CSC_SymptomSetting[0]: 20000000h
+[09:43:09] CSCTestPeriod[0]: 60 minutes
+[09:43:09] CSC_SymptomSetting[1]: 02000000h
+[09:43:09] CSCTestPeriod[1]: 60 minutes
+[09:43:09] 2.problem_code = N0Z061
+[09:43:23] Symptom Layer 2 item selected.
+[09:43:23] Symptom Layer 2 item selected.
+[09:43:23] The 2nd selected symptom is item 0.0: <N0Z060 - System Blue Screen (When boot into Windows)>
+[09:43:23] 1.problem_code = N0Z060
+[09:43:24] 0.0.strTmp = S5(60minutes)
+[09:43:24] 0.0.TestS5
+[09:43:24] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 02000000h
+[09:43:24] iLayer1SelectedItem = 0, iLayer1SelectedItem2 = 0
+[09:43:24] listSymptomLayer2[0].at(0).item[3] = 65minutes
+[09:43:24] Test time is 1 hour, 5 minutes.
+[09:43:24] Save aging.conf
+[09:43:24] Write TestS5=1 into aging.conf
+[09:43:24] Save agingCSCSymptom.conf
+[09:43:35] Configuration file: E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\aging.conf
+[09:43:35] Read configuration file --
+[09:43:35] TestS5: 1
+[09:43:35] blCSC_SymptomSetting: 1
+[09:43:35] bNoUseTaskScheduler: 0
+[09:43:35] bTestCinebench: 0
+[09:43:35] CSC symptom Configuration file: E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[09:43:35] Read csc symptom configuration file --
+[09:43:35] CSC_SymptomSetting[0]: 02000000h
+[09:43:35] CSCTestPeriod[0]: 60 minutes
+[09:43:35] 2.problem_code = N0Z060
+[09:44:09] Symptom Layer 2 item selected.
+[09:44:09] Symptom Layer 2 item selected.
+[09:44:09] The 2nd selected symptom is item 0.1: <N0Z060 - System Blue Screen (Under Windows)>
+[09:44:09] 1.problem_code = N0Z060
+[09:44:10] 0.0.strTmp = CPU Usage 100%(60minutes)
+[09:44:10] 0.0.CPUUsage100Percent
+[09:44:10] 0.g_user_conf.nCPUUsage100PercentMinutes = 60
+[09:44:10] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 20000000h
+[09:44:10] iLayer1SelectedItem = 0, iLayer1SelectedItem2 = 1
+[09:44:10] listSymptomLayer2[0].at(1).item[3] = 65minutes
+[09:44:10] Test time is 1 hour, 5 minutes.
+[09:44:10] Save aging.conf
+[09:44:10] Write TestS5=0 into aging.conf
+[09:44:10] Save agingCSCSymptom.conf
+[09:44:18] Symptom Layer 2 item selected.
+[09:44:18] Symptom Layer 2 item selected.
+[09:44:18] The 2nd selected symptom is item 0.0: <N0Z060 - System Blue Screen (When boot into Windows)>
+[09:44:18] 1.problem_code = N0Z060
+[09:44:19] 0.0.strTmp = S5(60minutes)
+[09:44:19] 0.0.TestS5
+[09:44:19] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 02000000h
+[09:44:19] iLayer1SelectedItem = 0, iLayer1SelectedItem2 = 0
+[09:44:19] listSymptomLayer2[0].at(0).item[3] = 65minutes
+[09:44:19] Test time is 1 hour, 5 minutes.
+[09:44:19] Save aging.conf
+[09:44:19] Write TestS5=1 into aging.conf
+[09:44:19] Save agingCSCSymptom.conf
+[09:44:20] Do pretest check
+[09:44:20] Finished pretest check
+[09:44:20] Program was ran in not AUTO mode
+[09:44:20] Total test time: 3900
+[09:44:20] 13.intCollection.nCSC_S5RebootRemainingTime: 0
+[09:44:20] CSCStageNo=0, g_user_conf.CSCConf.nCSCTotalStageNo=1
+[09:44:20] 2.Program was ran in not AUTO mode
+[09:44:20] 1. CreateCSCSymptomSeriesStageTimer:iCSCStageNo=0, nCSCTotalStageNo=1, nCSCTestPeriod_Min=60
+[09:44:20] 2.Not Auto Start:CSCStageRestTestSecond = 3600
+[09:44:20] 3.CreateCSCSymptomSeriesStageTimer:Create new Timer with 3600 seconds
+[09:44:20] 4.1.CreateCSCSymptomSeriesStageTimer:CreateRestartEntry
+[09:44:20] Use registry to launch
+[09:44:20] Use task scheduler to launch
+[09:44:20] Success! Task successfully registered.
+[09:44:20] Save aging.conf
+[09:44:20] Write TestS5=1 into aging.conf
+[09:44:20] Start Aging HQ
+[09:44:20] Use registry to launch
+[09:44:20] Use task scheduler to launch
+[09:44:20] Success! Task successfully registered.
+[09:44:20] UpdateCSCSeriesStageSetting: CSC_SymptomSetting[0] = 2000000, CSCTestPeriod_Min[0] = 60 minutes
+[09:44:20] bTestS5 is true
+[09:44:20] Thread ID 13920, Proces ID 2840 - Fan/CPU temp. + Battery + 3G + WiMAX + MT + S0I3/S3/DS3 + S4
+[09:44:20] Pega model: 1225B
+[09:44:20] Pega model: R252B
+[09:44:20] Pega model: K55N
+[09:44:20] Thread ID 18372, Process ID =2840 - GPU stress + Audio Loopback + EMMC Test
+[09:44:20] Thread ID 17624, Process ID 2840 - SHE + WIFI/CAM/BT Power + LCD display
+[09:44:21] Thread ID 14712, Process ID 2840 - S0 + S5 + Restart
+[09:44:21] Start S5 aging1
+[09:44:22] Create restart preparation timer, interval = 40020
+[09:44:34] AAHQ task deleted
+[09:44:34] AAHQ task deleted
+[09:44:34] Going to stop state, please wait...
+[09:44:34] StopStage 1: close GPU stress program
+[09:44:34] StopStage 2: release mutex for log writing
+[09:44:34] StopStage 3: restore battery state
+[09:44:34] StopStage 4: restore power state of wifi/BT/camera
+[09:44:34] StopStage 5: destroy AAHQ objects
+[09:44:34] DestroyTimer:iCSCStageNo=0, nCSCTotalStageNo=1, nCSCTestPeriod_Min=60
+[09:44:35] StopStage 5.1: Remove :\Test_User_Like_Scenario\IO_test.dat ok
+[09:44:35] StopStage 6: save records of CPU temperature to file
+[09:44:35] StopStage 7: save records of reboot time
+[09:44:35] StopStage 8: show device change notify window if needed
+[09:44:35] FIN
+[09:44:36] Checking E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ.\BiosSN\BiosSNdll.dll
+[09:44:37] Read SN = G7NTCV000405274
+[09:44:40] 2.CSC Series Stage : 1 , waste 60 minutes
+[09:44:40] serial_no=G7NTCV000405274
+[09:44:40] pass_item=S5 STOP
+[09:44:40] test_time=2017/09/29 09:44:40
+[09:44:40] test_id=123
+[09:44:40] test_result=STOP
+[09:44:40] problem_code= N0Z060
+[09:44:40] version=2.2.1.1
+[09:44:40] Success to run AgingUpload.exe!
+[09:44:40] End Aging HQ
+[09:44:59] Do pretest check
+[09:44:59] Finished pretest check
+[09:44:59] Program was ran in not AUTO mode
+[09:44:59] Total test time: 3900
+[09:44:59] 13.intCollection.nCSC_S5RebootRemainingTime: 3586
+[09:44:59] CSCStageNo=0, g_user_conf.CSCConf.nCSCTotalStageNo=1
+[09:44:59] 2.Program was ran in not AUTO mode
+[09:44:59] 1. CreateCSCSymptomSeriesStageTimer:iCSCStageNo=0, nCSCTotalStageNo=1, nCSCTestPeriod_Min=60
+[09:44:59] 2.Not Auto Start:CSCStageRestTestSecond = 3600
+[09:44:59] 3.CreateCSCSymptomSeriesStageTimer:Create new Timer with 3600 seconds
+[09:44:59] 4.1.CreateCSCSymptomSeriesStageTimer:CreateRestartEntry
+[09:44:59] Use registry to launch
+[09:44:59] Use task scheduler to launch
+[09:44:59] Success! Task successfully registered.
+[09:44:59] Save aging.conf
+[09:44:59] Write TestS5=1 into aging.conf
+[09:44:59] Start Aging HQ
+[09:44:59] Use registry to launch
+[09:44:59] Use task scheduler to launch
+[09:44:59] Success! Task successfully registered.
+[09:44:59] UpdateCSCSeriesStageSetting: CSC_SymptomSetting[0] = 2000000, CSCTestPeriod_Min[0] = 60 minutes
+[09:44:59] bTestS5 is true
+[09:44:59] Thread ID 3708, Proces ID 2840 - Fan/CPU temp. + Battery + 3G + WiMAX + MT + S0I3/S3/DS3 + S4
+[09:44:59] Pega model: 1225B
+[09:44:59] Pega model: R252B
+[09:44:59] Pega model: K55N
+[09:44:59] Thread ID 5024, Process ID =2840 - GPU stress + Audio Loopback + EMMC Test
+[09:44:59] Thread ID 17052, Process ID 2840 - SHE + WIFI/CAM/BT Power + LCD display
+[09:44:59] Thread ID 10116, Process ID 2840 - S0 + S5 + Restart
+[09:44:59] Start S5 aging1
+[09:45:00] Create restart preparation timer, interval = 40020
+[09:45:04] AAHQ task deleted
+[09:45:04] AAHQ task deleted
+[09:45:04] Going to stop state, please wait...
+[09:45:04] StopStage 1: close GPU stress program
+[09:45:04] StopStage 2: release mutex for log writing
+[09:45:04] StopStage 3: restore battery state
+[09:45:04] StopStage 4: restore power state of wifi/BT/camera
+[09:45:04] StopStage 5: destroy AAHQ objects
+[09:45:04] DestroyTimer:iCSCStageNo=0, nCSCTotalStageNo=1, nCSCTestPeriod_Min=60
+[09:45:04] StopStage 5.1: Remove :\Test_User_Like_Scenario\IO_test.dat ok
+[09:45:04] StopStage 6: save records of CPU temperature to file
+[09:45:04] StopStage 7: save records of reboot time
+[09:45:04] StopStage 8: show device change notify window if needed
+[09:45:04] FIN
+[09:45:06] Checking E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ.\BiosSN\BiosSNdll.dll
+[09:45:06] Read SN = G7NTCV000405274
+[09:47:07] 2.CSC Series Stage : 1 , waste 60 minutes
+[09:47:07] serial_no=123123
+[09:47:07] pass_item=S5 STOP, S5 STOP
+[09:47:07] test_time=2017/09/29 09:47:07
+[09:47:07] test_id=123
+[09:47:07] test_result=STOP
+[09:47:07] problem_code= N0Z060
+[09:47:07] version=2.2.1.1
+[09:47:07] Success to run AgingUpload.exe!
+[09:47:07] End Aging HQ
+[09:52:11] 2.Index:0, pSearchSchemeBuf= ??
+[09:52:11] 2.Index:1, pSearchSchemeBuf= ???
+[09:52:11] 2.Index:2, pSearchSchemeBuf= ??
+[09:52:11] 1.Index:3, pSearchSchemeBuf= AsAgingHQ
+[09:52:11] Pass to delete pwr scheme, AsAgingHQ!
+[09:52:11] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

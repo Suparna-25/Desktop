@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="466,281" caption="0,0,0,36" roundcorner="10,10" >
+	<Font id="0" name="宋体" size="16" bold="true" shared="true" />
+	<Font id="1" name="宋体" size="14" default="true"  shared="true" /> 
+	<Font id="2" name="宋体" size="14" bold="false"  shared="true" /> 
+    <Font id="3" name="宋体" size="12" bold="false"  shared="true" /> 
+	<VerticalLayout inset="4,0,4,4" bkimage="file='OrderFrameImg/winbk.bmp' corner='4,48,4,4' mask='#FFFF00FF'" >
+		<HorizontalLayout height="32" inset="2,2,2,0">
+			<Label  text="GTModuleTest" width="260" />
+			<Control />
+			<Button name="languagebtn"  text="语言"   pos="200, 0, 240,25"  hotimage="file='OrderFrameImg/frame_btn_language_hot.bmp' mask='#FFFF00FF'" pushedimage="file='OrderFrameImg/frame_btn_language_hot.bmp' mask='#FFFF00FF'"/>
+			<Control />
+			<Button name="closebtn" width="42" maxheight="24" normalimage="file='OrderFrameImg/frame_btn_close_normal.bmp' mask='#FFFF00FF'" hotimage="file='OrderFrameImg/frame_btn_close_hot.bmp' mask='#FFFF00FF'" pushedimage="file='OrderFrameImg/frame_btn_close_down.bmp' mask='#FFFF00FF'"/>
+		</HorizontalLayout>
+		<Container bkcolor="#FFFFFFFF" >
+			<Label  text="工单选择:" float="true" pos="50, 80, 150, 100" />
+			<Combo name="orderselectcombo" float="true" pos="130, 75, 400, 105" tooltip="选择工单" normalimage="file='OrderFrameImg/Combo_nor.bmp' corner='2,2,24,2'" hotimage="file='OrderFrameImg/Combo_over.bmp' corner='2,2,24,2'" pushedimage="file='OrderFrameImg/Combo_over.bmp' corner='2,2,24,2'" textpadding="1,1,1,1">
+			</Combo>
+			<Button name="importorderbtn" text="导入工单"  float="true"  pos="130, 150, 220, 190" normalimage="file='OrderFrameImg/button_nor.bmp' mask='#FFFF00FF'" hotimage="file='OrderFrameImg/button_over.bmp' mask='#FFFF00FF'" pushedimage="file='OrderFrameImg/button_down.bmp' mask='#FFFF00FF'" tooltip="选择你需要导入的工单" />
+			<Button name="confirmbtn" text="确定"  float="true"  pos="260, 150, 350, 190" normalimage="file='OrderFrameImg/button_nor.bmp' mask='#FFFF00FF'" hotimage="file='OrderFrameImg/button_over.bmp' mask='#FFFF00FF'" pushedimage="file='OrderFrameImg/button_down.bmp' mask='#FFFF00FF'" tooltip="选择你需要导入的工单" />
+		</Container>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,2 @@
+call RtkAntTest.exe
+exit

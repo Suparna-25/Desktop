@@ -1,0 +1,108 @@
+[08:59:52] ASUS, NB BU, Aging HQ, Version 2.2.6.0 (Date: 2018/9/05)
+[08:59:52] Log path: D:\WTP weekly update\20190923\WTP\advance_test\AsAgingHQ
+[08:59:52] 1.listSymptomLayer1.size()=1
+[08:59:52] 1.listSymptomLayer1.size()=2
+[08:59:52] 1.listSymptomLayer1.size()=3
+[08:59:52] 1.listSymptomLayer1.size()=4
+[08:59:52] OS: Windows 10.0, buildno =17763
+[08:59:52] Intel CPU
+[08:59:52] Find shark bay info fail!
+[08:59:52] Checking D:\WTP weekly update\20190923\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[08:59:52] Checking D:\WTP weekly update\20190923\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[08:59:52] Load CPUUsage.dll success
+[08:59:52] Checking D:\WTP weekly update\20190923\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[08:59:52] D:\WTP weekly update\20190923\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[08:59:52] Checking D:\WTP weekly update\20190923\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[08:59:52] CoCreateInstance get pIAGFNEX being NULL
+[08:59:52] Called blATKGFunc fail
+[08:59:52] Configuration file: D:\WTP weekly update\20190923\WTP\advance_test\AsAgingHQ\aging.conf
+[08:59:52] Read configuration file --
+[08:59:52] TestS5: 0
+[08:59:52] blCSC_SymptomSetting: 1
+[08:59:52] bNoUseTaskScheduler: 0
+[08:59:52] bTestCinebench: 0
+[08:59:52] CSC symptom Configuration file: D:\WTP weekly update\20190923\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[08:59:52] Read csc symptom configuration file --
+[08:59:52] CSC_SymptomSetting[0]: 00000200h
+[08:59:52] CSCTestPeriod[0]: 60 minutes
+[08:59:52] 2.problem_code = N0ZL12
+[08:59:52] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[08:59:52] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[08:59:52] Failed to check for AAHQ power scheme
+[08:59:52] C:\windows\EnterpriseG.XML not exist
+[08:59:52] 2.listSymptomLayer1.size()=4
+[08:59:52] Model Name: Strix G731GT_G731GT
+[08:59:52] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[09:04:47] CoCreateInstance get pIAGFNEX being NULL
+[09:04:47] Called blATKGFunc fail
+[09:04:47] Configuration file: D:\WTP weekly update\20190923\WTP\advance_test\AsAgingHQ\aging.conf
+[09:04:47] Read configuration file --
+[09:04:47] TestS5: 0
+[09:04:47] blCSC_SymptomSetting: 1
+[09:04:47] bNoUseTaskScheduler: 0
+[09:04:47] bTestCinebench: 0
+[09:04:47] CSC symptom Configuration file: D:\WTP weekly update\20190923\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[09:04:47] Read csc symptom configuration file --
+[09:04:47] CSC_SymptomSetting[0]: 00000200h
+[09:04:47] CSCTestPeriod[0]: 60 minutes
+[09:04:47] 2.problem_code = N0ZL12
+[09:05:06] Save aging.conf
+[09:05:06] Write TestS5=0 into aging.conf
+[09:05:08] Do pretest check
+[09:05:08] Finished pretest check
+[09:05:08] Program was ran in not AUTO mode
+[09:05:08] Total test time: 3720
+[09:05:08] 13.intCollection.nCSC_S5RebootRemainingTime: 0
+[09:05:08] CSCStageNo=0, g_user_conf.CSCConf.nCSCTotalStageNo=1
+[09:05:08] 2.Program was ran in not AUTO mode
+[09:05:08] 1. CreateCSCSymptomSeriesStageTimer:iCSCStageNo=0, nCSCTotalStageNo=1, nCSCTestPeriod_Min=60
+[09:05:08] 2.Not Auto Start:CSCStageRestTestSecond = 3600
+[09:05:08] 3.CreateCSCSymptomSeriesStageTimer:Create new Timer with 3600 seconds
+[09:05:08] Save aging.conf
+[09:05:08] Write TestS5=0 into aging.conf
+[09:05:08] Start Aging HQ
+[09:05:08] Loaded IO driver
+[09:05:08] Thread ID 61812, Proces ID 61904 - Fan/CPU temp. + Battery + 3G + WiMAX + MT + S0I3/S3/DS3 + S4
+[09:05:08] Pega model: 1225B
+[09:05:08] Pega model: R252B
+[09:05:08] Pega model: K55N
+[09:05:08] Thread ID 59668, Process ID =61904 - GPU stress + Audio Loopback + EMMC Test
+[09:05:08] Thread ID 60868, Process ID 61904 - SHE + WIFI/CAM/BT Power + LCD display
+[09:05:08] Total CPU Modes: 3
+[09:05:08] Set CPU mode to 1
+[09:05:08] Thread ID 61072, Process ID 61904 - S0 + S5 + Restart
+[09:05:11] Preparing to call AgingBTPowerState()
+[09:05:11] Enter AgingBTPowerState()
+[09:05:11] Bluetooth power: 1
+[09:05:15] Set CPU mode to 2
+[09:05:18] Preparing to call AgingBTPowerState()
+[09:05:18] Enter AgingBTPowerState()
+[09:05:18] 2.Error while setting power state of BT!
+[09:05:18] counts of error: 1
+[09:05:18] Bluetooth power: 1
+[09:05:22] Set CPU mode to 0
+[09:05:25] Preparing to call AgingBTPowerState()
+[09:05:25] Enter AgingBTPowerState()
+[09:05:25] 2.Error while setting power state of BT!
+[09:05:25] counts of error: 2
+[09:05:25] Bluetooth power: 1
+[09:05:29] Set CPU mode to 1
+[09:05:32] Preparing to call AgingBTPowerState()
+[09:05:32] Enter AgingBTPowerState()
+[09:05:32] 2.Error while setting power state of BT!
+[09:05:32] counts of error: 3
+[09:05:32] Bluetooth power: 1
+[09:05:36] Set CPU mode to 2
+[09:05:38] Reset system idle timer!
+[09:05:39] Preparing to call AgingBTPowerState()
+[09:05:39] Enter AgingBTPowerState()
+[09:05:39] 2.Error while setting power state of BT!
+[09:05:39] counts of error: 4
+[09:05:39] Going to stop state, please wait...
+[09:05:39] StopStage 1: close GPU stress program
+[09:05:39] StopStage 2: release mutex for log writing
+[09:05:39] StopStage 3: restore battery state
+[09:05:39] StopStage 4: restore power state of wifi/BT/camera
+[09:05:39] Enter AgingBTPowerState()
+[09:05:39] StopStage 5: destroy AAHQ objects
+[09:05:46] Set FAN_CTRL to AUTO

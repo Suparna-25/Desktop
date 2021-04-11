@@ -1,0 +1,102 @@
+[16:38:39] ASUS, NB BU, Aging HQ, Version 2.2.1.1 (Date: 2017/09/18)
+[16:38:39] Log path: E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ
+[16:38:39] OS: Windows 10
+[16:38:39] Intel CPU
+[16:38:39] Find shark bay info fail!
+[16:38:39] Checking E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[16:38:39] Checking E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[16:38:39] Load CPUUsage.dll success
+[16:38:39] Checking E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[16:38:39] E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[16:38:39] Checking E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[16:38:40] Configuration file: E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ\aging.conf
+[16:38:40] Read configuration file --
+[16:38:40] TestS5: 1
+[16:38:40] blCSC_SymptomSetting: 1
+[16:38:40] bNoUseTaskScheduler: 0
+[16:38:40] bTestCinebench: 0
+[16:38:40] CSC symptom Configuration file: E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[16:38:40] Read csc symptom configuration file --
+[16:38:40] CSC_SymptomSetting[0]: 02000000h
+[16:38:40] CSCTestPeriod[0]: 60 minutes
+[16:38:40] 2.problem_code = N0Z060
+[16:38:40] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[16:38:40] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[16:38:40] Failed to check for AAHQ power scheme
+[16:38:41] Model Name: GL553VW
+[16:38:41] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[16:38:47] Symptom Layer 2 item selected.
+[16:38:47] The 2nd selected symptom is item 1.0: <N0FZ02 - System Shut Down>
+[16:38:47] 1.problem_code = N0FZ02
+[16:38:48] 0.0.strTmp = CPU Usage 100%(30minutes)
+[16:38:48] 0.0.CPUUsage100Percent
+[16:38:48] 0.g_user_conf.nCPUUsage100PercentMinutes = 30
+[16:38:48] 0.CSCTestPeriod = 30 minutes, SymptomSetting[0] = 20000000h
+[16:38:48] iLayer1SelectedItem = 1, iLayer1SelectedItem2 = 0
+[16:38:48] listSymptomLayer2[1].at(0).item[3] = 35minutes
+[16:38:48] Test time is 0 hour, 35 minutes.
+[16:38:48] Save aging.conf
+[16:38:48] Write TestS5=0 into aging.conf
+[16:38:48] Save agingCSCSymptom.conf
+[16:38:48] Do pretest check
+[16:38:48] Finished pretest check
+[16:38:48] Program was ran in not AUTO mode
+[16:38:48] Total test time: 2100
+[16:38:48] ****AsAgingTool::StartTimer(), nTotalCPUUsageTestSeconds=1800
+[16:38:48] 13.intCollection.nCSC_S5RebootRemainingTime: 0
+[16:38:48] CSCStageNo=0, g_user_conf.CSCConf.nCSCTotalStageNo=1
+[16:38:48] Start Aging HQ
+[16:38:48] Loaded IO driver
+[16:38:48] UpdateCSCSeriesStageSetting: CSC_SymptomSetting[0] = 20000000, CSCTestPeriod_Min[0] = 30 minutes
+[16:38:48] bCPUUsage100Percent is true
+[16:38:48] Thread ID 18248, Process ID 13480 - CPU Usage 100%, Cinebench
+[16:38:48] Set CPU Usage=100%, CoreNum=8
+[16:38:53] Now CPU Temp.(62deg.), Speed (3084.38MHz), PP=118.996, PF=2592
+[16:38:54] Now CPU Temp.(-96deg.), Speed (3084.2MHz), PP=118.989, PF=2592
+[16:38:55] CPUCore:0/8, usage = 100
+[16:38:55] Now CPU Temp.(-96deg.), Speed (3084.37MHz), PP=118.996, PF=2592
+[16:38:56] Now CPU Temp.(-96deg.), Speed (3084.21MHz), PP=118.99, PF=2592
+[16:38:57] CPUCore:1/8, usage = 100
+[16:38:57] Now CPU Temp.(-96deg.), Speed (3084.06MHz), PP=118.984, PF=2592
+[16:38:58] Now CPU Temp.(-96deg.), Speed (3084.28MHz), PP=118.992, PF=2592
+[16:38:59] CPUCore:2/8, usage = 100
+[16:38:59] Now CPU Temp.(-96deg.), Speed (3084.25MHz), PP=118.991, PF=2592
+[16:39:00] Now CPU Temp.(-96deg.), Speed (3084.16MHz), PP=118.988, PF=2592
+[16:39:01] CPUCore:3/8, usage = 100
+[16:39:01] Now CPU Temp.(-96deg.), Speed (3084.35MHz), PP=118.995, PF=2592
+[16:39:02] Now CPU Temp.(-96deg.), Speed (3084.23MHz), PP=118.99, PF=2592
+[16:39:03] CPUCore:4/8, usage = 100
+[16:39:03] Now CPU Temp.(-96deg.), Speed (3084.31MHz), PP=118.993, PF=2592
+[16:39:04] Going to stop state, please wait...
+[16:39:04] StopStage 1: close GPU stress program
+[16:39:04] StopStage 2: release mutex for log writing
+[16:39:04] StopStage 3: restore battery state
+[16:39:04] StopStage 4: restore power state of wifi/BT/camera
+[16:39:04] StopStage 5: destroy AAHQ objects
+[16:39:05] CPUCore:5/8, usage = 100
+[16:39:07] CPUCore:6/8, usage = 100
+[16:39:08] Unloaded IO driver
+[16:39:08] StopStage 5.1: Remove :\Test_User_Like_Scenario\IO_test.dat ok
+[16:39:08] StopStage 6: save records of CPU temperature to file
+[16:39:08] StopStage 7: save records of reboot time
+[16:39:08] StopStage 8: show device change notify window if needed
+[16:39:08] StopStage 9.3: Free CPU Usage handle
+[16:39:08] FIN
+[16:39:09] CPUCore:7/8, usage = 100
+[16:39:09] Restore CPU Usage
+[16:39:10] Checking E:\WTP weekly update\20171127\WTP\advance_test\AsAgingHQ.\BiosSN\BiosSNdll.dll
+[16:39:11] Read SN = G7NTCV000405274
+[16:39:17] 2.CSC Series Stage : 1 , waste 30 minutes
+[16:39:17] serial_no=G7NTCV000405274
+[16:39:17] pass_item=CPU usage STOP
+[16:39:17] test_time=2017/11/30 16:39:17
+[16:39:17] test_id=ice
+[16:39:17] test_result=STOP
+[16:39:17] problem_code= N0FZ02
+[16:39:17] version=2.2.1.1
+[16:39:17] Success to run AgingUpload.exe!
+[16:39:17] End Aging HQ
+[16:39:24] 2.Index:0, pSearchSchemeBuf= ??
+[16:39:24] 2.Index:1, pSearchSchemeBuf= ???
+[16:39:24] 2.Index:2, pSearchSchemeBuf= ??
+[16:39:24] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

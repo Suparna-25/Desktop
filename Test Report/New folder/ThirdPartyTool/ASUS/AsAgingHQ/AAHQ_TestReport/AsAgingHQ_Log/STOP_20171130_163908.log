@@ -1,0 +1,6 @@
+Test report of ASUS, NB BU, Aging HQ, Version 2.2.1.1 (Date: 2017/09/18)
+
+Test items (* means the item was really tested):
+ * CPU 100% usage (30 minutes)
+
+No CPU temperature/Fan RPM data due to its test wasn't enabled

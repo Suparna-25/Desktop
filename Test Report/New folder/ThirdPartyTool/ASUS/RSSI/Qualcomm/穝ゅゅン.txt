@@ -1,0 +1,2 @@
+cd C:\Users\Howard Lin\Desktop\WinPE_10_tool\x64
+PEDiagUtility test 6 -SSID ASUS6824g -THRESHOLD -50

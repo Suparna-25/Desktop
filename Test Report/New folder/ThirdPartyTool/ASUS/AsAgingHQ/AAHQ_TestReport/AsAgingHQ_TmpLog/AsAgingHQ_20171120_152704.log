@@ -1,0 +1,31 @@
+[15:27:04] ASUS, NB BU, Aging HQ, Version 2.2.1.1 (Date: 2017/09/18)
+[15:27:04] Log path: E:\WTP weekly update\20171120\WTP\advance_test\AsAgingHQ
+[15:27:04] OS: Windows 10
+[15:27:04] Intel CPU
+[15:27:04] Find shark bay info fail!
+[15:27:04] Checking E:\WTP weekly update\20171120\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[15:27:04] Checking E:\WTP weekly update\20171120\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[15:27:04] Load CPUUsage.dll success
+[15:27:04] Checking E:\WTP weekly update\20171120\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[15:27:04] E:\WTP weekly update\20171120\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[15:27:04] Checking E:\WTP weekly update\20171120\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[15:27:06] Configuration file: E:\WTP weekly update\20171120\WTP\advance_test\AsAgingHQ\aging.conf
+[15:27:06] Read configuration file --
+[15:27:06] TestS5: 1
+[15:27:06] blCSC_SymptomSetting: 1
+[15:27:06] bNoUseTaskScheduler: 0
+[15:27:06] bTestCinebench: 0
+[15:27:06] CSC symptom Configuration file: E:\WTP weekly update\20171120\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[15:27:06] Read csc symptom configuration file --
+[15:27:06] CSC_SymptomSetting[0]: 02000000h
+[15:27:06] CSCTestPeriod[0]: 60 minutes
+[15:27:06] 2.problem_code = N0FH01
+[15:27:06] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[15:27:06] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[15:27:06] Failed to check for AAHQ power scheme
+[15:27:06] Model Name: GL553VW
+[15:27:07] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[16:05:17] 2.Index:0, pSearchSchemeBuf= ??
+[16:05:17] 2.Index:1, pSearchSchemeBuf= ???
+[16:05:17] 2.Index:2, pSearchSchemeBuf= ??
+[16:05:17] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

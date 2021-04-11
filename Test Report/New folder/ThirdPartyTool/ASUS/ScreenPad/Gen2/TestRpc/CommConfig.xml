@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommConfig>
+	<!--0:do not use rpc 1:Serial Port 2:Tcp -->
+	<CommTpye>1</CommTpye>
+	<!--Serial Port com num such as:COM1 -->
+	<ComNum>12</ComNum>
+	<!--Serial Port baud rate such as:COM1 -->
+	<BaudRate>9600</BaudRate>
+	<!--串口的校验0（无校验）1（奇校验）2（偶校验） -->
+	<Parity>1</Parity>
+	<!--数据位8,7,6 -->
+	<DataBits>8</DataBits>
+	<!--停止位1,2 -->
+	<StopBits>1</StopBits>
+</CommConfig>

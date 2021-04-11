@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GoodixToolLic>
+	<Item name="root" available="1">
+		<Item name="Setting" available="1">
+			<Item name="IcCommSetting" available="1"/>
+		</Item>
+		<Item name="Tools" available="1">
+			<Item name="ChipCfgUI" available="1">
+				<Item name="ReadCfg" available="1"/>
+				<Item name="CfgRam" available="1"/>
+			</Item>
+			<Item name="ChipDebugUpdate" available="1"/>
+			<Item name="ChipFlashRW" available="1"/>
+			<Item name="ChipFwUpdate" available="1"/>
+			<Item name="ChipRegRW" available="1"/>
+			<Item name="CoordDemo" available="1"/>
+			<Item name="DataView" available="1"/>
+			<Item name="FileEncript" available="1"/>
+			<Item name="FwDbgLog" available="1"/>
+			<Item name="ImportPyScript" available="1"/>
+			<Item name="PlatformUpdate" available="1"/>
+		</Item>
+		<Item name="License" available="1">
+			<Item name="Authorize Lic" available="1"/>
+			<Item name="Create Lic Apply File" available="1"/>
+			<Item name="Import Lic File" available="1"/>
+		</Item>
+		<Item name="Addin" available="1">
+			<Item name="TpIronHandTool" available="1"/>
+			<Item name="TpOrderGen" available="1">
+				<Item name="Manual Config" available="1">
+					<Item name="Import Order" available="1"/>
+					<Item name="Export Order" available="1"/>
+					<Item name="System Setting" available="1">
+						<Item name="Config Option" available="1"/>
+						<Item name="Export Option" available="1"/>
+					</Item>
+					<Item name="Test Setting" available="1">
+						<Item name="Chip Name" available="1"/>
+						<Item name="Power Voltage" available="1"/>
+						<Item name="Comm Voltage" available="1"/>
+						<Item name="Station Setting" available="1"/>
+						<Item name="Communication Ways" available="1"/>
+						<Item name="drag number of boards" available="1"/>
+						<Item name="Method of triggering test" available="1"/>
+						<Item name="Test Trig Condition" available="1"/>
+						<Item name="Method of stopping test" available="1"/>
+						<Item name="Length of barcode" available="1"/>
+						<Item name="Auto Switch Barcode Focus" available="1"/>
+						<Item name="Check Barcode Identical" available="1"/>
+						<Item name="CloseAppAfterTestFinish" available="1"/>
+						<Item name="Test End deal" available="1"/>
+						<Item name="Cob Detect" available="1"/>
+						<Item name="Cob Connect Thd" available="1"/>
+						<Item name="FinishCurTestOpt" available="1"/>
+					</Item>
+					<Item name="Test Items" available="1">
+						<Item name="5_Rawdata Test Sets" available="1">
+							<Item name="Detail" available="1"/>
+							<Item name="5_0_Rawdata Upper Limit Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+							<Item name="5_1_Rawdata Lower Limit Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+							<Item name="5_2_Keydata Upper Limit Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+							<Item name="5_3_Keydata Lower Limit Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+							<Item name="5_4_Adjcent Deviation Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+							<Item name="5_5_Offset Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+							<Item name="5_6_Uniform Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+							<Item name="5_7_Rawdata Jitter Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+							<Item name="Special Node" available="1"/>
+							<Item name="Auto Setting" available="1"/>
+							<Item name="Import Log" available="1"/>
+						</Item>
+						<Item name="6_Diffdata Test Sets" available="1">
+							<Item name="Detail" available="1"/>
+							<Item name="6_0_Diffdata Jitter Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+						</Item>
+						<Item name="7_Self Rawdata Test Sets" available="1">
+							<Item name="Detail" available="1"/>
+							<Item name="7_0_Self Rawdata Upper Limit Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+							<Item name="7_1_Self Rawdata Lower Limit Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+						</Item>
+						<Item name="200_Short Test" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+						<Item name="207_Sleep Current Test" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+						<Item name="206_Active Current Test" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+						<Item name="202_I2c Pin Test" available="1">
+							<Item name="Detail" available="0"/>
+						</Item>
+						<Item name="201_Rst Pin Test" available="1">
+							<Item name="Detail" available="0"/>
+						</Item>
+						<Item name="203_Int Pin Test" available="1">
+							<Item name="Detail" available="0"/>
+						</Item>
+						<Item name="204_Pin1 Test" available="1">
+							<Item name="Detail" available="0"/>
+						</Item>
+						<Item name="205_Pin2 Test" available="1">
+							<Item name="Detail" available="0"/>
+						</Item>
+						<Item name="213_Pin3 Test" available="1">
+							<Item name="Detail" available="0"/>
+						</Item>
+						<Item name="214_Pin4 Test" available="1">
+							<Item name="Detail" available="0"/>
+						</Item>
+						<Item name="215_Pin5 Test" available="1">
+							<Item name="Detail" available="0"/>
+						</Item>
+						<Item name="216_Pin6 Test" available="1">
+							<Item name="Detail" available="0"/>
+						</Item>
+						<Item name="217_I2c Device Test" available="1">
+							<Item name="Detail" available="0"/>
+						</Item>
+						<Item name="211_Spi Pin Test" available="1">
+							<Item name="Detail" available="0"/>
+						</Item>
+						<Item name="212_Ext Osc Test" available="1">
+							<Item name="Detail" available="0"/>
+						</Item>
+						<Item name="600_Version Test" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+						<Item name="1203_Update Special Firmware" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+						<Item name="210_Gesture Test" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+						<Item name="1200_Chip Config Process" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+						<Item name="1201_Flash Test" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+						<Item name="1202_Send Special Config" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+						<Item name="209_Sensor Id Test" available="1">
+							<Item name="Detail" available="1"/>
+							<Item name="Sensor Id Type Option" available="1"/>
+						</Item>
+						<Item name="1204_Custom Information Process" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+						<Item name="800_Key Touch Test" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+						<Item name="801_Finger Line Test" available="1">
+							<Item name="Detail" available="1"/>
+							<Item name="801_0_Four Point Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+							<Item name="801_1_Diagonal Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+							<Item name="801_2_Four Boundary Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+						</Item>
+						<Item name="802_Pen Line Test" available="1">
+							<Item name="Detail" available="1"/>
+							<Item name="802_0_Four Point Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+							<Item name="802_1_Diagonal Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+							<Item name="802_2_Four Boundary Test" available="1">
+								<Item name="Detail" available="1"/>
+							</Item>
+						</Item>
+						<Item name="1205_Check chip test result" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+						<Item name="1206_Check module test result" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+						<Item name="1208_Save result to ic storage" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+						<Item name="1209_Chip uid process" available="1">
+							<Item name="Detail" available="1"/>
+						</Item>
+					</Item>
+				</Item>
+				<Item name="Auto Config" available="1"/>
+				<Item name="Result Analyse" available="1"/>
+			</Item>
+			<Item name="TpRdTool" available="1"/>
+		</Item>
+	</Item>
+</GoodixToolLic>

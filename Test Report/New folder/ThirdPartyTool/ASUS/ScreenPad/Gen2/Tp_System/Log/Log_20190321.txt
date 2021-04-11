@@ -1,0 +1,10 @@
+<<----ERROR--->>20190322-10:49:43.435671:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190322-10:49:43.463770:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190322-10:49:43.975208:TpDevBase.cpp in line 268: ChipRegRead Fail
+<<----ERROR--->>20190322-14:30:10.428797:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190322-14:30:10.439187:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190322-14:30:10.943910:TpDevBase.cpp in line 268: ChipRegRead Fail

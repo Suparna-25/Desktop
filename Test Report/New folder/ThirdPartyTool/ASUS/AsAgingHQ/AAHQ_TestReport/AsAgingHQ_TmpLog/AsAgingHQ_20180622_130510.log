@@ -1,0 +1,58 @@
+[13:05:10] ?? ASUS Aging HQ, Version 2.2.5.0 (Date: 2018/6/22)
+[13:05:10] Log path: D:\FILES\source\ASUSAgingHQ\1.Exe\AsAgingHQ_v2.2.5_20180622
+[13:05:10] Can't find D:\FILES\source\ASUSAgingHQ\1.Exe\AsAgingHQ_v2.2.5_20180622\symptom.conf!
+[13:05:10] OS: Windows 7
+[13:05:10] Intel CPU
+[13:05:10] Find shark bay info fail!
+[13:05:10] Checking D:\FILES\source\ASUSAgingHQ\1.Exe\AsAgingHQ_v2.2.5_20180622\EMMCTest.dll
+[13:05:10] Checking D:\FILES\source\ASUSAgingHQ\1.Exe\AsAgingHQ_v2.2.5_20180622\CPUUsage.dll
+[13:05:10] Load CPUUsage.dll success
+[13:05:10] Checking D:\FILES\source\ASUSAgingHQ\1.Exe\AsAgingHQ_v2.2.5_20180622\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[13:05:10] D:\FILES\source\ASUSAgingHQ\1.Exe\AsAgingHQ_v2.2.5_20180622\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[13:05:10] Checking D:\FILES\source\ASUSAgingHQ\1.Exe\AsAgingHQ_v2.2.5_20180622\SpecificDev.txt
+[13:05:12] Configuration file: D:\FILES\source\ASUSAgingHQ\1.Exe\AsAgingHQ_v2.2.5_20180622\aging.conf
+[13:05:12] Read configuration file --
+[13:05:12] TestS5: 0
+[13:05:12] blCSC_SymptomSetting: 0
+[13:05:12] bNoUseTaskScheduler: 0
+[13:05:12] bTestCinebench: 0
+[13:05:12] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[13:05:12] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[13:05:12] Failed to check for AAHQ power scheme
+[13:05:12] C:\windows\EnterpriseG.XML not exist
+[13:05:12] 2.listSymptomLayer1.size()=0
+[13:05:12] Model Name: G750JW
+[13:05:12] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[13:05:13] Do pretest check
+[13:05:13] Finished pretest check
+[13:05:13] Program was ran in not AUTO mode
+[13:05:13] Total test time: 3600
+[13:05:13] 13.intCollection.nCSC_S5RebootRemainingTime: 0
+[13:05:13] CSCStageNo=0, g_user_conf.CSCConf.nCSCTotalStageNo=0
+[13:05:13] Start Aging HQ
+[13:05:13] Use registry to launch
+[13:05:13] Use task scheduler to launch
+[13:05:14] Success! Task successfully registered.
+[13:05:14] Thread ID 11464, Proces ID 9992 - Fan/CPU temp. + Battery + 3G + WiMAX + MT + S0I3/S3/DS3 + S4
+[13:05:14] Pega model: 1225B
+[13:05:14] Pega model: R252B
+[13:05:14] Pega model: K55N
+[13:05:14] Thread ID 8840, Process ID =9992 - GPU stress + Audio Loopback + EMMC Test
+[13:05:14] Thread ID 12196, Process ID 9992 - SHE + WIFI/CAM/BT Power + LCD display
+[13:05:14] Thread ID 5204, Process ID 9992 - S0 + S5 + Restart
+[13:05:14] Start Reboot aging1
+[13:05:15] Create restart preparation timer, interval = 40020
+[13:05:16] AAHQ task deleted
+[13:05:16] AAHQ task deleted
+[13:05:16] Going to stop state, please wait...
+[13:05:16] StopStage 1: close GPU stress program
+[13:05:16] StopStage 2: release mutex for log writing
+[13:05:16] StopStage 3: restore battery state
+[13:05:16] StopStage 4: restore power state of wifi/BT/camera
+[13:05:16] StopStage 5: destroy AAHQ objects
+[13:05:16] StopStage 5.1: Remove :\Test_User_Like_Scenario\IO_test.dat ok
+[13:05:16] StopStage 6: save records of CPU temperature to file
+[13:05:16] StopStage 7: save records of reboot time
+[13:05:16] StopStage 8: show device change notify window if needed
+[13:05:16] FIN
+[13:05:17] End Aging HQ

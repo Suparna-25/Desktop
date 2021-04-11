@@ -1,0 +1,46 @@
+[17:31:43] ASUS, NB BU, Aging HQ, Version 2.2.3.4 (Date: 2017/1/18)
+[17:31:43] Log path: E:\WTP weekly update\20180611\WTP\advance_test\AsAgingHQ
+[17:31:43] 1.listSymptomLayer1.size()=1
+[17:31:43] 1.listSymptomLayer1.size()=2
+[17:31:43] 1.listSymptomLayer1.size()=3
+[17:31:43] OS: Windows 10.0, buildno =10586
+[17:31:43] Intel CPU
+[17:31:43] Find shark bay info fail!
+[17:31:43] Checking E:\WTP weekly update\20180611\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[17:31:46] Checking E:\WTP weekly update\20180611\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[17:31:47] Load CPUUsage.dll success
+[17:31:47] Checking E:\WTP weekly update\20180611\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[17:31:47] E:\WTP weekly update\20180611\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[17:31:47] Checking E:\WTP weekly update\20180611\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[17:31:48] Configuration file: E:\WTP weekly update\20180611\WTP\advance_test\AsAgingHQ\aging.conf
+[17:31:48] Read configuration file --
+[17:31:48] TestS5: 0
+[17:31:48] blCSC_SymptomSetting: 1
+[17:31:48] bNoUseTaskScheduler: 0
+[17:31:48] bTestCinebench: 0
+[17:31:48] CSC symptom Configuration file: E:\WTP weekly update\20180611\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[17:31:48] Read csc symptom configuration file --
+[17:31:48] CSC_SymptomSetting[0]: 20000000h
+[17:31:48] CSCTestPeriod[0]: 30 minutes
+[17:31:48] 2.problem_code = N0FZ02
+[17:31:48] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[17:31:48] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[17:31:48] Failed to check for AAHQ power scheme
+[17:31:49] 2.listSymptomLayer1.size()=3
+[17:31:49] Model Name: GL553VW
+[17:31:49] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[17:31:57] Configuration file: E:\WTP weekly update\20180611\WTP\advance_test\AsAgingHQ\aging.conf
+[17:31:57] Read configuration file --
+[17:31:57] TestS5: 0
+[17:31:57] blCSC_SymptomSetting: 1
+[17:31:57] bNoUseTaskScheduler: 0
+[17:31:57] bTestCinebench: 0
+[17:31:57] CSC symptom Configuration file: E:\WTP weekly update\20180611\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[17:31:57] Read csc symptom configuration file --
+[17:31:57] CSC_SymptomSetting[0]: 20000000h
+[17:31:57] CSCTestPeriod[0]: 30 minutes
+[17:31:57] 2.problem_code = N0FZ02
+[17:36:50] 2.Index:0, pSearchSchemeBuf= ??
+[17:36:50] 2.Index:1, pSearchSchemeBuf= ???
+[17:36:50] 2.Index:2, pSearchSchemeBuf= ??
+[17:36:50] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

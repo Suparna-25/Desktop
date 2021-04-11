@@ -1,0 +1,50 @@
+[14:11:08] ASUS, NB BU, Aging HQ, Version 2.2.3.4 (Date: 2017/1/18)
+[14:11:08] Log path: E:\WTP weekly update\20180625\WTP\advance_test\AsAgingHQ
+[14:11:08] 1.listSymptomLayer1.size()=1
+[14:11:08] 1.listSymptomLayer1.size()=2
+[14:11:08] 1.listSymptomLayer1.size()=3
+[14:11:08] OS: Windows 10.0, buildno =10586
+[14:11:08] Intel CPU
+[14:11:08] Find shark bay info fail!
+[14:11:08] Checking E:\WTP weekly update\20180625\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[14:11:08] Checking E:\WTP weekly update\20180625\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[14:11:08] Load CPUUsage.dll success
+[14:11:08] Checking E:\WTP weekly update\20180625\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[14:11:08] E:\WTP weekly update\20180625\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[14:11:08] Checking E:\WTP weekly update\20180625\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[14:11:08] Generic_Identity Fail, error code =%1
+[14:11:08] Called blATKGFunc fail
+[14:11:08] Configuration file: E:\WTP weekly update\20180625\WTP\advance_test\AsAgingHQ\aging.conf
+[14:11:08] Read configuration file --
+[14:11:08] TestS5: 0
+[14:11:08] blCSC_SymptomSetting: 1
+[14:11:08] bNoUseTaskScheduler: 0
+[14:11:08] bTestCinebench: 0
+[14:11:08] CSC symptom Configuration file: E:\WTP weekly update\20180625\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[14:11:08] Read csc symptom configuration file --
+[14:11:08] CSC_SymptomSetting[0]: 20000000h
+[14:11:08] CSCTestPeriod[0]: 30 minutes
+[14:11:08] 2.problem_code = N0FZ02
+[14:11:08] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[14:11:08] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[14:11:08] Failed to check for AAHQ power scheme
+[14:11:08] 2.listSymptomLayer1.size()=3
+[14:11:08] Model Name: GL553VW
+[14:11:09] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[14:11:11] Generic_Identity Fail, error code =%1
+[14:11:11] Called blATKGFunc fail
+[14:11:11] Configuration file: E:\WTP weekly update\20180625\WTP\advance_test\AsAgingHQ\aging.conf
+[14:11:11] Read configuration file --
+[14:11:11] TestS5: 0
+[14:11:11] blCSC_SymptomSetting: 1
+[14:11:11] bNoUseTaskScheduler: 0
+[14:11:11] bTestCinebench: 0
+[14:11:11] CSC symptom Configuration file: E:\WTP weekly update\20180625\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[14:11:11] Read csc symptom configuration file --
+[14:11:11] CSC_SymptomSetting[0]: 20000000h
+[14:11:11] CSCTestPeriod[0]: 30 minutes
+[14:11:11] 2.problem_code = N0FZ02
+[14:38:43] 2.Index:0, pSearchSchemeBuf= ??
+[14:38:43] 2.Index:1, pSearchSchemeBuf= ???
+[14:38:43] 2.Index:2, pSearchSchemeBuf= ??
+[14:38:43] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

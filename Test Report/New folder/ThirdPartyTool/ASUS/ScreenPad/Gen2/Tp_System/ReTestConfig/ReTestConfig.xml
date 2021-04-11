@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GTMTReTestConfig>
+	<ReTestEnable>0</ReTestEnable>
+	<MaxReTestyCnt>1</MaxReTestyCnt>
+	<SaveReTestLogOpt>1</SaveReTestLogOpt>
+	<ReTestCondition>
+		<TestItemCondition>
+			<Item>
+				<ItemId>5</ItemId>
+				<ReTestWhenItemNg>1</ReTestWhenItemNg>
+				<ErrorCode></ErrorCode>
+				<SubItem>
+					<ItemId>0</ItemId>
+					<ErrorCode>1</ErrorCode>
+				</SubItem>
+			</Item>
+			<Item>
+				<ItemId>600</ItemId>
+				<ErrorCode>3</ErrorCode>
+			</Item>
+			<Item>
+				<ItemId>200</ItemId>
+				<ErrorCode>3,5</ErrorCode>
+			</Item>
+			<Item>
+				<ItemId>1200</ItemId>
+				<ErrorCode>3</ErrorCode>
+			</Item>
+			<Item>
+				<ItemId>1202</ItemId>
+				<ErrorCode>3</ErrorCode>
+			</Item>
+		</TestItemCondition>
+	</ReTestCondition>	
+</GTMTReTestConfig>

@@ -1,0 +1,41 @@
+<PwrTestLog date="07/02/2015" time="18:52:33" filename="D:\FILES\source\ASUSAgingHQ\1.Exe\2.0.10\pwrtest\x64\pwrtestlog.xml">
+  <SystemInformation>
+    <ComputerName>ANDERSON_L-NB</ComputerName>
+    <OSBuildNumber>7601</OSBuildNumber>
+    <SystemManufacturer>7</SystemManufacturer>
+    <SystemProductName>UL30JT</SystemProductName>
+    <BIOSVersion>UL30JT.207</BIOSVersion>
+    <BIOSReleaseDate>03/17/2010</BIOSReleaseDate>
+    <ProcessorCount>4</ProcessorCount>
+    <ProcessorPackageCount>1</ProcessorPackageCount>
+  </SystemInformation>
+  <SYSTEM_POWER_CAPABILITIES>
+    <SystemS1StateSupported>1</SystemS1StateSupported>
+    <SystemS2StateSupported>0</SystemS2StateSupported>
+    <SystemS3StateSupported>1</SystemS3StateSupported>
+    <SystemS4StateSupported>1</SystemS4StateSupported>
+    <SystemS5StateSupported>1</SystemS5StateSupported>
+    <RtcWakeSupported>4</RtcWakeSupported>
+    <FastSystemS4>1</FastSystemS4>
+    <VideoDimPresent>1</VideoDimPresent>
+    <HiberFilePresent>1</HiberFilePresent>
+    <AoAc>0</AoAc>
+  </SYSTEM_POWER_CAPABILITIES>
+  <SleepScenario>
+    <SleepTransitions hybrid="0" delay="0" sleeptime="60" IgnoreUsbHub="0" EndTransitionEventTimeout="120">
+      <SleepTransition number="0" status="6029370">
+        <StartT>07/02/2015 18:52:34</StartT>
+        <EndT>07/02/2015 18:54:33</EndT>
+        <Duration>00:01:58</Duration>
+        <TargetState>4</TargetState>
+        <EffectiveState>4</EffectiveState>
+        <Suspend>20380</Suspend>
+        <BIOSInit>0</BIOSInit>
+        <DriverInit>1009</DriverInit>
+        <HiberPagesWritten>250110</HiberPagesWritten>
+        <HiberRead>17231</HiberRead>
+        <HiberWrite>41235</HiberWrite>
+      </SleepTransition>
+    </SleepTransitions>
+  </SleepScenario>
+</PwrTestLog>

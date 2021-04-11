@@ -1,0 +1,69 @@
+[13:37:58] ASUS, NB BU, Aging HQ, Version 2.2.1.1 (Date: 2017/09/18)
+[13:37:58] Log path: E:\WTP weekly update\20171030\WTP\advance_test\AsAgingHQ
+[13:37:58] OS: Windows 10
+[13:37:58] Intel CPU
+[13:37:58] Find shark bay info fail!
+[13:37:58] Checking E:\WTP weekly update\20171030\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[13:37:58] Checking E:\WTP weekly update\20171030\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[13:37:58] Load CPUUsage.dll success
+[13:37:58] Checking E:\WTP weekly update\20171030\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[13:37:58] E:\WTP weekly update\20171030\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[13:37:58] Checking E:\WTP weekly update\20171030\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[13:38:00] Configuration file: E:\WTP weekly update\20171030\WTP\advance_test\AsAgingHQ\aging.conf
+[13:38:00] Read configuration file --
+[13:38:00] TestS5: 1
+[13:38:00] blCSC_SymptomSetting: 1
+[13:38:00] bNoUseTaskScheduler: 0
+[13:38:00] bTestCinebench: 0
+[13:38:00] CSC symptom Configuration file: E:\WTP weekly update\20171030\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[13:38:00] Read csc symptom configuration file --
+[13:38:00] CSC_SymptomSetting[0]: 02000000h
+[13:38:00] CSCTestPeriod[0]: 60 minutes
+[13:38:00] 2.problem_code = N0Z060
+[13:38:00] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[13:38:00] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[13:38:00] Failed to check for AAHQ power scheme
+[13:38:00] Model Name: GL553VW
+[13:38:01] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[13:38:18] Symptom Layer 2 item selected.
+[13:38:18] The 2nd selected symptom is item 2.0: <N0FH01 - Can't Detect HDD when Boot Up/Detecte Wrong Model Name of HDD>
+[13:38:18] 1.problem_code = N0FH01
+[13:38:19] 0.0.strTmp = S5(60minutes)
+[13:38:19] 0.0.TestS5
+[13:38:19] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 02000000h
+[13:38:19] iLayer1SelectedItem = 2, iLayer1SelectedItem2 = 0
+[13:38:19] listSymptomLayer2[2].at(0).item[3] = 65minutes
+[13:38:19] Test time is 1 hour, 5 minutes.
+[13:38:19] Save aging.conf
+[13:38:19] Write TestS5=1 into aging.conf
+[13:38:19] Save agingCSCSymptom.conf
+[13:38:47] Symptom Layer 2 item selected.
+[13:38:47] Symptom Layer 2 item selected.
+[13:38:47] The 2nd selected symptom is item 2.1: <N0ZH02 - HDD Bad Track>
+[13:38:47] 1.problem_code = N0ZH02
+[13:39:09] 0.0.strTmp = S5(60minutes)
+[13:39:09] 0.0.TestS5
+[13:39:09] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 02000000h
+[13:39:09] iLayer1SelectedItem = 2, iLayer1SelectedItem2 = 1
+[13:39:09] listSymptomLayer2[2].at(1).item[3] = 65minutes
+[13:39:09] Test time is 1 hour, 5 minutes.
+[13:39:09] Save aging.conf
+[13:39:09] Write TestS5=1 into aging.conf
+[13:39:09] Save agingCSCSymptom.conf
+[13:40:00] Symptom Layer 2 item selected.
+[13:40:00] Symptom Layer 2 item selected.
+[13:40:00] The 2nd selected symptom is item 2.0: <N0FH01 - Can't Detect HDD when Boot Up/Detecte Wrong Model Name of HDD>
+[13:40:00] 1.problem_code = N0FH01
+[13:40:03] 0.0.strTmp = S5(60minutes)
+[13:40:03] 0.0.TestS5
+[13:40:03] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 02000000h
+[13:40:03] iLayer1SelectedItem = 2, iLayer1SelectedItem2 = 0
+[13:40:03] listSymptomLayer2[2].at(0).item[3] = 65minutes
+[13:40:03] Test time is 1 hour, 5 minutes.
+[13:40:03] Save aging.conf
+[13:40:03] Write TestS5=1 into aging.conf
+[13:40:03] Save agingCSCSymptom.conf
+[13:40:35] 2.Index:0, pSearchSchemeBuf= ??
+[13:40:35] 2.Index:1, pSearchSchemeBuf= ???
+[13:40:35] 2.Index:2, pSearchSchemeBuf= ??
+[13:40:35] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

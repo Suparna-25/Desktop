@@ -1,0 +1,35 @@
+[14:21:51] ASUS, NB BU, Aging HQ, Version 2.2.6.0 (Date: 2018/9/05)
+[14:21:51] Log path: C:\Users\watching_wang\Desktop\WTP\oldWTP\WTP_App\WTP\advance_test\AsAgingHQ
+[14:21:52] 1.listSymptomLayer1.size()=1
+[14:21:52] 1.listSymptomLayer1.size()=2
+[14:21:52] 1.listSymptomLayer1.size()=3
+[14:21:52] 1.listSymptomLayer1.size()=4
+[14:21:52] OS: Windows 10.0, buildno =17134
+[14:21:52] Intel CPU
+[14:21:52] Find shark bay info fail!
+[14:21:52] Checking C:\Users\watching_wang\Desktop\WTP\oldWTP\WTP_App\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[14:21:52] Checking C:\Users\watching_wang\Desktop\WTP\oldWTP\WTP_App\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[14:21:52] Load CPUUsage.dll success
+[14:21:52] Checking C:\Users\watching_wang\Desktop\WTP\oldWTP\WTP_App\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[14:21:52] C:\Users\watching_wang\Desktop\WTP\oldWTP\WTP_App\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[14:21:52] Checking C:\Users\watching_wang\Desktop\WTP\oldWTP\WTP_App\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[14:21:52] CoCreateInstance get pIAGFNEX being NULL
+[14:21:52] Called blATKGFunc fail
+[14:21:52] Configuration file: C:\Users\watching_wang\Desktop\WTP\oldWTP\WTP_App\WTP\advance_test\AsAgingHQ\aging.conf
+[14:21:52] Read configuration file --
+[14:21:52] TestS5: 0
+[14:21:52] blCSC_SymptomSetting: 0
+[14:21:52] bNoUseTaskScheduler: 0
+[14:21:52] bTestCinebench: 0
+[14:21:52] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:21:52] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:21:52] Failed to check for AAHQ power scheme
+[14:21:52] C:\windows\EnterpriseG.XML not exist
+[14:21:52] 2.listSymptomLayer1.size()=4
+[14:21:52] Model Name: BM1AF_BP1AF_BM6AF
+[14:21:52] MACHINE_EPC
+[14:21:55] 2.Index:0, pSearchSchemeBuf= ??
+[14:21:55] 2.Index:1, pSearchSchemeBuf= ???
+[14:21:55] 2.Index:2, pSearchSchemeBuf= ??
+[14:21:55] 2.Index:3, pSearchSchemeBuf= ????
+[14:21:55] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

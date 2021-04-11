@@ -1,0 +1,55 @@
+
+Usage: pwrtest /scenario [/scenario_options] [/common_options]
+
+scenario
+  Name           Description                                         Min OS Req
+  -----------------------------------------------------------------------------
+  sleep          run sleep/resume transitions                        Win7
+  battery        battery information and monitoring                  Win7
+  info           system power information                            Win7
+  es             thread execution state monitoring                   Win7
+  idle           power idle monitoring                               Win7
+  ppm            processor power management monitoring               Win7
+  timer          system timer resolution monitoring                  Win7
+  disk           disk idle monitoring                                Win7
+  device         device idle monitoring                              Win7
+  monitor        monitor dim/blank monitoring (user idle)            Win7
+  requests       power request monitoring                            Win7
+  thermal        ACPI thermal zone monitoring                        Win7
+  processidle    monitor and force idle/background tasks to run      Win7
+  cs             run connected standby transitions                   Win8
+  platidle       platform idle statistics monitoring                 Win8
+
+scenario_options
+  To see available scenario options type: pwrtest.exe /scenario /?
+  Example: pwrtest.exe /sleep /?
+
+common_options
+  /lf:folder         folder for the log files
+                     For example, c:\myfolder or \\server\share
+                     Default log location is the same folder as pwrtest.exe
+  /ln:name           name for the log files and the ETW trace session name.
+                     Log file extensions added automatically (.wtl, .xml, etc.)
+                     Default name is pwrtestlog.
+  /etwbuffersize:n   n indicates ETW buffer size in KB if larger than default.
+                     Default is current page size or 256KB (whichever is
+                     greater).
+  /etwminbuffers:n   n indicates the minimum number of buffers allocated for
+                     the ETW session if larger than the minimum of 2 per
+                     logical processor.
+                     Default is 2 per logical processor
+  /etwmaxbuffers:n   n indicates the maximum number of buffers allocated for
+                     the ETW session if larger than the minimum of 2 per
+                     logical processor and larger than etwminbuffers.
+                     Default is etwminbuffers + 20.
+  /delaywrite        when specified, log data is buffered in memory to reduce 
+                     disk writes.  Affects all log types including ETL.
+
+
+Execution Requirements:
+  -must run from an administrator/elevated command prompt in order to support
+   ETW tracing
+  -must run natively (WoW64 not supported) in order to support ETW tracing
+  -group policy settings put in place by your system administrator may
+   interfere with some scenarios that need to temporarily modify power
+   setting values (such as the sleep scenario)

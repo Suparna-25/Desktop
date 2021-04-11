@@ -1,0 +1,19 @@
+@ECHO OFF
+ECHO HMONITOR TEST
+ECHO WHMON.EXE 1.13
+
+REM *** TEST Digital I/O ***
+WHMON.EXE /EXE DIO6.DAT 
+IF ERRORLEVEL 1 GOTO FAIL
+IF ERRORLEVEL 0 GOTO END
+
+:FAIL
+ECHO .
+ECHO *************************
+ECHO ***** DIO TEST FAIL *****
+ECHO *************************
+PAUSE
+GOTO FAIL
+
+:END
+       

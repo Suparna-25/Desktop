@@ -1,0 +1,68 @@
+[13:40:05] ASUS, NB BU, Aging HQ, Version 2.2.1.1 (Date: 2017/09/18)
+[13:40:05] Log path: E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ
+[13:40:05] OS: Windows 10
+[13:40:05] Intel CPU
+[13:40:05] Find shark bay info fail!
+[13:40:05] Checking E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[13:40:05] Checking E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[13:40:05] Load CPUUsage.dll success
+[13:40:05] Checking E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[13:40:05] E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[13:40:05] Checking E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[13:40:07] Configuration file: E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\aging.conf
+[13:40:07] Read configuration file --
+[13:40:07] TestS5: 0
+[13:40:07] blCSC_SymptomSetting: 1
+[13:40:07] bNoUseTaskScheduler: 0
+[13:40:07] bTestCinebench: 0
+[13:40:07] CSC symptom Configuration file: E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[13:40:07] Read csc symptom configuration file --
+[13:40:07] CSC_SymptomSetting[0]: 20000000h
+[13:40:07] CSCTestPeriod[0]: 30 minutes
+[13:40:07] 2.problem_code = N0FZ01
+[13:40:07] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[13:40:07] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[13:40:07] Failed to check for AAHQ power scheme
+[13:40:07] Model Name: GL553VW
+[13:40:08] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[13:40:16] Configuration file: E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\aging.conf
+[13:40:16] Read configuration file --
+[13:40:16] TestS5: 0
+[13:40:16] blCSC_SymptomSetting: 1
+[13:40:16] bNoUseTaskScheduler: 0
+[13:40:16] bTestCinebench: 0
+[13:40:16] CSC symptom Configuration file: E:\WTP weekly update\20170925\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[13:40:16] Read csc symptom configuration file --
+[13:40:16] CSC_SymptomSetting[0]: 20000000h
+[13:40:16] CSCTestPeriod[0]: 30 minutes
+[13:40:16] 2.problem_code = N0FZ01
+[13:40:27] Symptom Layer 2 item selected.
+[13:40:27] The 2nd selected symptom is item 0.0: <N0Z060 - System Blue Screen (When boot into Windows)>
+[13:40:27] 1.problem_code = N0Z060
+[13:40:33] 0.0.strTmp = S5(60minutes)
+[13:40:33] 0.0.TestS5
+[13:40:33] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 02000000h
+[13:40:33] iLayer1SelectedItem = 0, iLayer1SelectedItem2 = 0
+[13:40:33] listSymptomLayer2[0].at(0).item[3] = 65minutes
+[13:40:33] Test time is 1 hour, 5 minutes.
+[13:40:33] Save aging.conf
+[13:40:33] Write TestS5=1 into aging.conf
+[13:40:33] Save agingCSCSymptom.conf
+[13:40:37] Symptom Layer 2 item selected.
+[13:40:37] Symptom Layer 2 item selected.
+[13:40:37] The 2nd selected symptom is item 0.1: <N0Z060 - System Blue Screen (Under Windows)>
+[13:40:37] 1.problem_code = N0Z060
+[13:40:42] 0.0.strTmp = CPU Usage 100%(60minutes)
+[13:40:42] 0.0.CPUUsage100Percent
+[13:40:42] 0.g_user_conf.nCPUUsage100PercentMinutes = 60
+[13:40:42] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 20000000h
+[13:40:42] iLayer1SelectedItem = 0, iLayer1SelectedItem2 = 1
+[13:40:42] listSymptomLayer2[0].at(1).item[3] = 65minutes
+[13:40:42] Test time is 1 hour, 5 minutes.
+[13:40:42] Save aging.conf
+[13:40:42] Write TestS5=0 into aging.conf
+[13:40:42] Save agingCSCSymptom.conf
+[13:40:49] 2.Index:0, pSearchSchemeBuf= ??
+[13:40:49] 2.Index:1, pSearchSchemeBuf= ???
+[13:40:49] 2.Index:2, pSearchSchemeBuf= ??
+[13:40:49] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

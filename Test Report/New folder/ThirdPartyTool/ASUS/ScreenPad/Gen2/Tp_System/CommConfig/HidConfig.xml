@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HidConfig>
+	<!--过滤pid默认为0x0001 -->
+	<pid>0x01F4</pid>
+	<!--过滤vid默认为0x27c6 -->
+	<vid>0x27c6</vid>
+	<!--过滤hidUsage默认为0x0001 -->
+	<hidUsage>0x0001</hidUsage>
+	<!--过滤hidUsagePage默认为0xFFF0 -->
+	<hidUsagePage>0xFF00</hidUsagePage>
+</HidConfig>

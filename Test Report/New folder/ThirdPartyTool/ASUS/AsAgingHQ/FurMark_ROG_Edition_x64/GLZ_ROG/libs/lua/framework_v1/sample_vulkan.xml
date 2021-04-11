@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+
+<glsl_hacker>
+
+  <window name="win3d01" title="kx framework - Vulkan" 
+          width="800" height="400" resizable="1" menubar="1" 
+          separate_render_thread="1" gpu_index="0"
+          renderer_type="Vulkan" vsync="0" />
+ 
+ 
+  
+	<script name="init_scene" run_mode="INIT" >
+		<raw_data><![CDATA[	
+    
+local lib_dir = gh_utils.get_scripting_libs_dir() 		
+local framework_dir = lib_dir .. "lua/framework_v1/"
+dofile(framework_dir .. "kx.lua") -- kx framework.
+
+kx_init_begin(framework_dir)
+
+----------------------------------------------------
+-- Put your init code here
+
+
+
+
+-- kx_set_main_title("My Kool Vulkan Demo")
+
+
+
+
+
+----------------------------------------------------
+
+kx_init_end()
+
+		]]></raw_data>
+	</script> 
+  
+  
+  
+  
+  
+  
+	<script name="kill_scene" run_mode="TERMINATE" >
+		<raw_data><![CDATA[	
+
+kx_terminate()
+
+		]]></raw_data>
+	</script> 
+  
+  
+  
+  
+  
+  
+	<script name="update_scene" run_mode="FRAME" >
+		<raw_data><![CDATA[	
+
+kx_frame_begin(0.2, 0.2, 0.2)
+
+----------------------------------------------------
+-- Put your frame code here
+
+
+
+kx_check_input()
+
+
+local t = kx_gettime()
+kx_write_text(20, 60 + 20*math.sin(t*2.0), 1.0, 1.0, 0.0, 1.0, "The kx framework is kool!!!")
+
+
+local show_osi = kx_get_osi_state()
+
+----------------------------------------------------
+
+kx_frame_end(show_osi)
+
+		]]></raw_data>
+	</script> 
+  
+  
+  
+  
+	
+
+	<script name="resize_scene" run_mode="SIZE" >
+		<raw_data><![CDATA[	
+    
+kx_resize()
+  
+		]]></raw_data>
+	</script> 
+  
+  
+  
+</glsl_hacker>

@@ -1,0 +1,72 @@
+[10:45:01] ASUS, NB BU, Aging HQ, Version 2.2.1.1 (Date: 2017/09/18)
+[10:45:01] Log path: E:\WTP weekly update\20170918\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ
+[10:45:01] OS: Windows 10
+[10:45:01] Intel CPU
+[10:45:01] Find shark bay info fail!
+[10:45:01] Checking E:\WTP weekly update\20170918\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[10:45:01] Checking E:\WTP weekly update\20170918\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[10:45:01] Load CPUUsage.dll success
+[10:45:01] Checking E:\WTP weekly update\20170918\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[10:45:01] E:\WTP weekly update\20170918\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[10:45:01] Checking E:\WTP weekly update\20170918\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[10:45:03] Configuration file: E:\WTP weekly update\20170918\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[10:45:03] Read configuration file --
+[10:45:03] TestS5: 1
+[10:45:03] blCSC_SymptomSetting: 0
+[10:45:03] bNoUseTaskScheduler: 0
+[10:45:03] bTestCinebench: 0
+[10:45:03] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[10:45:03] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[10:45:03] Failed to check for AAHQ power scheme
+[10:45:03] Model Name: GL553VW
+[10:45:03] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[10:45:07] Configuration file: E:\WTP weekly update\20170918\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[10:45:07] Read configuration file --
+[10:45:07] TestS5: 1
+[10:45:07] blCSC_SymptomSetting: 0
+[10:45:07] bNoUseTaskScheduler: 0
+[10:45:07] bTestCinebench: 0
+[10:45:30] Symptom Layer 2 item selected.
+[10:45:30] The 2nd selected symptom is item 0.1: <N0Z060 - System Blue Screen (Under Windows)>
+[10:45:30] 1.problem_code = N0Z060
+[10:45:32] 0.0.strTmp = CPU Usage 100%(60minutes)
+[10:45:32] 0.0.CPUUsage100Percent
+[10:45:32] 0.g_user_conf.nCPUUsage100PercentMinutes = 60
+[10:45:32] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 20000000h
+[10:45:32] iLayer1SelectedItem = 0, iLayer1SelectedItem2 = 1
+[10:45:32] listSymptomLayer2[0].at(1).item[3] = 65minutes
+[10:45:32] Test time is 1 hour, 5 minutes.
+[10:45:32] Save aging.conf
+[10:45:32] Write TestS5=0 into aging.conf
+[10:45:32] Save agingCSCSymptom.conf
+[10:45:34] Symptom Layer 2 item selected.
+[10:45:34] Symptom Layer 2 item selected.
+[10:45:34] The 2nd selected symptom is item 0.0: <N0Z060 - System Blue Screen (When boot into Windows)>
+[10:45:34] 1.problem_code = N0Z060
+[10:45:35] 0.0.strTmp = S5(60minutes)
+[10:45:35] 0.0.TestS5
+[10:45:35] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 02000000h
+[10:45:35] iLayer1SelectedItem = 0, iLayer1SelectedItem2 = 0
+[10:45:35] listSymptomLayer2[0].at(0).item[3] = 65minutes
+[10:45:35] Test time is 1 hour, 5 minutes.
+[10:45:35] Save aging.conf
+[10:45:35] Write TestS5=1 into aging.conf
+[10:45:35] Save agingCSCSymptom.conf
+[10:45:40] Symptom Layer 2 item selected.
+[10:45:40] Symptom Layer 2 item selected.
+[10:45:40] The 2nd selected symptom is item 3.0: <N0FZ01 - Battery can't be charged>
+[10:45:40] 1.problem_code = N0FZ01
+[10:45:43] 0.0.strTmp = CPU Usage 100%(30minutes)
+[10:45:43] 0.0.CPUUsage100Percent
+[10:45:43] 0.g_user_conf.nCPUUsage100PercentMinutes = 30
+[10:45:43] 0.CSCTestPeriod = 30 minutes, SymptomSetting[0] = 20000000h
+[10:45:43] iLayer1SelectedItem = 3, iLayer1SelectedItem2 = 0
+[10:45:43] listSymptomLayer2[3].at(0).item[3] = 35minutes
+[10:45:43] Test time is 0 hour, 35 minutes.
+[10:45:43] Save aging.conf
+[10:45:43] Write TestS5=0 into aging.conf
+[10:45:43] Save agingCSCSymptom.conf
+[10:45:45] 2.Index:0, pSearchSchemeBuf= ??
+[10:45:45] 2.Index:1, pSearchSchemeBuf= ???
+[10:45:45] 2.Index:2, pSearchSchemeBuf= ??
+[10:45:45] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

@@ -1,0 +1,4 @@
+Usage:
+0: Get GPIO Status
+0 [1234]: Get Antenna Switch Status
+1 [1234] [012]: Set Antenna Switch Status { 0 = Off, 1 = Ant1, 2 = Ant2 }
