@@ -1,0 +1,59 @@
+[09:35:49] ASUS, NB BU, Aging HQ, Version 2.2.6.0 (Date: 2018/9/05)
+[09:35:49] Log path: C:\Users\watching_wang\Desktop\WTP\oldWTP\WTP_App\WTP\advance_test\AsAgingHQ
+[09:35:49] 1.listSymptomLayer1.size()=1
+[09:35:49] 1.listSymptomLayer1.size()=2
+[09:35:49] 1.listSymptomLayer1.size()=3
+[09:35:49] 1.listSymptomLayer1.size()=4
+[09:35:49] OS: Windows 10.0, buildno =17134
+[09:35:49] Intel CPU
+[09:35:49] Find shark bay info fail!
+[09:35:49] Checking C:\Users\watching_wang\Desktop\WTP\oldWTP\WTP_App\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[09:35:49] Checking C:\Users\watching_wang\Desktop\WTP\oldWTP\WTP_App\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[09:35:49] Load CPUUsage.dll success
+[09:35:49] Checking C:\Users\watching_wang\Desktop\WTP\oldWTP\WTP_App\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[09:35:49] C:\Users\watching_wang\Desktop\WTP\oldWTP\WTP_App\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[09:35:49] Checking C:\Users\watching_wang\Desktop\WTP\oldWTP\WTP_App\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[09:35:49] CoCreateInstance get pIAGFNEX being NULL
+[09:35:49] Called blATKGFunc fail
+[09:35:49] Configuration file: C:\Users\watching_wang\Desktop\WTP\oldWTP\WTP_App\WTP\advance_test\AsAgingHQ\aging.conf
+[09:35:49] Read configuration file --
+[09:35:49] TestS5: 0
+[09:35:49] blCSC_SymptomSetting: 0
+[09:35:49] bNoUseTaskScheduler: 0
+[09:35:49] bTestCinebench: 0
+[09:35:49] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[09:35:49] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[09:35:49] Failed to check for AAHQ power scheme
+[09:35:49] C:\windows\EnterpriseG.XML not exist
+[09:35:50] 2.listSymptomLayer1.size()=4
+[09:35:50] Model Name: BM1AF_BP1AF_BM6AF
+[09:35:50] MACHINE_EPC
+[09:36:00] Do pretest check
+[09:36:00] Finished pretest check
+[09:36:00] Program was ran in not AUTO mode
+[09:36:00] Total test time: 3720
+[09:36:00] 13.intCollection.nCSC_S5RebootRemainingTime: 0
+[09:36:00] CSCStageNo=0, g_user_conf.CSCConf.nCSCTotalStageNo=0
+[09:36:00] Start Aging HQ
+[09:36:00] Loaded IO driver
+[09:36:00] Thread ID 10524, Proces ID 22868 - Fan/CPU temp. + Battery + 3G + WiMAX + MT + S0I3/S3/DS3 + S4
+[09:36:00] Pega model: 1225B
+[09:36:00] Pega model: R252B
+[09:36:00] Pega model: K55N
+[09:36:00] Should get EC FW version first
+[09:36:00] Thread ID 14832, Process ID =22868 - GPU stress + Audio Loopback + EMMC Test
+[09:36:01] Thread ID 25224, Process ID 22868 - SHE + WIFI/CAM/BT Power + LCD display
+[09:36:01] Total CPU Modes: 3
+[09:36:01] Set CPU mode to 1
+[09:36:01] Thread ID 26868, Process ID 22868 - S0 + S5 + Restart
+[09:36:02] Going to stop state, please wait...
+[09:36:02] StopStage 1: close GPU stress program
+[09:36:02] StopStage 2: release mutex for log writing
+[09:36:02] StopStage 3: restore battery state
+[09:36:02] StopStage 4: restore power state of wifi/BT/camera
+[09:36:02] Enter AgingBTPowerState()
+[09:36:02] DEV_EN of BT: 0
+[09:36:02] AP_CTRL of BT: 0
+[09:36:02] StopStage 5: destroy AAHQ objects
+[09:36:05] EC Version: 
+[09:36:09] Set FAN_CTRL to AUTO

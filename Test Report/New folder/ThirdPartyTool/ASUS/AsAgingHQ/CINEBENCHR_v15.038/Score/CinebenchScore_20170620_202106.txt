@@ -1,0 +1,30 @@
+Starting CINEMA 4D 15.038 ...
+
+Startup Directory: G:\FILES\source\ASUSAgingHQ\1.Exe\AsAgingHQ_V2.1.8_20170616\CINEBENCHR_v15.038
+Write Directory: C:\Users\anderson_lin\AppData\Roaming\MAXON\CINEBENCHR_v15.038_5CCA0E41
+Preferences Directory: C:\Users\anderson_lin\AppData\Roaming\MAXON\CINEBENCHR_v15.038_5CCA0E41\cinebenchprefs
+CINEBENCH started
+
+running Multiple CPU Render Test...
+
+
+CINEBENCH R15 Result
+
+Rendering (Multiple CPU) : 614.17 pts
+
+
+Starting CINEMA 4D 15.038 ...
+
+Startup Directory: G:\FILES\source\ASUSAgingHQ\1.Exe\AsAgingHQ_V2.1.8_20170616\CINEBENCHR_v15.038
+Write Directory: C:\Users\anderson_lin\AppData\Roaming\MAXON\CINEBENCHR_v15.038_5CCA0E41
+Preferences Directory: C:\Users\anderson_lin\AppData\Roaming\MAXON\CINEBENCHR_v15.038_5CCA0E41\cinebenchprefs
+CINEBENCH started
+
+running Multiple CPU Render Test...
+
+
+CINEBENCH R15 Result
+
+Rendering (Multiple CPU) : 618.56 pts
+
+

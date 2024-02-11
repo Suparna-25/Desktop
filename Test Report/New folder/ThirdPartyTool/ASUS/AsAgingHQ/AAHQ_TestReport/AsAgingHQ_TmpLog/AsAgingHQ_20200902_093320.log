@@ -1,0 +1,89 @@
+[09:33:20] ASUS, NB BU, Aging HQ, Version 2.2.6.0 (Date: 2018/9/05)
+[09:33:20] Log path: D:\WTP weekly update\20200831\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ
+[09:33:20] 1.listSymptomLayer1.size()=1
+[09:33:20] 1.listSymptomLayer1.size()=2
+[09:33:20] 1.listSymptomLayer1.size()=3
+[09:33:20] 1.listSymptomLayer1.size()=4
+[09:33:20] OS: Windows 10.0, buildno =17763
+[09:33:20] Intel CPU
+[09:33:20] Find shark bay info fail!
+[09:33:20] Checking D:\WTP weekly update\20200831\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\EMMCTest.dll
+[09:33:20] Checking D:\WTP weekly update\20200831\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\CPUUsage.dll
+[09:33:20] Load CPUUsage.dll success
+[09:33:20] Checking D:\WTP weekly update\20200831\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[09:33:20] D:\WTP weekly update\20200831\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[09:33:20] Checking D:\WTP weekly update\20200831\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\SpecificDev.txt
+[09:33:20] CoCreateInstance get pIAGFNEX being NULL
+[09:33:20] Called blATKGFunc fail
+[09:33:20] Configuration file: D:\WTP weekly update\20200831\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\aging.conf
+[09:33:20] Read configuration file --
+[09:33:20] TestS5: 0
+[09:33:20] blCSC_SymptomSetting: 0
+[09:33:20] bNoUseTaskScheduler: 0
+[09:33:20] bTestCinebench: 0
+[09:33:20] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[09:33:20] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[09:33:20] Failed to check for AAHQ power scheme
+[09:33:20] C:\windows\EnterpriseG.XML not exist
+[09:33:20] 2.listSymptomLayer1.size()=4
+[09:33:20] Model Name: Strix G731GT_2nd1GT
+[09:33:20] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[09:33:23] CoCreateInstance get pIAGFNEX being NULL
+[09:33:23] Called blATKGFunc fail
+[09:33:23] Configuration file: D:\WTP weekly update\20200831\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\aging.conf
+[09:33:23] Read configuration file --
+[09:33:23] TestS5: 0
+[09:33:23] blCSC_SymptomSetting: 0
+[09:33:23] bNoUseTaskScheduler: 0
+[09:33:23] bTestCinebench: 0
+[09:33:33] Save aging.conf
+[09:33:33] Write TestS5=0 into aging.conf
+[09:33:35] CoCreateInstance get pIAGFNEX being NULL
+[09:33:35] Called blATKGFunc fail
+[09:33:35] Configuration file: D:\WTP weekly update\20200831\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\aging.conf
+[09:33:35] Read configuration file --
+[09:33:35] TestS5: 0
+[09:33:35] blCSC_SymptomSetting: 0
+[09:33:35] bNoUseTaskScheduler: 0
+[09:33:35] bTestCinebench: 0
+[09:33:47] Save aging.conf
+[09:33:47] Write TestS5=0 into aging.conf
+[09:33:50] CoCreateInstance get pIAGFNEX being NULL
+[09:33:50] Called blATKGFunc fail
+[09:33:50] Configuration file: D:\WTP weekly update\20200831\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\aging.conf
+[09:33:50] Read configuration file --
+[09:33:50] TestS5: 0
+[09:33:50] blCSC_SymptomSetting: 0
+[09:33:50] bNoUseTaskScheduler: 0
+[09:33:50] bTestCinebench: 0
+[09:33:58] Save aging.conf
+[09:33:58] Write TestS5=0 into aging.conf
+[09:34:00] Do pretest check
+[09:34:00] Finished pretest check
+[09:34:00] Program was ran in not AUTO mode
+[09:34:00] Total test time: 1800
+[09:34:00] ****AsAgingTool::StartTimer(), nTotalCPUUsageTestSeconds=1800
+[09:34:00] ****AsAgingTool::StartTimer(), Initial Cinebench cpu temperature reading timer with 30000 ms
+[09:34:00] 13.intCollection.nCSC_S5RebootRemainingTime: 0
+[09:34:00] CSCStageNo=0, g_user_conf.CSCConf.nCSCTotalStageNo=0
+[09:34:00] Start Aging HQ
+[09:34:00] Loaded IO driver
+[09:34:00] Thread ID 10456, Process ID 5068 - CPU Usage 100%, Cinebench
+[09:34:00] Set CPU Usage=100%, CoreNum=12
+[09:34:20] CPUCore:0/12, usage = 100
+[09:34:28] CPUCore:1/12, usage = 100
+[09:34:30] Reset system idle timer!
+[09:34:34] CPUCore:2/12, usage = 100
+[09:34:40] CPUCore:3/12, usage = 100
+[09:34:48] CPUCore:4/12, usage = 100
+[09:34:57] CPUCore:5/12, usage = 100
+[09:35:04] CPUCore:6/12, usage = 100
+[09:35:13] CPUCore:7/12, usage = 100
+[09:35:20] CPUCore:8/12, usage = 100
+[09:35:28] CPUCore:9/12, usage = 100
+[09:35:36] CPUCore:10/12, usage = 100
+[09:35:44] CPUCore:11/12, usage = 100
+[09:35:53] Now CPU Temp.(0deg.), Speed (3136.32MHz)
+[09:36:00] Reset system idle timer!
+[09:37:00] Now CPU Temp.(-75deg.), Speed (3188.16MHz)
+[09:37:30] Reset system idle timer!

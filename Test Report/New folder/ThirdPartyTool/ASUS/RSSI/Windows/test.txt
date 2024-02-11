@@ -1,0 +1,229 @@
+
+C:\Users\ice_zhong\Desktop\WTP\new UI WTP\ThirdPartyTool\ASUS\RSSI\Windows>netsh wlan show networks mode=bssid 
+ 
+接口名称 : WLAN 
+当前有 13 个网络可见。 
+
+SSID 1 : tc_test
+    Network type            : 结构
+    身份验证                : 开放式
+    加密                    : 无 
+    BSSID 1               : 00:1f:c6:d9:18:da
+         信号               : 90%
+         无线电类型         : 802.11g
+         频道               : 6 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+
+SSID 2 : AP-101
+    Network type            : 结构
+    身份验证                : WPA2 - 个人
+    加密                    : CCMP 
+    BSSID 1               : fe:2f:ef:04:dd:4a
+         信号               : 60%
+         无线电类型         : 802.11n
+         频道               : 6 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+    BSSID 2               : fe:2f:ef:04:dd:98
+         信号               : 78%
+         无线电类型         : 802.11n
+         频道               : 11 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+    BSSID 3               : fe:2f:ef:04:dd:b5
+         信号               : 53%
+         无线电类型         : 802.11n
+         频道               : 11 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+    BSSID 4               : fe:2f:ef:04:dd:92
+         信号               : 60%
+         无线电类型         : 802.11n
+         频道               : 1 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+    BSSID 5               : fe:2f:ef:04:d9:6e
+         信号               : 65%
+         无线电类型         : 802.11n
+         频道               : 1 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+    BSSID 6               : fe:2f:ef:04:dd:97
+         信号               : 86%
+         无线电类型         : 802.11n
+         频道               : 1 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+    BSSID 7               : fe:2f:ef:04:dd:6b
+         信号               : 60%
+         无线电类型         : 802.11n
+         频道               : 11 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+    BSSID 8               : fe:2f:ef:04:dd:76
+         信号               : 43%
+         无线电类型         : 802.11n
+         频道               : 1 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+
+SSID 3 : NAWST
+    Network type            : 结构
+    身份验证                : WPA2 - 个人
+    加密                    : CCMP 
+    BSSID 1               : bc:5f:f6:d4:fd:bc
+         信号               : 83%
+         无线电类型         : 802.11n
+         频道               : 12 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+
+SSID 4 : TINKER_OQC
+    Network type            : 结构
+    身份验证                : WPA2 - 个人
+    加密                    : CCMP 
+    BSSID 1               : d2:c6:37:38:b0:6c
+         信号               : 91%
+         无线电类型         : 802.11n
+         频道               : 1 
+         基本速率(Mbps)     : 6 12 24
+         其他速率(Mbps)     : 9 18 36 48 54
+
+SSID 5 : ACS lntranet
+    Network type            : 结构
+    身份验证                : 开放式
+    加密                    : 无 
+    BSSID 1               : 18:8b:9d:b9:52:10
+         信号               : 80%
+         无线电类型         : 802.11n
+         频道               : 1 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+    BSSID 2               : 84:3d:c6:0d:b9:60
+         信号               : 81%
+         无线电类型         : 802.11n
+         频道               : 6 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+    BSSID 3               : 84:3d:c6:0d:b6:d0
+         信号               : 98%
+         无线电类型         : 802.11n
+         频道               : 11 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+    BSSID 4               : 84:3d:c6:0d:b7:00
+         信号               : 38%
+         无线电类型         : 802.11n
+         频道               : 6 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+    BSSID 5               : 18:8b:9d:b9:52:d0
+         信号               : 83%
+         无线电类型         : 802.11n
+         频道               : 6 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+    BSSID 6               : 84:3d:c6:0d:b6:20
+         信号               : 60%
+         无线电类型         : 802.11n
+         频道               : 1 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+    BSSID 7               : 84:3d:c6:0d:b6:f8
+         信号               : 46%
+         无线电类型         : 802.11n
+         频道               : 1 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+
+SSID 6 : DIRECT-IyGTSD-CLOUDmsVG
+    Network type            : 结构
+    身份验证                : WPA2 - 个人
+    加密                    : CCMP 
+    BSSID 1               : 5a:b1:db:aa:55:2d
+         信号               : 83%
+         无线电类型         : 802.11n
+         频道               : 40 
+         基本速率(Mbps)     : 6 12 24
+         其他速率(Mbps)     : 9 18 36 48 54
+
+SSID 7 : ChinaNet-YKtr
+    Network type            : 结构
+    身份验证                : WPA2 - 个人
+    加密                    : CCMP 
+    BSSID 1               : 02:0e:5e:4c:a7:08
+         信号               : 75%
+         无线电类型         : 802.11n
+         频道               : 1 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+
+SSID 8 : GTSD_5G
+    Network type            : 结构
+    身份验证                : WPA2 - 个人
+    加密                    : CCMP 
+    BSSID 1               : f8:32:e4:45:17:f4
+         信号               : 85%
+         无线电类型         : 802.11ac
+         频道               : 40 
+         基本速率(Mbps)     : 6 12 24
+         其他速率(Mbps)     : 9 18 36 48 54
+
+SSID 9 : NETGEAR57-5G
+    Network type            : 结构
+    身份验证                : WPA2 - 个人
+    加密                    : CCMP 
+    BSSID 1               : 44:94:fc:36:aa:2f
+         信号               : 35%
+         无线电类型         : 802.11n
+         频道               : 149 
+         基本速率(Mbps)     : 6 12 24
+         其他速率(Mbps)     : 9 18 36 48 54
+
+SSID 10 : guolianwuye
+    Network type            : 结构
+    身份验证                : WPA2 - 个人
+    加密                    : CCMP 
+    BSSID 1               : d0:17:c2:9d:cf:a0
+         信号               : 78%
+         无线电类型         : 802.11n
+         频道               : 13 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+
+SSID 11 : 2333
+    Network type            : 结构
+    身份验证                : WPA2 - 个人
+    加密                    : CCMP 
+    BSSID 1               : 1a:5e:0f:91:5b:ae
+         信号               : 31%
+         无线电类型         : 802.11n
+         频道               : 1 
+         基本速率(Mbps)     : 1 2 5.5 6 11 12 24
+         其他速率(Mbps)     : 9 18 36 48 54
+
+SSID 12 : ASUS-GTSD2
+    Network type            : 结构
+    身份验证                : WPA2 - 个人
+    加密                    : CCMP 
+    BSSID 1               : 00:1a:92:bc:c7:f9
+         信号               : 81%
+         无线电类型         : 802.11g
+         频道               : 11 
+         基本速率(Mbps)     : 1 2 5.5 11
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+
+SSID 13 : guolianwuye_5G
+    Network type            : 结构
+    身份验证                : WPA2 - 个人
+    加密                    : CCMP 
+    BSSID 1               : d0:17:c2:9d:cf:a4
+         信号               : 86%
+         无线电类型         : 802.11ac
+         频道               : 149 
+         基本速率(Mbps)     :
+         其他速率(Mbps)     : 6 9 12 18 24 36 48 54
+
+
+C:\Users\ice_zhong\Desktop\WTP\new UI WTP\ThirdPartyTool\ASUS\RSSI\Windows>exit

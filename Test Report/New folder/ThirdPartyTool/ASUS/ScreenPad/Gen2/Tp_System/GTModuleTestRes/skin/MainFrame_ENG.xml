@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="1024,768" sizebox="4,4,4,4" caption="0,0,0,40" mininfo="1024,768" >
+   <Include source="Scrollbar_ENG.xml" />
+   <VerticalLayout bkcolor="#FFFFFFFF" bordercolor="#FF000000" bordersize="1" borderround="5,5" >
+	    <Control height="1" bkcolor="#FF000000" />
+		
+		<!-- 标题栏 -->
+		<Caption height="40" />
+		
+		<!-- 主界面 -->
+		<HorizontalLayout >
+				<!-- <!-- 主显示区域 -->
+				<!-- <VerticalLayout name="mainview"> -->
+					<!-- <Control height="3" /> -->
+					<!-- <HorizontalLayout name="mainview" bordersize="1" bordercolor="#FF000000" bkcolor="#FFE4F2F6"> -->
+						<!-- <Coordui /> -->
+					<!-- </HorizontalLayout> -->
+						<!-- <Control height="3" />	 -->
+					<!-- <HorizontalLayout name="mainview" bordersize="1" bordercolor="#FF000000" bkcolor="#FFE4F2F6"> -->
+						<!-- <Coordui /> -->
+					<!-- </HorizontalLayout> -->
+					<!-- <Control height="3" />	 -->
+				<!-- </VerticalLayout> -->
+				
+					<!-- <Control width="3" />	 -->
+				<!-- <VerticalLayout name="mainview"  bkcolor="#FFE4F2F6"> -->
+					<!-- <HorizontalLayout name="mainview" bordersize="1" bordercolor="#FF000000" bkcolor="#FFE4F2F6"> -->
+						<!-- <Coordui /> -->
+					<!-- </HorizontalLayout> -->
+						<!-- <Control height="3" /> -->
+					<!-- <HorizontalLayout name="mainview" bordersize="1" bordercolor="#FF000000" bkcolor="#FFE4F2F6"> -->
+						<!-- <Coordui /> -->
+					<!-- </HorizontalLayout> -->
+						<!-- <Control height="3" /> -->
+				<!-- </VerticalLayout>		 -->
+				
+				<VerticalLayout bordersize="1" name="coorVLayout" bordercolor="#FF000000" bkcolor="#FFE4F2F6" >
+					<!-- <Control width="3" />	 -->
+					<!-- <VerticalLayout>						 -->
+						<!-- <Control height="3" />	 -->
+						<!-- <Coordui /> -->
+						<!-- <Control height="3" />	 -->
+						<!-- <Coordui /> -->
+						<!-- <Control height="3" /> -->
+					<!-- </VerticalLayout> -->
+					<!-- <Control width="3" /> -->
+					<!-- <VerticalLayout> -->
+						<!-- <Control height="3" />	 -->
+						<!-- <Coordui /> -->
+						<!-- <Control height="3" />	 -->
+						<!-- <Coordui /> -->
+						<!-- <Control height="3" />	 -->
+					<!-- </VerticalLayout> -->
+					<!-- <Control width="3" />				 -->
+					<!-- <Coordui /> -->
+				</VerticalLayout>
+				
+				
+				<!-- 右侧信息栏 -->
+				<VerticalLayout width="280"  >
+					<!-- 工单信息树 -->
+					<Control width="279"  height="1" bkcolor="#FF000000"  />
+					<HorizontalLayout width="279" height="400" > 
+						<Orderinfotree width="279" height="400" />
+					</HorizontalLayout>	
+
+					<!-- 统计信息显示栏 -->
+					<VerticalLayout width="280"  bkcolor="#FFE4F2F6">
+						<Control width="280"  height="1" bkcolor="#FF000000" />					
+						<Text text="Total:" pos="1, 5, 51, 24" float="true"/>			
+						<Text name="stcTotleTest" pos="52, 5, 100, 24" float="true"/>
+						<Text text="Pass:" textcolor="#FF187E37" pos="100, 5, 145, 24" float="true"/>
+						<Text name="stcPassTest" textcolor="#FF187E37" pos="146, 5, 200, 24" float="true"/>
+						<Text text="NG:" textcolor="#FFFF0000" pos="200, 5, 245, 24" float="true"/>
+						<Text name="stcNGTest" textcolor="#FFFF0000" pos="245, 5, 300, 24" float="true"/>
+						<HorizontalLayout> 
+							<HorizontalLayout />
+							<Control width="1"   bkcolor="#FF000000" />		
+						</HorizontalLayout>			
+					</VerticalLayout>
+					
+					<!-- <HorizontalLayout /> -->
+					
+					<!-- 开始测试、批号、工号、操作员号区域 -->
+					<VerticalLayout height="220" >
+						<Control width="280"  height="1" bkcolor="#FF000000" />	
+						<VerticalLayout />
+						<Control width="280"  height="1" bkcolor="#FF000000" />						
+						<Text text="LOT:" pos="5, 20, 110, 40" float="true"/>
+						<Edit name="editBatch" enabled="false" text="" pos="110, 15, 230, 39" float="true" bordersize="1"  bordercolor="#FF000000" nativebkcolor="#FFFFFFFF" bkcolor="#FFFFFFFF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+						<Button name="btnLockBatch"  text="" float="true"  pos="245, 11, 272,44"  normalimage="file='MainFrameImg/btn_lock.png'" hotimage="file='MainFrameImg/btn_lock.png'" pushedimage="file='MainFrameImg/btn_lock.png'"/>
+						<Text text="WorkStation:" pos="5, 55, 110, 75" float="true"/>
+						<Edit name="editWorkStation" enabled="false" text="" pos="110, 51, 230, 75" float="true" bordersize="1"  bordercolor="#FF000000" nativebkcolor="#FFFFFFFF" bkcolor="#FFFFFFFF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+						<Button name="btnLockWordStation"  text="" float="true"  pos="245, 47, 272,80"  normalimage="file='MainFrameImg/btn_lock.png'" hotimage="file='MainFrameImg/btn_lock.png'" pushedimage="file='MainFrameImg/btn_lock.png'"/>
+						<Text text="WorkerID:" pos="5, 90, 110, 110" float="true"/>
+						<Edit name="editWorkerID" enabled="false" text="" pos="110, 87, 230, 111" float="true" bordersize="1"  bordercolor="#FF000000" nativebkcolor="#FFFFFFFF" bkcolor="#FFFFFFFF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+						<Button name="btnLockWorkID"  text="" float="true"  pos="245, 83, 272,116"  normalimage="file='MainFrameImg/btn_lock.png'" hotimage="file='MainFrameImg/btn_lock.png'" pushedimage="file='MainFrameImg/btn_lock.png'"/>
+						<Button name="btnStartAll"  text="Start Test" float="true"  pos="52, 130, 205,190"  normalimage="file='MainFrameImg/frame_btn_startall_normal.bmp'" hotimage="file='MainFrameImg/frame_btn_startall_hot.bmp'" pushedimage="file='MainFrameImg/frame_btn_startall_push.bmp'"/>
+					</VerticalLayout>
+				</VerticalLayout>
+		</HorizontalLayout>
+		
+		<!-- 状态栏 -->
+		<HorizontalLayout height="24" bkcolor="#FFA9D6E1" float="false" >
+			<Control width="1" bkcolor="#FF000000" />
+			<VerticalLayout >	
+				<Control height="5" bkcolor="#FFA9D6E1"  />	
+				<HorizontalLayout >
+					<HorizontalLayout width="220" float="false">
+						<Text text="Device Vision:" width="120" float="false" />
+						<Text name="BoardVersion" text="GTVApp01.01" float="false" align="left" />
+					</HorizontalLayout>
+					<HorizontalLayout />
+					<HorizontalLayout float="false" width="520"  >
+						<Text text="Order:" width="80" float="false" align="right"/>
+						<Text name="OrderName" width="440" text="1.2.3.2.1.5.1" width="320" float="false" align="left" />
+					</HorizontalLayout >
+					<HorizontalLayout />
+					<HorizontalLayout width="270"  float="false">
+						<Text text="Core Version:" width="110" float="false"/>
+						<Text name="CoreVersion" text="GTLib01.00.0000.03" float="false" align="center" />
+					</HorizontalLayout>
+				</HorizontalLayout>
+			</VerticalLayout>
+			<Control width="1" bkcolor="#FF000000" />
+		</HorizontalLayout>
+		
+		<Control height="1" bkcolor="#FF000000" />
+    </VerticalLayout>
+</Window>

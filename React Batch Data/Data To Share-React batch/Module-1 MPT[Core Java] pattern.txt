@@ -1,0 +1,9 @@
+Around 4 question for 70 marks
+1)Inheritance-Abstaract class/Inheritance/overriding
+2) Exception Handling
+3) Utility/Collectios/String/String Buffer
+4) Core Java 8 features , date/Stream api/lambda expression
+
+
+exception handling, collection, lambda&stream, String
+ 

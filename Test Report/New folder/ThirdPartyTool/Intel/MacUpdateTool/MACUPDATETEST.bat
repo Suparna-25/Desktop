@@ -1,0 +1,1 @@
+EEUPDATEW64e.exe /nic=1 /mac=1A2B3C4D5E6F

@@ -1,0 +1,65 @@
+[08:42:15] ASUS, NB BU, Aging HQ, Version 2.2.6.0 (Date: 2018/9/05)
+[08:42:15] Log path: D:\WTP weekly update\20190729\WTP\advance_test\AsAgingHQ
+[08:42:15] 1.listSymptomLayer1.size()=1
+[08:42:15] 1.listSymptomLayer1.size()=2
+[08:42:15] 1.listSymptomLayer1.size()=3
+[08:42:15] 1.listSymptomLayer1.size()=4
+[08:42:15] OS: Windows 10.0, buildno =17763
+[08:42:15] Intel CPU
+[08:42:15] Find shark bay info fail!
+[08:42:15] Checking D:\WTP weekly update\20190729\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[08:42:15] Checking D:\WTP weekly update\20190729\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[08:42:15] Load CPUUsage.dll success
+[08:42:15] Checking D:\WTP weekly update\20190729\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[08:42:15] D:\WTP weekly update\20190729\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[08:42:15] Checking D:\WTP weekly update\20190729\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[08:42:15] CoCreateInstance get pIAGFNEX being NULL
+[08:42:15] Called blATKGFunc fail
+[08:42:15] Configuration file: D:\WTP weekly update\20190729\WTP\advance_test\AsAgingHQ\aging.conf
+[08:42:15] Read configuration file --
+[08:42:15] TestS5: 0
+[08:42:15] blCSC_SymptomSetting: 1
+[08:42:15] bNoUseTaskScheduler: 0
+[08:42:15] bTestCinebench: 0
+[08:42:15] CSC symptom Configuration file: D:\WTP weekly update\20190729\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[08:42:15] Read csc symptom configuration file --
+[08:42:15] CSC_SymptomSetting[0]: 00000200h
+[08:42:15] CSCTestPeriod[0]: 60 minutes
+[08:42:15] 2.problem_code = N0ZL12
+[08:42:15] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[08:42:15] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=1, g_user_conf.CSCConf.nCSCStageNo=0
+[08:42:15] Failed to check for AAHQ power scheme
+[08:42:15] C:\windows\EnterpriseG.XML not exist
+[08:42:15] 2.listSymptomLayer1.size()=4
+[08:42:15] Model Name: Strix G731GT_G731GT
+[08:42:15] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[08:42:19] CoCreateInstance get pIAGFNEX being NULL
+[08:42:19] Called blATKGFunc fail
+[08:42:19] Configuration file: D:\WTP weekly update\20190729\WTP\advance_test\AsAgingHQ\aging.conf
+[08:42:19] Read configuration file --
+[08:42:19] TestS5: 0
+[08:42:19] blCSC_SymptomSetting: 1
+[08:42:19] bNoUseTaskScheduler: 0
+[08:42:19] bTestCinebench: 0
+[08:42:19] CSC symptom Configuration file: D:\WTP weekly update\20190729\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[08:42:19] Read csc symptom configuration file --
+[08:42:19] CSC_SymptomSetting[0]: 00000200h
+[08:42:19] CSCTestPeriod[0]: 60 minutes
+[08:42:19] 2.problem_code = N0ZL12
+[08:49:04] CoCreateInstance get pIAGFNEX being NULL
+[08:49:04] Called blATKGFunc fail
+[08:49:04] Configuration file: D:\WTP weekly update\20190729\WTP\advance_test\AsAgingHQ\aging.conf
+[08:49:04] Read configuration file --
+[08:49:04] TestS5: 0
+[08:49:04] blCSC_SymptomSetting: 1
+[08:49:04] bNoUseTaskScheduler: 0
+[08:49:04] bTestCinebench: 0
+[08:49:04] CSC symptom Configuration file: D:\WTP weekly update\20190729\WTP\advance_test\AsAgingHQ\agingCSCSymptom.conf
+[08:49:04] Read csc symptom configuration file --
+[08:49:04] CSC_SymptomSetting[0]: 00000200h
+[08:49:04] CSCTestPeriod[0]: 60 minutes
+[08:49:04] 2.problem_code = N0ZL12
+[10:17:11] 2.Index:0, pSearchSchemeBuf= ??
+[10:17:11] 2.Index:1, pSearchSchemeBuf= Power Saver
+[10:17:11] 2.Index:2, pSearchSchemeBuf= High Performance
+[10:17:11] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

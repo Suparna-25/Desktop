@@ -1,0 +1,30 @@
+﻿************************************
+* NB SW Project Release Note Document
+* System Software Department
+* ASUSTek Computer Inc. 2017
+************************************
+Project : BiosSN
+OS Support: Windows7/8/8.1/10
+
+获取SN命令: BiosSNCmd.exe RSN
+
+读取SN详细介绍:
+NB(笔记本, 平板)机种使用WBT工具
+    UEFI引导的NB机器使用WBT313工具
+    传统BIOS引导的NB机器使用WBT306工具
+非NB机种使用AMIDEWIN工具
+WBT和AMIDEWIN工具获取失败时使用SMBios方法获取
+
+************************************
+* Update Log
+************************************
+2017/5/15 V1.1 Release
+1. 通过dll或者执行exe来获取机台SN
+2. 新增特性: 当WBT或AMIDEWIN获取不到SN时, 使用SMBios方法获取
+
+2017/6/15 V1.2 Release
+1. WBT 读写部分，统一使用最新版工具WBT313。
+
+
+
+

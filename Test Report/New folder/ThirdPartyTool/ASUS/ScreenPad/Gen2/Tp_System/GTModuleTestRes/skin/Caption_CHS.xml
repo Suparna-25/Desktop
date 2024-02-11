@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="854,40">
+    <HorizontalLayout name="ctnCaption" bkcolor="#FFA9D6E1" bkcolor2="#FFA9D6E1">
+		<Control width="1" bkcolor="#FF000000" />
+		<Button name="gtpicon" width="47" height="40" normalimage="file='CaptionImg/gtpicon.png'" hotimage="file='gtpicon.png'" pushedimage="file='CaptionImg/gtpicon.png'"/>
+		<Label name="GTMTToolVersion" text="GTModuleTest_V01.04.0000.14" width="260" />
+		<VerticalLayout />
+        <VerticalLayout width="162" height="40">
+            <Button name="btnHelp" text="帮助" float="true" pos="30,5,0,0" width="35" height="31" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center"  hotimage="file=&apos;CaptionImg/btn_style_help.png&apos; source=&apos;35,0,70,31&apos;" pushedimage="file=&apos;CaptionImg/btn_style_help.png&apos; source=&apos;70,0,105,31&apos;" />
+            <Button name="minbtn" tooltip="最小化" float="true" pos="69,3,0,0" width="27" height="31" bkimage="file=&apos;CaptionImg/btn_minmax.png&apos; source=&apos;45,0,60,15&apos; dest=&apos;6,8,21,23&apos; " textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file=&apos;CaptionImg/btn_style_minmax.png&apos; source=&apos;27,0,54,30&apos;" pushedimage="file=&apos;CaptionImg/btn_style_minmax.png&apos; source=&apos;54,0,81,30&apos;" />
+            <Button name="maxbtn" tooltip="最大化" float="true" pos="97,3,0,0" width="27" height="31" bkimage="file=&apos;CaptionImg/btn_minmax.png&apos; source=&apos;60,0,75,15&apos; dest=&apos;6,8,21,23&apos; " textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file=&apos;CaptionImg/btn_style_minmax.png&apos; source=&apos;27,0,54,30&apos;" pushedimage="file=&apos;CaptionImg/btn_style_minmax.png&apos; source=&apos;54,0,81,30&apos;" />
+            <Button name="restorebtn" tooltip="还原" visible="false" float="true" pos="96,3,0,0" width="27" height="31" bkimage="file=&apos;btn_minmax.png&apos; source=&apos;75,0,90,15&apos; dest=&apos;6,8,21,23&apos; " textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file=&apos;CaptionImg/btn_style_minmax.png&apos; source=&apos;27,0,54,30&apos;" pushedimage="file=&apos;CaptionImg/btn_style_minmax.png&apos; source=&apos;54,0,81,30&apos;" />
+            <Button name="closebtn" tooltip="关闭" float="true" pos="125,3,0,0" width="36" height="31" bkimage="file=&apos;CaptionImg/btn_minmax.png&apos; source=&apos;90,0,105,15&apos; dest=&apos;11,8,26,23&apos; " textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file=&apos;CaptionImg/btn_style_close.png&apos; source=&apos;36,0,72,30&apos;" pushedimage="file=&apos;CaptionImg/btn_style_close.png&apos; source=&apos;72,0,108,30&apos;" />
+		</VerticalLayout>
+		<Control width="1" bkcolor="#FF000000" />
+    </HorizontalLayout>
+</Window>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+<meta charset="UTF-8">
+<title>Approach 1</title>
+</head>
+<body>
+<h1>Create React Stimulator without using React</h1>
+<div id="root"></div>
+<script type="text/javascript">
+var whereToRender="root";
+var whatToRender="Hello World in React Style 1";
+var render=function(){
+document.getElementById(whereToRender).innerHTML=whatToRender;
+} 
+render();
+</script>
+</body>
+</html>

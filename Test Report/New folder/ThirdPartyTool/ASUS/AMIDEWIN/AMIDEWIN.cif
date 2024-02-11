@@ -1,0 +1,12 @@
+<component>
+	name = "AMIDEWIN"
+	category = eModule
+	LocalRoot = "ROMUtils\"
+	RefName = "AMIDEWIN"
+[files]
+"AMIDEWIN.EXE"	
+"UCORESYS.SYS"	
+"AMIDEWIN.pdf"	
+"AMIDEWIN.txt"	
+"DMI16.EXE"	
+<endComponent>

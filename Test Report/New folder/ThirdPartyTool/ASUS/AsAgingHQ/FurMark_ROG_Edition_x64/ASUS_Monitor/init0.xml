@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<glslhacker_init
+    demofile="clockmon.bin"
+    tcpip_server="0"
+		window_offset_x="-1"
+		window_offset_y="-1"
+/>

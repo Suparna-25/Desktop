@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<LanguageLibrary>
+	<item Key="StartTest" ENG="Start Test" CHN_S="开始测试"> </item>
+	<item Key="StopTest" ENG="Stop Test" CHN_S="停止测试"> </item>
+	<item Key="DisConnected" ENG="Disconnected" CHN_S="已断开"> </item>
+	<item Key="Connected" ENG="Connected" CHN_S="已连接"> </item>
+	<item Key="5" ENG="Rawdata Test" CHN_S="原始值测试"> </item>
+	<item Key="6" ENG="Diffdata Test" CHN_S="差值测试"> </item>
+	<item Key="7" ENG="Self Rawdata Test" CHN_S="自容原始值测试"> </item>
+	<item Key="200" ENG="Short Test" CHN_S="短路测试"> </item>
+	<item Key="201" ENG="Rst Voltage Test" CHN_S="Rst管脚电压测试"> </item>
+	<item Key="202" ENG="I2C Voltage Test" CHN_S="I2C管脚电压测试"> </item>
+	<item Key="203" ENG="INT Voltage Test" CHN_S="INT管脚电压测试"> </item>
+	<item Key="204" ENG="Pin1 Test" CHN_S="IO1管脚测试"> </item>
+	<item Key="205" ENG="Pin2 Test" CHN_S="IO2管脚测试"> </item>
+	<item Key="213" ENG="Pin3 Test" CHN_S="IO3管脚测试"> </item>
+	<item Key="214" ENG="Pin4 Test" CHN_S="IO4管脚测试"> </item>
+	<item Key="215" ENG="Pin5 Test" CHN_S="IO5管脚测试"> </item>
+	<item Key="216" ENG="Pin6 Test" CHN_S="IO6管脚测试"> </item>
+	<item Key="217" ENG="I2C Dev Test" CHN_S="I2C设备测试"> </item>
+	<item Key="206" ENG="Active Current Test" CHN_S="工作电流测试"> </item>
+	<item Key="207" ENG="Sleep Current Test" CHN_S="睡眠电流测试"> </item>
+	<item Key="208" ENG="Int Cap Test" CHN_S="INT电容测试"> </item>
+	<item Key="209" ENG="SensorID Test" CHN_S="SensorID测试"> </item>
+	<item Key="210" ENG="Gesture Test" CHN_S="手势测试"> </item>
+	<item Key="211" ENG="Spi Voltage Test" CHN_S="Spi管脚电压测试"> </item>
+	<item Key="212" ENG="Ext Osc Test" CHN_S="外部晶振测试"> </item>
+	<item Key="600" ENG="Version Test" CHN_S="版本号测试"> </item>
+	<item Key="601" ENG="Firmware Run State" CHN_S="固件运行状态测试"> </item>
+	<item Key="800" ENG="Key Touch Test" CHN_S="按键测试"> </item>
+	<item Key="801" ENG="Finger Line Test" CHN_S="手划线测试"> </item>	
+	<item Key="802" ENG="Pen Line Test" CHN_S="笔划线测试"> </item>	
+	<item Key="1200" ENG="Config Test" CHN_S="配置测试"> </item>
+	<item Key="1201" ENG="Flash Test" CHN_S="Flash测试"> </item>	
+	<item Key="1202" ENG="Send Special Config" CHN_S="发送特殊配置"> </item>
+	<item Key="1203" ENG="Send Special Firmware" CHN_S="发送特殊固件"> </item>
+	<item Key="1204" ENG="Custom Info Test" CHN_S="用户信息"> </item>
+	<item Key="1205" ENG="Check Chip Test Result" CHN_S="检查芯片测试结果"> </item>
+	<item Key="1206" ENG="Check Module Test Result" CHN_S="检查模组测试结果"> </item>	
+	<item Key="1207" ENG="Recover Config" CHN_S="恢复配置"> </item>
+	<item Key="1208" ENG="Save Result To IC Storage" CHN_S="存储测试结果"> </item>
+	<item Key="1209" ENG="UID Test" CHN_S="UID测试"> </item>
+	<item Key="5_0" ENG="Max Rawdata" CHN_S="全屏最大值"> </item>
+	<item Key="5_1" ENG="Min Rawdata" CHN_S="全屏最小值"> </item>
+	<item Key="5_2" ENG="Max Keydata" CHN_S="按键最大值"> </item>
+	<item Key="5_3" ENG="Min Keydata" CHN_S="按键最小值"> </item>
+	<item Key="5_4" ENG="Accord" CHN_S="相邻最大偏差"> </item>
+	<item Key="5_5" ENG="Offset" CHN_S="整屏最大偏差"> </item>
+	<item Key="5_6" ENG="Uniformity" CHN_S="数据一致性"> </item>
+	<item Key="5_7" ENG="Rawdata Jitter" CHN_S="原始值抖动"> </item>
+	<item Key="6_0" ENG="Diffdata Jitter" CHN_S="差值抖动"> </item>
+	<item Key="7_0" ENG="Self Max Rawdata" CHN_S="自容原始值最大值"> </item>
+	<item Key="7_1" ENG="Self Min Rawdata" CHN_S="自容原始值最小值"> </item>
+	<item Key="801_0" ENG="Four Point Test" CHN_S="四角测试"> </item>	
+	<item Key="801_1" ENG="Diagonal Test" CHN_S="线性测试"> </item>	
+	<item Key="801_2" ENG="Border Test" CHN_S="四边测试"> </item>
+	<item Key="802_0" ENG="Four Point Test" CHN_S="四角测试"> </item>	
+	<item Key="802_1" ENG="Diagonal Test" CHN_S="线性测试"> </item>	
+	<item Key="802_2" ENG="Border Test" CHN_S="四边测试"> </item>		
+	<item Key="TestPass" ENG=" Pass" CHN_S=" 通过"> </item>	
+	<item Key="TestFail" ENG=" Fail" CHN_S=" 失败"> </item>
+	<item Key="ErrCode" ENG=" Error Code" CHN_S="错误码"> </item>
+	<item Key="UnkownErr" ENG=" UnKown Error" CHN_S="未知错误"> </item>
+	<item Key="TestFinish" ENG="Test Finished" CHN_S="测试结束"> </item>
+	<item Key="UserStop" ENG="User Stop Test" CHN_S="用户手动结束测试"> </item>
+	<item Key="OrderSetFailed" ENG="Set order failed!" CHN_S="工单设置错误，请重新选择！"> </item>
+	<item Key="SwitchLanguageSuccessed" ENG="Operate successfully, please restart the software!" CHN_S="设置成功，请重启工具！"> </item>
+	<item Key="SwitchLanguageFailed" ENG="Operate failed!" CHN_S="设置失败！"> </item>
+	<item Key="Please check module connect status!" ENG="Please check module connect status!" CHN_S="请检查模组连接状态!"> </item>
+	<item Key="Scan Same Barcode" ENG="Scan existed barcode,test needs proceeding or not?" CHN_S="扫描到已存在的二维码，是否依然进行测试？"> </item>
+	<item Key="Please pull out module then pull a new one!" ENG="Please pull out module then pull a new one!" CHN_S="请先拔出模组然后再接入新的模组!"> </item>
+	<item Key="Please pull out cob then pull a new one!" ENG="Please pull out cob then pull a new one!" CHN_S="请先拔出Cob然后再接入新的Cob!"> </item>
+	<item Key="Fw Updating" ENG="Firmware Version Testing" CHN_S="版本号测试中"> </item>
+</LanguageLibrary>
+
+

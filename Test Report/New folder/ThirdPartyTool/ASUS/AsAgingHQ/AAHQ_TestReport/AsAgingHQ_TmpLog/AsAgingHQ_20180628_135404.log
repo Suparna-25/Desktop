@@ -1,0 +1,85 @@
+[13:54:04] ?? ASUS Aging HQ, Version 2.2.5.0 (Date: 2018/6/22)
+[13:54:04] Log path: E:\WTP\advance_test\AsAgingHQ
+[13:54:05] 1.listSymptomLayer1.size()=1
+[13:54:05] 1.listSymptomLayer1.size()=2
+[13:54:05] 1.listSymptomLayer1.size()=3
+[13:54:05] 1.listSymptomLayer1.size()=4
+[13:54:05] OS: Windows 7
+[13:54:05] Intel CPU
+[13:54:05] Find shark bay info fail!
+[13:54:05] Checking E:\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[13:54:05] Checking E:\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[13:54:05] Load CPUUsage.dll success
+[13:54:05] Checking E:\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[13:54:05] E:\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[13:54:05] Checking E:\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[13:54:06] Configuration file: E:\WTP\advance_test\AsAgingHQ\aging.conf
+[13:54:06] Read configuration file --
+[13:54:06] TestS5: 0
+[13:54:06] blCSC_SymptomSetting: 0
+[13:54:06] bNoUseTaskScheduler: 0
+[13:54:06] bTestCinebench: 0
+[13:54:06] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[13:54:06] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[13:54:06] Failed to check for AAHQ power scheme
+[13:54:06] C:\windows\EnterpriseG.XML not exist
+[13:54:06] 2.listSymptomLayer1.size()=4
+[13:54:06] Model Name: B53S
+[13:54:06] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[13:54:11] Configuration file: E:\WTP\advance_test\AsAgingHQ\aging.conf
+[13:54:11] Read configuration file --
+[13:54:11] TestS5: 0
+[13:54:11] blCSC_SymptomSetting: 0
+[13:54:11] bNoUseTaskScheduler: 0
+[13:54:11] bTestCinebench: 0
+[13:54:26] Save aging.conf
+[13:54:26] Write TestS5=0 into aging.conf
+[13:54:29] Do pretest check
+[13:54:29] 2.IsFurMarkInstalled func: g_aging_info.wszFurMarkPath =E:\WTP\advance_test\AsAgingHQ\FurMark_ROG_Edition_x64\FurMark_ROG_Edition_x64.exe
+[13:54:29] Exe for FurMark: E:\WTP\advance_test\AsAgingHQ\FurMark_ROG_Edition_x64\FurMark_ROG_Edition_x64.exe
+[13:54:29] Bat for FurMark: E:\WTP\advance_test\AsAgingHQ\FurMark_ROG_Edition_x64\FurMark_ROG_Edition_x64.exe
+[13:54:29] Finished pretest check
+[13:54:29] Program was ran in not AUTO mode
+[13:54:29] Total test time: 300
+[13:54:29] ****AsAgingTool::StartTimer(), nTotalCPUUsageTestSeconds=1800
+[13:54:29] ****AsAgingTool::StartTimer(), Initial Cinebench cpu temperature reading timer with 30000 ms
+[13:54:29] 13.intCollection.nCSC_S5RebootRemainingTime: 0
+[13:54:29] CSCStageNo=0, g_user_conf.CSCConf.nCSCTotalStageNo=0
+[13:54:29] Start Aging HQ
+[13:54:30] Loaded IO driver
+[13:54:30] Thread ID 5928, Process ID 5972 - CPU Usage 100%, Cinebench
+[13:54:30] Set CPU Usage=100%, CoreNum=4
+[13:54:41] Going to stop state, please wait...
+[13:54:41] StopStage 1: close GPU stress program
+[13:54:41] StopStage 2: release mutex for log writing
+[13:54:41] StopStage 3: restore battery state
+[13:54:41] StopStage 4: restore power state of wifi/BT/camera
+[13:54:41] StopStage 5: destroy AAHQ objects
+[13:54:41] Unloaded IO driver
+[13:54:41] StopStage 5.1: Remove :\Test_User_Like_Scenario\IO_test.dat ok
+[13:54:41] StopStage 6: save records of CPU temperature to file
+[13:54:41] StopStage 7: save records of reboot time
+[13:54:41] StopStage 8: show device change notify window if needed
+[13:54:41] StopStage 9.3: Free CPU Usage handle
+[13:54:41] FIN
+[13:54:43] Checking E:\WTP\advance_test\AsAgingHQ.\BiosSN\BiosSNdll.dll
+[13:54:44] Read SN = SSN12345678901234567
+[13:54:46] End Aging HQ
+[13:54:46] CPUCore:0/4, usage = 100
+[13:54:49] Configuration file: E:\WTP\advance_test\AsAgingHQ\aging.conf
+[13:54:49] Read configuration file --
+[13:54:49] TestS5: 0
+[13:54:49] blCSC_SymptomSetting: 0
+[13:54:49] bNoUseTaskScheduler: 0
+[13:54:49] bTestCinebench: 0
+[13:54:52] CPUCore:1/4, usage = 100
+[13:54:54] Save aging.conf
+[13:54:54] Write TestS5=0 into aging.conf
+[13:54:55] 2.Index:0, pSearchSchemeBuf= ??
+[13:54:55] 2.Index:1, pSearchSchemeBuf= Power4Gear High Performance
+[13:54:55] 2.Index:2, pSearchSchemeBuf= Power4Gear Entertainment
+[13:54:55] 2.Index:3, pSearchSchemeBuf= Power4Gear Quiet Office
+[13:54:55] 2.Index:4, pSearchSchemeBuf= ???
+[13:54:55] 2.Index:5, pSearchSchemeBuf= ??
+[13:54:55] 2.Index:6, pSearchSchemeBuf= Power4Gear Battery Saving
+[13:54:55] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

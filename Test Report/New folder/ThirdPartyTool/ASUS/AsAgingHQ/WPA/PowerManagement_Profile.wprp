@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WindowsPerformanceRecorder Version="1.0" Author="WPR Profile Generator" Copyright="Microsoft Corporation" Company="Microsoft Corporation">
+  <Profiles>
+     
+    <SystemProvider Id="SystemProvider">
+      <Keywords>
+        <Keyword Value="ClockInterrupt" />
+        <Keyword Value="CSwitch" />
+        <Keyword Value="DPC" />
+        <Keyword Value="IdleStates" />
+        <Keyword Value="InterProcessorInterrupt" />
+        <Keyword Value="Interrupt" />
+        <Keyword Value="Loader" />
+        <Keyword Value="ProcessThread" />
+        <Keyword Value="Timer" />
+        <CustomKeyword Value="0x40100000" />
+        <CustomKeyword Value="0x44000000" />
+      </Keywords>
+      <Stacks>
+        <Stack Value="CSwitch" />
+        <Stack Value="ReadyThread" />
+        <Stack Value="TimerOneShot" />
+        <Stack Value="TimerPeriodic" />
+      </Stacks>
+    </SystemProvider>
+    
+    <EventProvider Id="EventProvider_Microsoft-Windows-PDC" Name="Microsoft-Windows-PDC" NonPagedMemory="true">
+        <Keywords>
+          <Keyword Value="0"/>
+        </Keywords>
+        <CaptureStateOnStart>
+          <Keyword Value="0"/>
+        </CaptureStateOnStart>
+    </EventProvider>
+    
+    <EventProvider Id="EventProvider_Microsoft-Windows-Kernel-Power" Name="Microsoft-Windows-Kernel-Power" NonPagedMemory="true">
+        <Keywords>
+          <Keyword Value="0"/>
+        </Keywords>
+        <CaptureStateOnStart>
+          <Keyword Value="0"/>
+        </CaptureStateOnStart>
+    </EventProvider>
+
+    <EventProvider Id="EventProvider_Microsoft-Windows-Kernel-Processor-Power" Name="Microsoft-Windows-Kernel-Processor-Power" NonPagedMemory="true">
+        <Keywords>
+          <Keyword Value="0"/>
+        </Keywords>
+        <CaptureStateOnStart>
+          <Keyword Value="0"/>
+        </CaptureStateOnStart>
+    </EventProvider>
+    
+    <Profile Id="GeneratedProfile.Verbose.File" Name="GeneratedProfile" Description="Power Management" LoggingMode="File" DetailLevel="Verbose">
+      <Collectors Operation="Add">
+        <SystemCollectorId Value="SystemCollector_WPRSystemCollectorInFile">
+          <BufferSize Value="1024" />
+          <Buffers Value="100" />
+          <SystemProviderId Value="SystemProvider" />
+        </SystemCollectorId>
+        <EventCollectorId Value="EventCollector_WPREventCollectorInFile">
+          <BufferSize Value="1024" />
+          <Buffers Value="100" />        
+          <EventProviders>
+            <EventProviderId Value="EventProvider_Microsoft-Windows-PDC" />
+            <EventProviderId Value="EventProvider_Microsoft-Windows-Kernel-Power" />
+            <EventProviderId Value="EventProvider_Microsoft-Windows-Kernel-Processor-Power" />            
+          </EventProviders>
+        </EventCollectorId>        
+      </Collectors>
+    </Profile>
+    
+    <Profile Id="GeneratedProfile.Verbose.Memory" Name="GeneratedProfile" Description="Power Management" Base="GeneratedProfile.Verbose.File" LoggingMode="Memory" DetailLevel="Verbose" />
+    
+  </Profiles>
+</WindowsPerformanceRecorder>

@@ -1,0 +1,42 @@
+[14:38:47] ?? ASUS Aging HQ, Version 2.2.5.0 (Date: 2018/6/22)
+[14:38:47] Log path: C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5
+[14:38:47] 1.listSymptomLayer1.size()=1
+[14:38:47] 1.listSymptomLayer1.size()=2
+[14:38:47] 1.listSymptomLayer1.size()=3
+[14:38:47] 1.listSymptomLayer1.size()=4
+[14:38:47] OS: Windows 10.0, buildno =10586
+[14:38:47] Intel CPU
+[14:38:47] Find shark bay info fail!
+[14:38:47] Checking C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\EMMCTest.dll
+[14:38:47] Checking C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\CPUUsage.dll
+[14:38:48] Load CPUUsage.dll success
+[14:38:48] Checking C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[14:38:48] C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[14:38:48] Checking C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\SpecificDev.txt
+[14:38:48] Generic_Identity Fail, error code =%1
+[14:38:48] Called blATKGFunc fail
+[14:38:48] Configuration file: C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\aging.conf
+[14:38:48] Read configuration file --
+[14:38:48] TestS5: 0
+[14:38:48] blCSC_SymptomSetting: 0
+[14:38:48] bNoUseTaskScheduler: 0
+[14:38:48] bTestCinebench: 0
+[14:38:48] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:38:48] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:38:48] Failed to check for AAHQ power scheme
+[14:38:48] C:\windows\EnterpriseG.XML not exist
+[14:38:48] 2.listSymptomLayer1.size()=4
+[14:38:48] Model Name: GL553VW
+[14:38:48] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[14:38:52] Generic_Identity Fail, error code =%1
+[14:38:52] Called blATKGFunc fail
+[14:38:52] Configuration file: C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\aging.conf
+[14:38:52] Read configuration file --
+[14:38:52] TestS5: 0
+[14:38:52] blCSC_SymptomSetting: 0
+[14:38:52] bNoUseTaskScheduler: 0
+[14:38:52] bTestCinebench: 0
+[14:39:46] 2.Index:0, pSearchSchemeBuf= ??
+[14:39:46] 2.Index:1, pSearchSchemeBuf= ???
+[14:39:46] 2.Index:2, pSearchSchemeBuf= ??
+[14:39:46] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

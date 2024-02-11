@@ -1,0 +1,138 @@
+Device category to generate: PCI USB 
+Generated in 2016-02-20 11:02:13
+
+DevName: 視訊控制卡 (VGA 相容)
+HWID: PCI\VEN_10DE&DEV_0A70&SUBSYS_13621043&REV_A2
+State: OK
+Class: Net
+DevName: Atheros AR9285 Wireless Network Adapter
+HWID: PCI\VEN_168C&DEV_002B&SUBSYS_10891A3B&REV_01
+State: ERROR
+Class: Net
+DevName: Atheros AR8131 PCI-E Gigabit Ethernet Controller (NDIS 6.20)
+HWID: PCI\VEN_1969&DEV_1063&SUBSYS_18201043&REV_C0
+State: OK
+Class: System
+DevName: PCI standard host CPU bridge
+HWID: PCI\VEN_8086&DEV_0044&SUBSYS_10171043&REV_12
+State: OK
+Class: System
+DevName: PCI Express standard Root Port
+HWID: PCI\VEN_8086&DEV_0045&SUBSYS_10171043&REV_12
+State: OK
+Class: System
+DevName: Intel(R) 82801 PCI Bridge - 2448
+HWID: PCI\VEN_8086&DEV_2448&SUBSYS_10171043&REV_A6
+State: OK
+Class: System
+DevName: PCI standard host CPU bridge
+HWID: PCI\VEN_8086&DEV_2C62&SUBSYS_80868086&REV_02
+State: OK
+Class: System
+DevName: PCI standard host CPU bridge
+HWID: PCI\VEN_8086&DEV_2D01&SUBSYS_80868086&REV_02
+State: OK
+Class: System
+DevName: PCI standard host CPU bridge
+HWID: PCI\VEN_8086&DEV_2D10&SUBSYS_80868086&REV_02
+State: OK
+Class: System
+DevName: PCI standard host CPU bridge
+HWID: PCI\VEN_8086&DEV_2D11&SUBSYS_80868086&REV_02
+State: OK
+Class: System
+DevName: PCI standard host CPU bridge
+HWID: PCI\VEN_8086&DEV_2D12&SUBSYS_80868086&REV_02
+State: OK
+Class: System
+DevName: PCI standard host CPU bridge
+HWID: PCI\VEN_8086&DEV_2D13&SUBSYS_80868086&REV_02
+State: OK
+Class: System
+DevName: Intel(R) HM55 Express Chipset LPC Interface Controller - 3B09
+HWID: PCI\VEN_8086&DEV_3B09&SUBSYS_10171043&REV_06
+State: OK
+Class: hdc
+DevName: 標準 AHCI 1.0 序列 ATA 控制器
+HWID: PCI\VEN_8086&DEV_3B29&SUBSYS_10171043&REV_06
+State: OK
+Class: System
+DevName: Intel(R) Turbo Boost Technology Driver
+HWID: PCI\VEN_8086&DEV_3B32&SUBSYS_10171043&REV_06
+State: OK
+Class: USB
+DevName: Standard Enhanced PCI to USB Host Controller
+HWID: PCI\VEN_8086&DEV_3B34&SUBSYS_10171043&REV_06
+State: OK
+Class: USB
+DevName: Standard Enhanced PCI to USB Host Controller
+HWID: PCI\VEN_8086&DEV_3B3C&SUBSYS_10171043&REV_06
+State: OK
+Class: System
+DevName: Intel(R) 5 Series/3400 Series Chipset Family PCI Express Root Port 1 - 3B42
+HWID: PCI\VEN_8086&DEV_3B42&SUBSYS_10171043&REV_06
+State: OK
+Class: System
+DevName: Intel(R) 5 Series/3400 Series Chipset Family PCI Express Root Port 2 - 3B44
+HWID: PCI\VEN_8086&DEV_3B44&SUBSYS_10171043&REV_06
+State: OK
+Class: System
+DevName: Intel(R) 5 Series/3400 Series Chipset Family PCI Express Root Port 6 - 3B4C
+HWID: PCI\VEN_8086&DEV_3B4C&SUBSYS_10171043&REV_06
+State: OK
+Class: System
+DevName: High Definition Audio 控制器
+HWID: PCI\VEN_8086&DEV_3B56&SUBSYS_12931043&REV_06
+State: OK
+Class: System
+DevName: Intel(R) Management Engine Interface
+HWID: PCI\VEN_8086&DEV_3B64&SUBSYS_10171043&REV_06
+State: OK
+Class: USB
+DevName: USB Root Hub
+HWID: USB\ROOT_HUB20&VID8086&PID3B3C&REV0006
+State: OK
+Class: USB
+DevName: USB Root Hub
+HWID: USB\ROOT_HUB20&VID8086&PID3B34&REV0006
+State: OK
+Class: USB
+DevName: USB Composite Device
+HWID: USB\VID_0461&PID_0010&REV_0104
+State: OK
+Class: HIDClass
+DevName: USB 輸入裝置
+HWID: USB\VID_0461&PID_0010&REV_0104&MI_00
+State: OK
+Class: HIDClass
+DevName: USB 輸入裝置
+HWID: USB\VID_0461&PID_0010&REV_0104&MI_01
+State: OK
+Class: USB
+DevName: USB Composite Device
+HWID: USB\VID_04F2&PID_B1BE&REV_2068
+State: OK
+Class: Image
+DevName: USB 2.0 VGA UVC WebCam
+HWID: USB\VID_04F2&PID_B1BE&REV_2068&MI_00
+State: OK
+Class: Bluetooth
+DevName: Generic Bluetooth Adapter
+HWID: USB\VID_0B05&PID_1712&REV_1915
+State: OK
+Class: HIDClass
+DevName: USB 輸入裝置
+HWID: USB\VID_0B05&PID_17A9&REV_0100
+State: OK
+Class: Biometric
+DevName: Validity Sensor (VFS300)
+HWID: USB\VID_138A&PID_0008&REV_0<90
+State: OK
+Class: USB
+DevName: Generic USB Hub
+HWID: USB\VID_8087&PID_0020&REV_0000
+State: OK
+Class: USB
+DevName: Generic USB Hub
+HWID: USB\VID_8087&PID_0020&REV_0000
+State: OK

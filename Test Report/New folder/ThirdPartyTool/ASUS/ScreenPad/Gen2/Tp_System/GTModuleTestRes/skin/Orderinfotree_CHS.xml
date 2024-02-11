@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="600,600">
+    <VerticalLayout name="ctnOrderlist" bkcolor="#FFE4F2F6">
+		<TreeView name="treeOrderlist" multipleitem="true" inset="2,2,2,2"  vscrollbar="true" hscrollbar="true"  >
+			<TreeNode name="nodeOrderlist" text="工单信息" inset="7,0,0,0" height="22" itemattr="valign=&quot;vcenter&quot; textpadding=&quot;4,0,0,0&quot;" folderattr="padding=&quot;0,5,0,0&quot; width=&quot;12&quot; height=&quot;12&quot; selectedimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='0,0,12,12' &quot; normalimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='13,0,25,12' &quot;">
+    			<TreeNode name="chipName" text="芯片类型"  inset="7,0,0,0" height="22"  itemattr="valign=&quot;vcenter&quot; font=&quot;4&quot;" folderattr="padding=&quot;0,5,0,0&quot; width=&quot;12&quot; height=&quot;12&quot; selectedimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='0,0,12,12' &quot; normalimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='13,0,25,12' &quot;">
+					<TreeNode name="chipNameNode" text="111" height="22" inset="7,0,0,0" itemattr="valign=&quot;vcenter&quot; font=&quot;4&quot;" folderattr="width=&quot;0&quot; float=&quot;true&quot;"/>					    			
+				</TreeNode>
+				<TreeNode name="PowerVolt" text="供电电平"  inset="7,0,0,0" height="22"  itemattr="valign=&quot;vcenter&quot; font=&quot;4&quot;" folderattr="padding=&quot;0,5,0,0&quot; width=&quot;12&quot; height=&quot;12&quot; selectedimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='0,0,12,12' &quot; normalimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='13,0,25,12' &quot;">
+					<TreeNode name="PowerVoltNode" text="PowerVoltNode" height="22" inset="7,0,0,0" itemattr="valign=&quot;vcenter&quot; font=&quot;4&quot;" folderattr="width=&quot;0&quot; float=&quot;true&quot;"/>
+				</TreeNode>
+				<TreeNode name="commVolt" text="通信电平"  inset="7,0,0,0" height="22"  itemattr="valign=&quot;vcenter&quot; font=&quot;4&quot;" folderattr="padding=&quot;0,5,0,0&quot; width=&quot;12&quot; height=&quot;12&quot; selectedimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='0,0,12,12' &quot; normalimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='13,0,25,12' &quot;">
+					<TreeNode name="commVoltNode" text="commVoltNode" height="22" inset="7,0,0,0" itemattr="valign=&quot;vcenter&quot; font=&quot;4&quot;" folderattr="width=&quot;0&quot; float=&quot;true&quot;"/>
+				</TreeNode>
+					<TreeNode name="Station" text="工站"  inset="7,0,0,0" height="22"  itemattr="valign=&quot;vcenter&quot; font=&quot;4&quot;" folderattr="padding=&quot;0,5,0,0&quot; width=&quot;12&quot; height=&quot;12&quot; selectedimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='0,0,12,12' &quot; normalimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='13,0,25,12' &quot;">
+					<TreeNode name="StationNode" text="StationNode" height="22" inset="7,0,0,0" itemattr="valign=&quot;vcenter&quot; font=&quot;4&quot;" folderattr="width=&quot;0&quot; float=&quot;true&quot;"/>
+				</TreeNode>
+					<TreeNode name="commType" text="通信方式"  inset="7,0,0,0" height="22"  itemattr="valign=&quot;vcenter&quot; font=&quot;4&quot;" folderattr="padding=&quot;0,5,0,0&quot; width=&quot;12&quot; height=&quot;12&quot; selectedimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='0,0,12,12' &quot; normalimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='13,0,25,12' &quot;">
+					<TreeNode name="commTypeNode" text="" height="22" inset="7,0,0,0" itemattr="valign=&quot;vcenter&quot; font=&quot;4&quot;" folderattr="width=&quot;0&quot; float=&quot;true&quot;"/>
+				</TreeNode>
+					<TreeNode name="objNumLimit" text="一拖多设置"  inset="7,0,0,0" height="22"  itemattr="valign=&quot;vcenter&quot; font=&quot;4&quot;" folderattr="padding=&quot;0,5,0,0&quot; width=&quot;12&quot; height=&quot;12&quot; selectedimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='0,0,12,12' &quot; normalimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='13,0,25,12' &quot;">
+					<TreeNode name="objNumLimitNode"text="" height="22" inset="7,0,0,0" itemattr="valign=&quot;vcenter&quot; font=&quot;4&quot;" folderattr="width=&quot;0&quot; float=&quot;true&quot;"/>
+				</TreeNode>
+			</TreeNode>
+			<TreeNode name="testSettingList" text="测试设置信息" inset="7,0,0,0" height="22" itemattr="valign=&quot;vcenter&quot; textpadding=&quot;4,0,0,0&quot;" folderattr="padding=&quot;0,5,0,0&quot; width=&quot;12&quot; height=&quot;12&quot; selectedimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='0,0,12,12' &quot; normalimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='13,0,25,12' &quot;">
+    			<TreeNode name="TestRpcStatus" text="Rpc连接状态"  inset="7,0,0,0" height="22"  itemattr="valign=&quot;vcenter&quot; font=&quot;4&quot;" folderattr="padding=&quot;0,5,0,0&quot; width=&quot;12&quot; height=&quot;12&quot; selectedimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='0,0,12,12' &quot; normalimage=&quot;file='OrderInfoTreeImg/treeview_expand.png' source='13,0,25,12' &quot;">
+					<TreeNode name="TestRpcStatusNode" text="未连接" height="22" inset="7,0,0,0" itemattr="valign=&quot;vcenter&quot; font=&quot;4&quot;" folderattr="width=&quot;0&quot; float=&quot;true&quot;"/>					    			
+				</TreeNode>
+			</TreeNode>
+		</TreeView>
+    </VerticalLayout>
+</Window>

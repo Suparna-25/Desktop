@@ -1,0 +1,205 @@
+[14:36:59] ASUS, NB BU, Aging HQ, Version 2.2.6.0 (Date: 2018/9/05)
+[14:36:59] Log path: D:\WTP weekly update\20200914\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ
+[14:36:59] 1.listSymptomLayer1.size()=1
+[14:36:59] 1.listSymptomLayer1.size()=2
+[14:36:59] 1.listSymptomLayer1.size()=3
+[14:36:59] 1.listSymptomLayer1.size()=4
+[14:36:59] OS: Windows 10.0, buildno =17763
+[14:36:59] Intel CPU
+[14:36:59] Find shark bay info fail!
+[14:36:59] Checking D:\WTP weekly update\20200914\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\EMMCTest.dll
+[14:36:59] Checking D:\WTP weekly update\20200914\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\CPUUsage.dll
+[14:36:59] Load CPUUsage.dll success
+[14:36:59] Checking D:\WTP weekly update\20200914\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[14:36:59] D:\WTP weekly update\20200914\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[14:36:59] Checking D:\WTP weekly update\20200914\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\SpecificDev.txt
+[14:36:59] CoCreateInstance get pIAGFNEX being NULL
+[14:36:59] Called blATKGFunc fail
+[14:36:59] Configuration file: D:\WTP weekly update\20200914\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\aging.conf
+[14:36:59] Read configuration file --
+[14:36:59] TestS5: 0
+[14:36:59] blCSC_SymptomSetting: 0
+[14:36:59] bNoUseTaskScheduler: 0
+[14:36:59] bTestCinebench: 0
+[14:36:59] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:36:59] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:36:59] Failed to check for AAHQ power scheme
+[14:36:59] C:\windows\EnterpriseG.XML not exist
+[14:36:59] 2.listSymptomLayer1.size()=4
+[14:36:59] Model Name: Strix G731GT_2nd1GT
+[14:36:59] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[14:37:02] CoCreateInstance get pIAGFNEX being NULL
+[14:37:02] Called blATKGFunc fail
+[14:37:02] Configuration file: D:\WTP weekly update\20200914\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ\aging.conf
+[14:37:02] Read configuration file --
+[14:37:02] TestS5: 0
+[14:37:02] blCSC_SymptomSetting: 0
+[14:37:02] bNoUseTaskScheduler: 0
+[14:37:02] bTestCinebench: 0
+[14:37:10] Save aging.conf
+[14:37:10] Write TestS5=0 into aging.conf
+[14:37:14] Do pretest check
+[14:37:14] 1.IsFurMarkInstalled func: g_aging_info.wszFurMarkPath =D:\Program Files\Geeks3D\FurMark ROG Edition x64\FurMark_ROG_Edition_x64.exe
+[14:37:14] Exe for FurMark: D:\Program Files\Geeks3D\FurMark ROG Edition x64\FurMark_ROG_Edition_x64.exe
+[14:37:14] Bat for FurMark: D:\Program Files\Geeks3D\FurMark ROG Edition x64\FurMark_ROG_Edition_x64.exe
+[14:37:14] Finished pretest check
+[14:37:14] Program was ran in not AUTO mode
+[14:37:14] Total test time: 1800
+[14:37:14] 13.intCollection.nCSC_S5RebootRemainingTime: 0
+[14:37:14] CSCStageNo=0, g_user_conf.CSCConf.nCSCTotalStageNo=0
+[14:37:14] Start Aging HQ
+[14:37:14] Thread ID 197544, Proces ID 222184 - Fan/CPU temp. + Battery + 3G + WiMAX + MT + S0I3/S3/DS3 + S4
+[14:37:14] Pega model: 1225B
+[14:37:14] Pega model: R252B
+[14:37:14] Pega model: K55N
+[14:37:14] Thread ID 214948, Process ID =222184 - GPU stress + Audio Loopback + EMMC Test
+[14:37:14] Running FurMark...
+[14:37:14] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:37:14] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:37:14] Thread ID 219400, Process ID 222184 - SHE + WIFI/CAM/BT Power + LCD display
+[14:37:14] Can't find and can't terminate svchost.exe
+[14:37:14] Thread ID 200272, Process ID 222184 - S0 + S5 + Restart
+[14:37:18] Running FurMark...
+[14:37:18] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:37:18] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:37:18] Can't find and can't terminate svchost.exe
+[14:37:22] Running FurMark...
+[14:37:22] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:37:22] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:37:22] Can't find and can't terminate dllhost.exe
+[14:37:26] Running FurMark...
+[14:37:26] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:37:26] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:37:26] Can't find and can't terminate svchost.exe
+[14:37:30] Running FurMark...
+[14:37:30] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:37:30] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:37:30] Can't find and can't terminate SearchFilterHost.exe
+[14:37:34] Running FurMark...
+[14:37:34] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:37:34] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:37:34] Can't find and can't terminate SearchFilterHost.exe
+[14:37:38] Going to stop state, please wait...
+[14:37:38] StopStage 1: close GPU stress program
+[14:37:38] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:37:38] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:37:38] Can't find and can't terminate SearchFilterHost.exe
+[14:37:38] StopStage 2: release mutex for log writing
+[14:37:38] StopStage 3: restore battery state
+[14:37:38] StopStage 4: restore power state of wifi/BT/camera
+[14:37:38] StopStage 5: destroy AAHQ objects
+[14:37:38] Running FurMark...
+[14:37:38] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:37:38] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:37:38] Can't find and can't terminate SearchFilterHost.exe
+[14:37:42] StopStage 5.1: Remove :\Test_User_Like_Scenario\IO_test.dat ok
+[14:37:42] StopStage 6: save records of CPU temperature to file
+[14:37:42] StopStage 7: save records of reboot time
+[14:37:42] StopStage 8: show device change notify window if needed
+[14:37:42] FIN
+[14:37:44] Checking D:\WTP weekly update\20200914\WTP\Release\ThirdPartyTool\ASUS\AsAgingHQ.\BiosSN\BiosSNdll.dll
+[14:37:45] Read SN = K4NTCVN00863152
+[14:37:46] End Aging HQ
+[14:37:53] Symptom Layer 2 item selected.
+[14:37:53] 4.listSymptomLayer1.size()=4
+[14:37:53] listSymptomLayer2[0].size() = 5, symptomItems.size()=5
+[14:37:53] listSymptomLayer2[1].size() = 3, symptomItems.size()=3
+[14:37:53] listSymptomLayer2[2].size() = 1, symptomItems.size()=1
+[14:37:53] listSymptomLayer2[3].size() = 2, symptomItems.size()=2
+[14:37:53] slot2ndSymptomToggled:10
+[14:37:53] The 2nd selected symptom is item 3.0: <N0ZL11 - VGA artifacts under 2D/desktop>
+[14:37:53] 1.problem_code = N0ZL11
+[14:37:54] 0.0.strTmp = Furmark(60minutes)
+[14:37:54] 0.0.TestFurMark
+[14:37:54] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 00000200h
+[14:37:54] iLayer1SelectedItem = 3, iLayer1SelectedItem2 = 0
+[14:37:54] listSymptomLayer2[3].at(0).item[3] = 65minutes
+[14:37:54] Test time is 1 hour, 5 minutes.
+[14:37:54] Save aging.conf
+[14:37:54] Write TestS5=0 into aging.conf
+[14:37:54] Save agingCSCSymptom.conf
+[14:37:54] slot2ndSymptomToggled:99
+[14:37:56] Do pretest check
+[14:37:56] 1.IsFurMarkInstalled func: g_aging_info.wszFurMarkPath =D:\Program Files\Geeks3D\FurMark ROG Edition x64\FurMark_ROG_Edition_x64.exe
+[14:37:56] Exe for FurMark: D:\Program Files\Geeks3D\FurMark ROG Edition x64\FurMark_ROG_Edition_x64.exe
+[14:37:56] Bat for FurMark: D:\Program Files\Geeks3D\FurMark ROG Edition x64\FurMark_ROG_Edition_x64.exe
+[14:37:56] Finished pretest check
+[14:37:56] Program was ran in not AUTO mode
+[14:37:56] Total test time: 3900
+[14:37:56] 13.intCollection.nCSC_S5RebootRemainingTime: 0
+[14:37:56] CSCStageNo=0, g_user_conf.CSCConf.nCSCTotalStageNo=1
+[14:37:56] 2.Program was ran in not AUTO mode
+[14:37:56] 1. CreateCSCSymptomSeriesStageTimer:iCSCStageNo=0, nCSCTotalStageNo=1, nCSCTestPeriod_Min=60
+[14:37:56] 2.Not Auto Start:CSCStageRestTestSecond = 3600
+[14:37:56] 3.CreateCSCSymptomSeriesStageTimer:Create new Timer with 3600 seconds
+[14:37:56] Save aging.conf
+[14:37:56] Write TestS5=0 into aging.conf
+[14:37:56] Start Aging HQ
+[14:37:56] UpdateCSCSeriesStageSetting: CSC_SymptomSetting[0] = 200, CSCTestPeriod_Min[0] = 60 minutes
+[14:37:56] bTestFurMark is true
+[14:37:56] Thread ID 216740, Proces ID 222184 - Fan/CPU temp. + Battery + 3G + WiMAX + MT + S0I3/S3/DS3 + S4
+[14:37:56] Pega model: 1225B
+[14:37:56] Pega model: R252B
+[14:37:56] Pega model: K55N
+[14:37:56] Thread ID 204852, Process ID =222184 - GPU stress + Audio Loopback + EMMC Test
+[14:37:56] Running FurMark...
+[14:37:56] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:37:56] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:37:56] Can't find and can't terminate SearchFilterHost.exe
+[14:37:56] Thread ID 222088, Process ID 222184 - SHE + WIFI/CAM/BT Power + LCD display
+[14:37:56] Thread ID 211692, Process ID 222184 - S0 + S5 + Restart
+[14:38:00] Running FurMark...
+[14:38:00] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:38:00] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:38:00] Can't find and can't terminate SearchFilterHost.exe
+[14:38:04] Running FurMark...
+[14:38:04] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:38:04] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:38:04] Can't find and can't terminate SearchFilterHost.exe
+[14:38:08] Running FurMark...
+[14:38:08] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:38:08] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:38:08] Can't find and can't terminate SearchFilterHost.exe
+[14:38:12] Running FurMark...
+[14:38:12] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:38:12] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:38:12] Can't find and can't terminate SearchFilterHost.exe
+[14:38:16] Running FurMark...
+[14:38:16] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:38:16] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:38:16] Can't find and can't terminate SearchFilterHost.exe
+[14:38:20] Running FurMark...
+[14:38:21] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:38:21] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:38:21] Can't find and can't terminate SearchFilterHost.exe
+[14:38:25] Running FurMark...
+[14:38:25] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:38:25] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:38:25] Can't find and can't terminate SearchFilterHost.exe
+[14:38:26] Reset system idle timer!
+[14:38:29] Running FurMark...
+[14:38:29] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:38:29] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:38:29] Can't find and can't terminate SearchFilterHost.exe
+[14:38:33] Running FurMark...
+[14:38:33] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:38:33] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:38:33] Can't find and can't terminate SearchFilterHost.exe
+[14:38:37] Running FurMark...
+[14:38:37] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:38:37] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:38:37] Can't find and can't terminate SearchFilterHost.exe
+[14:38:39] DestroyTimer:iCSCStageNo=0, nCSCTotalStageNo=1, nCSCTestPeriod_Min=60
+[14:38:41] Running FurMark...
+[14:38:41] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:38:41] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:38:41] Can't find and can't terminate SearchFilterHost.exe
+[14:38:45] Running FurMark...
+[14:38:45] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:38:45] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:38:45] Can't find and can't terminate SearchFilterHost.exe
+[14:38:47] 2.Index:0, pSearchSchemeBuf= ??
+[14:38:47] 1.Index:1, pSearchSchemeBuf= AsAgingHQ
+[14:38:47] Pass to delete pwr scheme, AsAgingHQ!
+[14:38:47] 2.Index:2, pSearchSchemeBuf= High Performance
+[14:38:47] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

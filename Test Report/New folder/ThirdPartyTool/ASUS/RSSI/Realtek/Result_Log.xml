@@ -1,0 +1,13 @@
+<Results>
+<Result name="Arguments" status="1" timestamp="2019/10/18 17:41:50">
+<Data name="AntennaSEL" value="0"/>
+<Data name="SSID" value="EPC-DUMF"/>
+<Data name="SignalStrengthBoundary" value="-70"/>
+<Data name="TestFrequency" value="100"/>
+</Result>
+<Result name="Failure" status="0" timestamp="2019/10/18 17:41:58">
+  <Data name="Vendor" value="Realtek"/>
+  <Data name="Module" value="RTL8723BE"/>
+  <Data name="Description" value="Association failed"/>
+</Result>
+</Results>

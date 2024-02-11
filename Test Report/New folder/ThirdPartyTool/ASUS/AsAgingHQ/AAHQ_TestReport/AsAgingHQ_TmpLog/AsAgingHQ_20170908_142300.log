@@ -1,0 +1,32 @@
+[14:23:00] ASUS, NB BU, Aging HQ, Version 2.2.0.1 (Date: 2017/09/01)
+[14:23:00] Log path: E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ
+[14:23:00] OS: Windows 10
+[14:23:00] Intel CPU
+[14:23:00] Find shark bay info fail!
+[14:23:00] Checking E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[14:23:00] Checking E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[14:23:00] Load CPUUsage.dll success
+[14:23:00] Checking E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[14:23:00] E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[14:23:00] Checking E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[14:23:01] Configuration file: E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[14:23:01] Read configuration file --
+[14:23:01] TestS5: 1
+[14:23:01] blCSC_SymptomSetting: 0
+[14:23:01] bNoUseTaskScheduler: 0
+[14:23:01] bTestCinebench: 0
+[14:23:01] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:23:01] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:23:01] Failed to check for AAHQ power scheme
+[14:23:02] Model Name: GL553VW
+[14:23:02] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[14:23:13] Configuration file: E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[14:23:13] Read configuration file --
+[14:23:13] TestS5: 1
+[14:23:13] blCSC_SymptomSetting: 0
+[14:23:13] bNoUseTaskScheduler: 0
+[14:23:13] bTestCinebench: 0
+[14:23:22] 2.Index:0, pSearchSchemeBuf= ??
+[14:23:22] 2.Index:1, pSearchSchemeBuf= ???
+[14:23:22] 2.Index:2, pSearchSchemeBuf= ??
+[14:23:22] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

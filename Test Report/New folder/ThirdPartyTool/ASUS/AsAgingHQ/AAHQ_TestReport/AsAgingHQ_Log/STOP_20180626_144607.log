@@ -1,0 +1,6 @@
+Test report of ÍPÏ∂ ASUS Aging HQ, Version 2.2.5.0 (Date: 2018/6/22)
+
+Test items (* means the item was really tested):
+ * CPU 100% usage (30 minutes)
+
+No CPU temperature/Fan RPM data due to its test wasn't enabled

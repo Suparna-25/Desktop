@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ansi"?>
+<SkinDir>skin</SkinDir>
+<HelpDocPath>
+	
+	
+	
+	
+	
+
+	
+	
+
+	
+	
+
+	<ENG>doc\GTModuleTest_ENG.pdf</ENG>
+	<CHN_S>doc\GTModuleTest_CHS.pdf</CHN_S>
+</HelpDocPath>
+<ErrorCodeList>
+	
+	
+	
+	
+
+	
+
+	
+
+	<Path>ErrorCodeList.xml</Path>
+</ErrorCodeList>
+<Language>
+	<LanguagePath>Language.xml</LanguagePath>
+	<DefaultLanguage>ENG</DefaultLanguage>
+</Language>

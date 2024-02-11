@@ -1,0 +1,78 @@
+[17:32:10] ?? ASUS Aging HQ, Version 2.2.5.0 (Date: 2018/6/22)
+[17:32:10] Log path: C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5
+[17:32:10] 1.listSymptomLayer1.size()=1
+[17:32:10] 1.listSymptomLayer1.size()=2
+[17:32:10] 1.listSymptomLayer1.size()=3
+[17:32:10] 1.listSymptomLayer1.size()=4
+[17:32:10] OS: Windows 10.0, buildno =10586
+[17:32:10] Intel CPU
+[17:32:10] Find shark bay info fail!
+[17:32:10] Checking C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\EMMCTest.dll
+[17:32:10] Checking C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\CPUUsage.dll
+[17:32:10] Load CPUUsage.dll success
+[17:32:10] Checking C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[17:32:10] C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[17:32:10] Checking C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\SpecificDev.txt
+[17:32:10] Generic_Identity Fail, error code =%1
+[17:32:10] Called blATKGFunc fail
+[17:32:10] Configuration file: C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\aging.conf
+[17:32:10] Read configuration file --
+[17:32:10] TestS5: 0
+[17:32:10] blCSC_SymptomSetting: 1
+[17:32:10] bNoUseTaskScheduler: 0
+[17:32:10] bTestCinebench: 0
+[17:32:10] CSC symptom Configuration file: C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\agingCSCSymptom.conf
+[17:32:10] Read csc symptom configuration file --
+[17:32:10] CSC_SymptomSetting[0]: 20000000h
+[17:32:10] CSCTestPeriod[0]: 30 minutes
+[17:32:10] CSC_SymptomSetting[1]: 00000200h
+[17:32:10] CSCTestPeriod[1]: 30 minutes
+[17:32:10] 2.problem_code = N0ZT03
+[17:32:10] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=2, g_user_conf.CSCConf.nCSCStageNo=0
+[17:32:10] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=2, g_user_conf.CSCConf.nCSCStageNo=0
+[17:32:10] Failed to check for AAHQ power scheme
+[17:32:10] C:\windows\EnterpriseG.XML not exist
+[17:32:11] 2.listSymptomLayer1.size()=4
+[17:32:11] Model Name: GL553VW
+[17:32:11] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[17:32:14] Generic_Identity Fail, error code =%1
+[17:32:14] Called blATKGFunc fail
+[17:32:14] Configuration file: C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\aging.conf
+[17:32:14] Read configuration file --
+[17:32:14] TestS5: 0
+[17:32:14] blCSC_SymptomSetting: 1
+[17:32:14] bNoUseTaskScheduler: 0
+[17:32:14] bTestCinebench: 0
+[17:32:14] CSC symptom Configuration file: C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\agingCSCSymptom.conf
+[17:32:14] Read csc symptom configuration file --
+[17:32:14] CSC_SymptomSetting[0]: 20000000h
+[17:32:14] CSCTestPeriod[0]: 30 minutes
+[17:32:14] CSC_SymptomSetting[1]: 00000200h
+[17:32:14] CSCTestPeriod[1]: 30 minutes
+[17:32:14] 2.problem_code = N0ZT03
+[17:32:19] Save aging.conf
+[17:32:19] Write TestS5=0 into aging.conf
+[17:32:20] Do pretest check
+[17:32:20] 2.IsFurMarkInstalled func: g_aging_info.wszFurMarkPath =C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\FurMark_ROG_Edition_x64\FurMark_ROG_Edition_x64.exe
+[17:32:20] Exe for FurMark: C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\FurMark_ROG_Edition_x64\FurMark_ROG_Edition_x64.exe
+[17:32:20] Bat for FurMark: C:\Users\ice_zhong\Desktop\AGING\Aging 2.2.5\FurMark_ROG_Edition_x64\FurMark_ROG_Edition_x64.exe
+[17:32:20] Finished pretest check
+[17:32:20] Program was ran in not AUTO mode
+[17:32:20] Total test time: 3900
+[17:32:20] ****AsAgingTool::StartTimer(), nTotalCPUUsageTestSeconds=1800
+[17:32:20] ****AsAgingTool::StartTimer(), Initial Cinebench cpu temperature reading timer with 30000 ms
+[17:32:20] 13.intCollection.nCSC_S5RebootRemainingTime: 0
+[17:32:20] CSCStageNo=0, g_user_conf.CSCConf.nCSCTotalStageNo=2
+[17:32:20] Start Aging HQ
+[17:32:20] Loaded IO driver
+[17:32:20] Thread ID 3484, Process ID 8756 - CPU Usage 100%, Cinebench
+[17:32:20] Set CPU Usage=100%, CoreNum=8
+[17:32:37] CPUCore:0/8, usage = 100
+[17:32:43] CPUCore:1/8, usage = 100
+[17:32:49] CPUCore:2/8, usage = 100
+[17:32:50] Reset system idle timer!
+[17:32:55] CPUCore:3/8, usage = 100
+[17:33:01] CPUCore:4/8, usage = 100
+[17:33:07] CPUCore:5/8, usage = 100
+[17:33:13] CPUCore:6/8, usage = 100
+[17:33:19] CPUCore:7/8, usage = 100

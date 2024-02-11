@@ -1,0 +1,40 @@
+(14:56:56:326)	ASUS / Geeks3D FurMark ROG Edition 0.7.0.1 initialization in progress...
+(14:56:56:326)	(C)2016-2018 ASUS & Geeks3D
+(14:56:56:326)	[SQLite3] SQLite3 version 3.24.0 - initialization ok.
+(14:56:56:326)	GraphX Core 0.29.17.0 (codename: Hawking) initialization ok.
+(14:56:56:326)	Plugin search path: D:\WTP weekly update\20190624\WTP\advance_test\AsAgingHQ\FurMark_ROG_Edition_x64\plugins/
+(14:56:56:326)	ASUS / Geeks3D FurMark ROG Edition initialized OK.
+(14:56:56:326)	[GpuMonitor] GPU monitoring plugin for NVIDIA and AMD GPUs
+(14:56:56:326)	[GpuMonitor] Operating system detected: Windows 10 build 17763
+(14:56:56:340)	[GpuMonitor] Num GPUs found: 2
+(14:56:56:340)	[GpuMonitor] GPU0 - GeForce GTX 1650
+(14:56:56:340)	[GpuMonitor] GPU0 - PCI codes: 0x10DE-0x1F91
+(14:56:56:340)	[GpuMonitor] GPU0 - BIOS: 90.17.1c.00.e4
+(14:56:56:340)	[GpuMonitor] GPU0 - core temperature: 43 degC
+(14:56:56:340)	[GpuMonitor] GPU1 - Intel(R) UHD Graphics 630
+(14:56:56:340)	[GpuMonitor] GPU1 - PCI codes: 0x8086-0x3E9B
+(14:56:56:340)	[GpuMonitor] GPU1 - BIOS: Intel Video BIOS
+(14:56:56:340)	[GpuMonitor] GPU1 - driver: Intel 25.20.100.6577 (2-7-2019) GL:C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd
+(14:56:56:340)	[GpuMonitor] initialization ok.
+(14:56:56:537)	[Vulkan] Vulkan renderer (Windows, Linux)
+(14:56:56:761)	[Vulkan] # Vulkan devices: 2
+(14:56:56:761)	[Vulkan] [ GPU 0 ]--------------------------------------
+(14:56:56:761)	[Vulkan] - GPU name: GeForce GTX 1650
+(14:56:56:761)	[Vulkan] - DeviceID: 10DE-1F91
+(14:56:56:761)	[Vulkan] - NVIDIA driver version: 419.71_0.0
+(14:56:56:761)	[Vulkan] - Vulkan API version: 1.1.84
+(14:56:56:761)	[Vulkan] [ GPU 1 ]--------------------------------------
+(14:56:56:761)	[Vulkan] - GPU name: Intel(R) UHD Graphics 630
+(14:56:56:761)	[Vulkan] - DeviceID: 8086-3E9B
+(14:56:56:761)	[Vulkan] - Vulkan API version: 1.1.97
+(14:56:56:761)	[Vulkan] initialization ok.
+(14:56:56:950)	VSYNC status: -1
+(14:56:56:950)	GPU0 memory size: 4095 MB
+(14:56:56:950)	GPU1 memory size: 0 MB
+(14:56:57:074)	demo::furmark::gl - OpenGL - GL_RENDERER: GeForce GTX 1650/PCIe/SSE2
+(14:56:57:074)	demo::furmark::gl - OpenGL - GL_VENDOR: NVIDIA Corporation
+(14:56:57:074)	demo::furmark::gl - OpenGL - GL_VERSION: 3.2.0 NVIDIA 419.71
+(14:56:57:074)	demo::furmark::gl - OpenGL - GL_SHADING_LANGUAGE_VERSION: 1.50 NVIDIA via Cg compiler
+(14:56:57:074)	demo::furmark::gl - # OpenGL extensions: 418
+(14:56:57:077)	[ArtifactScanner] Artifact scanning for GPU overclocking.
+(14:56:57:077)	[ArtifactScanner] initialization ok.

@@ -1,0 +1,42 @@
+[14:45:39] ASUS, NB BU, Aging HQ, Version 2.2.6.0 (Date: 2018/9/05)
+[14:45:39] Log path: C:\Users\ice_zhong\Desktop\WTP\new UI WTP\ThirdPartyTool\ASUS\AsAgingHQ
+[14:45:39] 1.listSymptomLayer1.size()=1
+[14:45:39] 1.listSymptomLayer1.size()=2
+[14:45:39] 1.listSymptomLayer1.size()=3
+[14:45:39] 1.listSymptomLayer1.size()=4
+[14:45:40] OS: Windows 10.0, buildno =17763
+[14:45:40] Intel CPU
+[14:45:40] Find shark bay info fail!
+[14:45:40] Checking C:\Users\ice_zhong\Desktop\WTP\new UI WTP\ThirdPartyTool\ASUS\AsAgingHQ\EMMCTest.dll
+[14:45:40] Checking C:\Users\ice_zhong\Desktop\WTP\new UI WTP\ThirdPartyTool\ASUS\AsAgingHQ\CPUUsage.dll
+[14:45:40] Load CPUUsage.dll success
+[14:45:40] Checking C:\Users\ice_zhong\Desktop\WTP\new UI WTP\ThirdPartyTool\ASUS\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[14:45:40] C:\Users\ice_zhong\Desktop\WTP\new UI WTP\ThirdPartyTool\ASUS\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[14:45:40] Checking C:\Users\ice_zhong\Desktop\WTP\new UI WTP\ThirdPartyTool\ASUS\AsAgingHQ\SpecificDev.txt
+[14:45:40] CoCreateInstance get pIAGFNEX being NULL
+[14:45:40] Called blATKGFunc fail
+[14:45:40] Configuration file: C:\Users\ice_zhong\Desktop\WTP\new UI WTP\ThirdPartyTool\ASUS\AsAgingHQ\aging.conf
+[14:45:40] Read configuration file --
+[14:45:40] TestS5: 0
+[14:45:40] blCSC_SymptomSetting: 0
+[14:45:40] bNoUseTaskScheduler: 0
+[14:45:40] bTestCinebench: 0
+[14:45:40] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:45:40] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:45:40] Failed to check for AAHQ power scheme
+[14:45:40] C:\windows\EnterpriseG.XML not exist
+[14:45:40] 2.listSymptomLayer1.size()=4
+[14:45:40] Model Name: Strix G731GT_G731GT
+[14:45:40] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[14:45:42] CoCreateInstance get pIAGFNEX being NULL
+[14:45:42] Called blATKGFunc fail
+[14:45:42] Configuration file: C:\Users\ice_zhong\Desktop\WTP\new UI WTP\ThirdPartyTool\ASUS\AsAgingHQ\aging.conf
+[14:45:42] Read configuration file --
+[14:45:42] TestS5: 0
+[14:45:42] blCSC_SymptomSetting: 0
+[14:45:42] bNoUseTaskScheduler: 0
+[14:45:42] bTestCinebench: 0
+[15:01:39] 2.Index:0, pSearchSchemeBuf= ??
+[15:01:39] 2.Index:1, pSearchSchemeBuf= Power Saver
+[15:01:39] 2.Index:2, pSearchSchemeBuf= High Performance
+[15:01:39] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

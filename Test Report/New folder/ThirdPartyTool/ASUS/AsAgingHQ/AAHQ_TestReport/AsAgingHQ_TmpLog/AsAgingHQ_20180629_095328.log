@@ -1,0 +1,42 @@
+[09:53:28] ASUS, NB BU, Aging HQ, Version 2.2.5.0 (Date: 2018/6/22)
+[09:53:28] Log path: E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ
+[09:53:28] 1.listSymptomLayer1.size()=1
+[09:53:28] 1.listSymptomLayer1.size()=2
+[09:53:28] 1.listSymptomLayer1.size()=3
+[09:53:28] 1.listSymptomLayer1.size()=4
+[09:53:28] OS: Windows 10.0, buildno =10586
+[09:53:28] Intel CPU
+[09:53:28] Find shark bay info fail!
+[09:53:28] Checking E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[09:53:31] Checking E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[09:53:35] Load CPUUsage.dll success
+[09:53:35] Checking E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[09:53:35] E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[09:53:35] Checking E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[09:53:35] Generic_Identity Fail, error code =%1
+[09:53:35] Called blATKGFunc fail
+[09:53:35] Configuration file: E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[09:53:35] Read configuration file --
+[09:53:35] TestS5: 0
+[09:53:35] blCSC_SymptomSetting: 0
+[09:53:35] bNoUseTaskScheduler: 0
+[09:53:35] bTestCinebench: 0
+[09:53:35] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[09:53:35] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[09:53:35] Failed to check for AAHQ power scheme
+[09:53:35] C:\windows\EnterpriseG.XML not exist
+[09:53:35] 2.listSymptomLayer1.size()=4
+[09:53:35] Model Name: GL553VW
+[09:53:35] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[09:53:40] Generic_Identity Fail, error code =%1
+[09:53:40] Called blATKGFunc fail
+[09:53:40] Configuration file: E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[09:53:40] Read configuration file --
+[09:53:40] TestS5: 0
+[09:53:40] blCSC_SymptomSetting: 0
+[09:53:40] bNoUseTaskScheduler: 0
+[09:53:40] bTestCinebench: 0
+[09:53:48] 2.Index:0, pSearchSchemeBuf= ??
+[09:53:48] 2.Index:1, pSearchSchemeBuf= ???
+[09:53:48] 2.Index:2, pSearchSchemeBuf= ??
+[09:53:48] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

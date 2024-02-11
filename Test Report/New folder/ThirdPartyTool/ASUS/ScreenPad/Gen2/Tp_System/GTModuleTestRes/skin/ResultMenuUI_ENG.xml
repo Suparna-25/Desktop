@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="140,108">
+    <VerticalLayout bkimage="file=&apos;menuImg/menu_bk.png&apos; corner=&apos;40,8,8,8&apos;">
+        <List name="MenuList" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FF0000FF" itemhotimage="file=&apos;menuImg/menu_hot_bk.png&apos; corner=&apos;2,2,2,2&apos;" header="hidden" inset="8,8,8,8">
+            <ListHeader />
+            <ListContainerElement name="OpenTestLog" height="30">
+				<HorizontalLayout >
+	                <HorizontalLayout width="25" >
+	                    <Label width="9" height="9" padding="8,10,0,11" bkimage="menuImg/right.png" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	 				</HorizontalLayout>
+					<HorizontalLayout>
+	                    <Label text="OpenTestLog" font="3" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	                </HorizontalLayout>
+	            </HorizontalLayout>
+            </ListContainerElement>
+			<ListContainerElement name="CoordView" height="30">
+           		<HorizontalLayout>
+	                <HorizontalLayout width="25" >
+	                    <Label width="9" height="9" padding="8,10,0,11" bkimage="menuImg/right.png" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	 				</HorizontalLayout>
+					<HorizontalLayout>
+	                    <Label text="CoordView" font="3" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	                </HorizontalLayout>
+	            </HorizontalLayout>
+            </ListContainerElement>
+            <ListContainerElement name="TestView" height="30">
+           		<HorizontalLayout>
+	                <HorizontalLayout width="25" >
+	                    <Label width="9" height="9" padding="8,10,0,11" bkimage="menuImg/right.png" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	 				</HorizontalLayout>
+					<HorizontalLayout>
+	                    <Label text="TestView" font="3" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	                </HorizontalLayout>
+	            </HorizontalLayout>
+            </ListContainerElement>
+        </List>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,99 @@
+[14:56:13] ASUS, NB BU, Aging HQ, Version 2.2.6.0 (Date: 2018/9/05)
+[14:56:13] Log path: D:\WTP weekly update\20190624\WTP\advance_test\AsAgingHQ
+[14:56:13] 1.listSymptomLayer1.size()=1
+[14:56:13] 1.listSymptomLayer1.size()=2
+[14:56:13] 1.listSymptomLayer1.size()=3
+[14:56:13] 1.listSymptomLayer1.size()=4
+[14:56:13] OS: Windows 10.0, buildno =17763
+[14:56:13] Intel CPU
+[14:56:13] Find shark bay info fail!
+[14:56:13] Checking D:\WTP weekly update\20190624\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[14:56:13] Checking D:\WTP weekly update\20190624\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[14:56:13] Load CPUUsage.dll success
+[14:56:13] Checking D:\WTP weekly update\20190624\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[14:56:13] D:\WTP weekly update\20190624\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[14:56:13] Checking D:\WTP weekly update\20190624\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[14:56:13] CoCreateInstance get pIAGFNEX being NULL
+[14:56:13] Called blATKGFunc fail
+[14:56:13] Configuration file: D:\WTP weekly update\20190624\WTP\advance_test\AsAgingHQ\aging.conf
+[14:56:13] Read configuration file --
+[14:56:13] TestS5: 0
+[14:56:13] blCSC_SymptomSetting: 0
+[14:56:13] bNoUseTaskScheduler: 0
+[14:56:13] bTestCinebench: 0
+[14:56:13] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:56:13] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:56:13] Failed to check for AAHQ power scheme
+[14:56:13] C:\windows\EnterpriseG.XML not exist
+[14:56:13] 2.listSymptomLayer1.size()=4
+[14:56:13] Model Name: Strix G731GT_G731GT
+[14:56:13] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[14:56:37] Symptom Layer 2 item selected.
+[14:56:37] 4.listSymptomLayer1.size()=4
+[14:56:37] listSymptomLayer2[0].size() = 5, symptomItems.size()=5
+[14:56:37] listSymptomLayer2[1].size() = 3, symptomItems.size()=3
+[14:56:37] listSymptomLayer2[2].size() = 1, symptomItems.size()=1
+[14:56:37] listSymptomLayer2[3].size() = 2, symptomItems.size()=2
+[14:56:37] slot2ndSymptomToggled:10
+[14:56:37] The 2nd selected symptom is item 3.1: <N0ZL12 - VGA artifacts under 3D>
+[14:56:37] 1.problem_code = N0ZL12
+[14:56:41] 0.0.strTmp = Furmark(60minutes)
+[14:56:41] 0.0.TestFurMark
+[14:56:41] 0.CSCTestPeriod = 60 minutes, SymptomSetting[0] = 00000200h
+[14:56:41] iLayer1SelectedItem = 3, iLayer1SelectedItem2 = 1
+[14:56:41] listSymptomLayer2[3].at(1).item[3] = 65minutes
+[14:56:41] Test time is 1 hour, 5 minutes.
+[14:56:41] Save aging.conf
+[14:56:41] Write TestS5=0 into aging.conf
+[14:56:41] Save agingCSCSymptom.conf
+[14:56:41] slot2ndSymptomToggled:99
+[14:56:43] Do pretest check
+[14:56:43] 2.IsFurMarkInstalled func: g_aging_info.wszFurMarkPath =D:\WTP weekly update\20190624\WTP\advance_test\AsAgingHQ\FurMark_ROG_Edition_x64\FurMark_ROG_Edition_x64.exe
+[14:56:43] Exe for FurMark: D:\WTP weekly update\20190624\WTP\advance_test\AsAgingHQ\FurMark_ROG_Edition_x64\FurMark_ROG_Edition_x64.exe
+[14:56:43] Bat for FurMark: D:\WTP weekly update\20190624\WTP\advance_test\AsAgingHQ\FurMark_ROG_Edition_x64\FurMark_ROG_Edition_x64.exe
+[14:56:43] Finished pretest check
+[14:56:43] Program was ran in not AUTO mode
+[14:56:43] Total test time: 3900
+[14:56:43] 13.intCollection.nCSC_S5RebootRemainingTime: 0
+[14:56:43] CSCStageNo=0, g_user_conf.CSCConf.nCSCTotalStageNo=1
+[14:56:43] 2.Program was ran in not AUTO mode
+[14:56:43] 1. CreateCSCSymptomSeriesStageTimer:iCSCStageNo=0, nCSCTotalStageNo=1, nCSCTestPeriod_Min=60
+[14:56:43] 2.Not Auto Start:CSCStageRestTestSecond = 3600
+[14:56:43] 3.CreateCSCSymptomSeriesStageTimer:Create new Timer with 3600 seconds
+[14:56:43] Save aging.conf
+[14:56:43] Write TestS5=0 into aging.conf
+[14:56:43] Start Aging HQ
+[14:56:43] UpdateCSCSeriesStageSetting: CSC_SymptomSetting[0] = 200, CSCTestPeriod_Min[0] = 60 minutes
+[14:56:43] bTestFurMark is true
+[14:56:43] Thread ID 15468, Proces ID 15724 - Fan/CPU temp. + Battery + 3G + WiMAX + MT + S0I3/S3/DS3 + S4
+[14:56:43] Pega model: 1225B
+[14:56:43] Pega model: R252B
+[14:56:43] Pega model: K55N
+[14:56:43] Thread ID 6852, Process ID =15724 - GPU stress + Audio Loopback + EMMC Test
+[14:56:43] Running FurMark...
+[14:56:43] Thread ID 13840, Process ID 15724 - SHE + WIFI/CAM/BT Power + LCD display
+[14:56:43] Thread ID 10244, Process ID 15724 - S0 + S5 + Restart
+[14:56:56] Running FurMark...
+[14:57:13] Reset system idle timer!
+[14:57:16] Going to stop state, please wait...
+[14:57:16] StopStage 1: close GPU stress program
+[14:57:16] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:57:16] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:57:16] Terminated FurMark_ROG_Edition_x64.exe
+[14:57:16] StopStage 2: release mutex for log writing
+[14:57:16] StopStage 3: restore battery state
+[14:57:16] StopStage 4: restore power state of wifi/BT/camera
+[14:57:16] StopStage 5: destroy AAHQ objects
+[14:57:16] DestroyTimer:iCSCStageNo=0, nCSCTotalStageNo=1, nCSCTestPeriod_Min=60
+[14:57:19] StopStage 5.1: Remove :\Test_User_Like_Scenario\IO_test.dat ok
+[14:57:19] StopStage 6: save records of CPU temperature to file
+[14:57:19] StopStage 7: save records of reboot time
+[14:57:19] StopStage 8: show device change notify window if needed
+[14:57:19] FIN
+[14:57:21] Checking D:\WTP weekly update\20190624\WTP\advance_test\AsAgingHQ.\BiosSN\BiosSNdll.dll
+[14:57:21] Read SN = K4NTCVN00863151
+[14:57:22] End Aging HQ
+[14:57:23] 2.Index:0, pSearchSchemeBuf= ??
+[14:57:23] 2.Index:1, pSearchSchemeBuf= Power Saver
+[14:57:23] 2.Index:2, pSearchSchemeBuf= High Performance
+[14:57:23] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

@@ -1,0 +1,101 @@
+;
+; MousePad.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class = HIDClass
+ClassGuid ={745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Provider=%ManufacturerName%
+CatalogFile=MousePad.cat
+DriverVer=08/21/2017,1.0.2.0
+
+[DestinationDirs]
+Drivers_Dir = 12
+MousePad_Device_CoInstaller_CopyFiles = 11
+
+; ================= Class section =====================
+
+;[ClassInstall32]
+;Addreg=SampleClassReg
+
+;[SampleClassReg]
+;HKR,,,0,%ClassName%
+;HKR,,Icon,,-5
+
+[SourceDisksNames]
+99 = %DiskName%,,,""
+
+[SourceDisksFiles]
+MousePad.sys  = 99
+;
+
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64.6.1
+
+[Standard.NTamd64.6.1]
+%MousePad.DeviceDesc%=MousePad_Device, ACPI\GXTP7288 ; TODO: edit hw-id
+
+[MousePad_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+MousePad.sys
+
+;
+; --------------  Install section for Win7 and later. 
+; --------------  Use the inbox mshidkmdf.sys as the shim
+;
+[MousePad_Device.NT.HW]
+AddReg = MousePad_Reg_Parameters.AddReg 
+
+[MousePad_Reg_Parameters.AddReg]
+HKR,,"UpperFilters",0x00010000,"mshidkmdf"
+HKR,,"EnhancedPowerManagementEnabled",0x00010001,1
+
+;-------------- Service installation
+[MousePad_Device.NT.Services]
+AddService = MousePad,%SPSVCINST_ASSOCSERVICE%, MousePad_Service_Inst
+
+; -------------- MousePad driver install sections
+[MousePad_Service_Inst]
+DisplayName    = %MousePad.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\MousePad.sys
+LoadOrderGroup = Extended Base
+
+;
+;--- MousePad_Device Coinstaller installation ------
+;
+
+[MousePad_Device.NT.CoInstallers]
+AddReg=MousePad_Device_CoInstaller_AddReg
+CopyFiles=MousePad_Device_CoInstaller_CopyFiles
+
+[MousePad_Device_CoInstaller_AddReg]
+;
+
+
+[MousePad_Device_CoInstaller_CopyFiles]
+;
+
+
+[MousePad_Device.NT.Wdf]
+KmdfService =  MousePad, MousePad_wdfsect
+[MousePad_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="Shenzhen Huiding Technology Co.,Ltd."
+;ClassName="Samples" ; TODO: edit ClassName
+DiskName = "MousePad Installation Disk"
+MousePad.DeviceDesc = "GoodixMousePad"
+MousePad.SVCDESC = "MousePad Service"

@@ -1,0 +1,65 @@
+<<----ERROR--->>20190325-15:07:29.804314:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-15:07:29.830114:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-15:07:30.335351:TpDevBase.cpp in line 268: ChipRegRead Fail
+<<----ERROR--->>20190325-15:08:02.849016:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-15:08:02.879583:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-15:08:03.388532:TpDevBase.cpp in line 268: ChipRegRead Fail
+<<----ERROR--->>20190325-15:08:46.060797:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-15:08:46.070251:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-15:08:46.555681:TpDevBase.cpp in line 268: ChipRegRead Fail
+<<----ERROR--->>20190325-15:09:16.042367:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-15:09:16.067775:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-15:09:16.578497:TpDevBase.cpp in line 268: ChipRegRead Fail
+<<----ERROR--->>20190325-16:40:04.489199:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-16:40:04.518822:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-16:40:05.025223:TpDevBase.cpp in line 268: ChipRegRead Fail
+<<----ERROR--->>20190325-16:41:46.450871:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-16:41:46.461823:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-16:41:46.976517:TpDevBase.cpp in line 268: ChipRegRead Fail
+<<----ERROR--->>20190325-16:52:15.014976:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-16:52:15.046129:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-16:52:15.551240:TpDevBase.cpp in line 268: ChipRegRead Fail
+<<----ERROR--->>20190325-16:53:09.160911:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-16:53:09.181234:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190325-16:53:09.690674:TpDevBase.cpp in line 268: ChipRegRead Fail
+<<----ERROR--->>20190326-10:16:40.074749:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190326-10:16:40.106006:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190326-10:16:40.606006:TpDevBase.cpp in line 268: ChipRegRead Fail
+<<----ERROR--->>20190326-10:17:15.168801:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190326-10:17:15.200018:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190326-10:17:15.700403:TpDevBase.cpp in line 268: ChipRegRead Fail
+<<----ERROR--->>20190326-10:17:56.909930:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190326-10:17:56.940865:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190326-10:17:57.456406:TpDevBase.cpp in line 268: ChipRegRead Fail
+<<----ERROR--->>20190326-10:18:40.656324:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190326-10:18:40.687596:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190326-10:18:41.202851:TpDevBase.cpp in line 268: ChipRegRead Fail
+<<----ERROR--->>20190326-10:32:31.266587:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190326-10:32:31.297977:comm\inc\HidI2CComm.cpp in line 265: [CHidI2CComm::Read]HidD_GetInputReport Fail.ErrorCode:122
+
+<<----ERROR--->>20190326-10:32:31.813121:TpDevBase.cpp in line 268: ChipRegRead Fail

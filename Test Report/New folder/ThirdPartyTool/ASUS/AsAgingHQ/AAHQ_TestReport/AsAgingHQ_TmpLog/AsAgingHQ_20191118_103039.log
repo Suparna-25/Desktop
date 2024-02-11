@@ -1,0 +1,35 @@
+[10:30:39] ASUS, NB BU, Aging HQ, Version 2.2.6.0 (Date: 2018/9/05)
+[10:30:39] Log path: C:\Users\watching_wang\Desktop\Gerrit\ASUS-WTP\AsusWTP\Win32\Release\ThirdPartyTool\ASUS\AsAgingHQ
+[10:30:40] 1.listSymptomLayer1.size()=1
+[10:30:40] 1.listSymptomLayer1.size()=2
+[10:30:40] 1.listSymptomLayer1.size()=3
+[10:30:40] 1.listSymptomLayer1.size()=4
+[10:30:40] OS: Windows 10.0, buildno =17134
+[10:30:40] Intel CPU
+[10:30:40] Find shark bay info fail!
+[10:30:40] Checking C:\Users\watching_wang\Desktop\Gerrit\ASUS-WTP\AsusWTP\Win32\Release\ThirdPartyTool\ASUS\AsAgingHQ\EMMCTest.dll
+[10:30:40] Checking C:\Users\watching_wang\Desktop\Gerrit\ASUS-WTP\AsusWTP\Win32\Release\ThirdPartyTool\ASUS\AsAgingHQ\CPUUsage.dll
+[10:30:40] Load CPUUsage.dll success
+[10:30:40] Checking C:\Users\watching_wang\Desktop\Gerrit\ASUS-WTP\AsusWTP\Win32\Release\ThirdPartyTool\ASUS\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[10:30:40] C:\Users\watching_wang\Desktop\Gerrit\ASUS-WTP\AsusWTP\Win32\Release\ThirdPartyTool\ASUS\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[10:30:40] Checking C:\Users\watching_wang\Desktop\Gerrit\ASUS-WTP\AsusWTP\Win32\Release\ThirdPartyTool\ASUS\AsAgingHQ\SpecificDev.txt
+[10:30:40] CoCreateInstance get pIAGFNEX being NULL
+[10:30:40] Called blATKGFunc fail
+[10:30:40] Configuration file: C:\Users\watching_wang\Desktop\Gerrit\ASUS-WTP\AsusWTP\Win32\Release\ThirdPartyTool\ASUS\AsAgingHQ\aging.conf
+[10:30:40] Read configuration file --
+[10:30:40] TestS5: 0
+[10:30:40] blCSC_SymptomSetting: 0
+[10:30:40] bNoUseTaskScheduler: 0
+[10:30:40] bTestCinebench: 0
+[10:30:40] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[10:30:40] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[10:30:40] Failed to check for AAHQ power scheme
+[10:30:40] C:\windows\EnterpriseG.XML not exist
+[10:30:40] 2.listSymptomLayer1.size()=4
+[10:30:40] Model Name: BM1AF_BP1AF_BM6AF
+[10:30:40] MACHINE_EPC
+[10:30:46] 2.Index:0, pSearchSchemeBuf= ??
+[10:30:46] 2.Index:1, pSearchSchemeBuf= ???
+[10:30:46] 2.Index:2, pSearchSchemeBuf= ??
+[10:30:46] 2.Index:3, pSearchSchemeBuf= ????
+[10:30:46] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

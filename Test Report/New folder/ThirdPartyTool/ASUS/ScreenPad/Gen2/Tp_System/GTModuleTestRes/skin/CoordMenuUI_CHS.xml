@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="140,229">
+    <VerticalLayout bkimage="file=&apos;menuImg/menu_bk.png&apos; corner=&apos;40,8,8,8&apos;">
+        <List name="MenuList" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FF0000FF" itemhotimage="file=&apos;menuImg/menu_hot_bk.png&apos; corner=&apos;2,2,2,2&apos;" header="hidden" inset="8,8,8,8">
+            <ListHeader />
+            <ListContainerElement name="AutoClear" height="30">
+				<HorizontalLayout >
+	                <HorizontalLayout width="25" >
+	                    <Label width="9" height="9" padding="8,10,0,11" bkimage="menuImg/right.png" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	 				</HorizontalLayout>
+					<HorizontalLayout>
+	                    <Label text="自动清屏" font="3" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	                </HorizontalLayout>
+	            </HorizontalLayout>
+            </ListContainerElement>
+            <ListContainerElement name="DrawLine" height="30">
+                <HorizontalLayout>
+	                <HorizontalLayout width="25" >
+	                    <Label width="9" height="9" padding="8,10,0,11"  bkimage="menuImg/right.png" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	 				</HorizontalLayout>
+					<HorizontalLayout>
+	                    <Label text="画线演示" font="3" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	                </HorizontalLayout>
+	            </HorizontalLayout>
+            </ListContainerElement>
+            <ListContainerElement name="DrawPoint" height="30">
+            	<HorizontalLayout>
+	                <HorizontalLayout width="25" >
+	                    <Label width="9" height="9" padding="8,10,0,11" bkimage="menuImg/right.png" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	 				</HorizontalLayout>
+					<HorizontalLayout>
+	                    <Label text="触点演示" font="3" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	                </HorizontalLayout>
+	            </HorizontalLayout>
+            </ListContainerElement>
+            <ListContainerElement name="DrawDot" height="30">
+           		<HorizontalLayout>
+	                <HorizontalLayout width="25" >
+	                    <Label width="9" height="9" padding="8,10,0,11" bkimage="menuImg/right.png" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	 				</HorizontalLayout>
+					<HorizontalLayout>
+	                    <Label text="描点演示" font="3" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	                </HorizontalLayout>
+	            </HorizontalLayout>
+            </ListContainerElement>
+			<ListContainerElement name="TpKey" height="30">
+           		<HorizontalLayout>
+	                <HorizontalLayout width="25" >
+	                    <Label width="9" height="9" padding="8,10,0,11" bkimage="menuImg/right.png" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	 				</HorizontalLayout>
+					<HorizontalLayout>
+	                    <Label text="整屏按键演示" font="3" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	                </HorizontalLayout>
+	            </HorizontalLayout>
+            </ListContainerElement>
+			<ListContainerElement name="TestView" height="30">
+           		<HorizontalLayout>
+	                <HorizontalLayout width="25" >
+	                    <Label width="9" height="9" padding="8,10,0,11" bkimage="menuImg/right.png" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	 				</HorizontalLayout>
+					<HorizontalLayout>
+	                    <Label text="测试界面" font="3" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	                </HorizontalLayout>
+	            </HorizontalLayout>
+            </ListContainerElement>
+            <ListContainerElement name="ResultView" height="30">
+           		<HorizontalLayout>
+	                <HorizontalLayout width="25" >
+	                    <Label width="9" height="9" padding="8,10,0,11" bkimage="menuImg/right.png" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	 				</HorizontalLayout>
+					<HorizontalLayout>
+	                    <Label text="测试结果" font="3" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	                </HorizontalLayout>
+	            </HorizontalLayout>
+            </ListContainerElement>
+        </List>
+    </VerticalLayout>
+</Window>

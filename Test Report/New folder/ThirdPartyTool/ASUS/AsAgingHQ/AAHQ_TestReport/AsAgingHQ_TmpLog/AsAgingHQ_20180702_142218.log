@@ -1,0 +1,82 @@
+[14:22:18] ASUS, NB BU, Aging HQ, Version 2.2.5.0 (Date: 2018/6/22)
+[14:22:18] Log path: E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ
+[14:22:18] 1.listSymptomLayer1.size()=1
+[14:22:18] 1.listSymptomLayer1.size()=2
+[14:22:18] 1.listSymptomLayer1.size()=3
+[14:22:18] 1.listSymptomLayer1.size()=4
+[14:22:18] OS: Windows 10.0, buildno =10586
+[14:22:18] Intel CPU
+[14:22:18] Find shark bay info fail!
+[14:22:18] Checking E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[14:22:18] Checking E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[14:22:18] Load CPUUsage.dll success
+[14:22:18] Checking E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[14:22:18] E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[14:22:18] Checking E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[14:22:18] Generic_Identity Fail, error code =%1
+[14:22:18] Called blATKGFunc fail
+[14:22:18] Configuration file: E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[14:22:18] Read configuration file --
+[14:22:18] TestS5: 0
+[14:22:18] blCSC_SymptomSetting: 0
+[14:22:18] bNoUseTaskScheduler: 0
+[14:22:18] bTestCinebench: 0
+[14:22:18] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:22:18] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:22:18] Failed to check for AAHQ power scheme
+[14:22:19] C:\windows\EnterpriseG.XML not exist
+[14:22:19] 2.listSymptomLayer1.size()=4
+[14:22:19] Model Name: GL553VW
+[14:22:19] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[14:22:22] Generic_Identity Fail, error code =%1
+[14:22:22] Called blATKGFunc fail
+[14:22:22] Configuration file: E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[14:22:22] Read configuration file --
+[14:22:22] TestS5: 0
+[14:22:22] blCSC_SymptomSetting: 0
+[14:22:22] bNoUseTaskScheduler: 0
+[14:22:22] bTestCinebench: 0
+[14:22:35] Save aging.conf
+[14:22:35] Write TestS5=0 into aging.conf
+[14:22:35] Do pretest check
+[14:22:35] 2.IsFurMarkInstalled func: g_aging_info.wszFurMarkPath =E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\FurMark_ROG_Edition_x64\FurMark_ROG_Edition_x64.exe
+[14:22:35] Exe for FurMark: E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\FurMark_ROG_Edition_x64\FurMark_ROG_Edition_x64.exe
+[14:22:35] Bat for FurMark: E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\FurMark_ROG_Edition_x64\FurMark_ROG_Edition_x64.exe
+[14:22:35] Finished pretest check
+[14:22:35] Program was ran in not AUTO mode
+[14:22:35] Total test time: 60
+[14:22:35] 13.intCollection.nCSC_S5RebootRemainingTime: 0
+[14:22:35] CSCStageNo=0, g_user_conf.CSCConf.nCSCTotalStageNo=0
+[14:22:35] Start Aging HQ
+[14:22:35] Thread ID 11960, Proces ID 9592 - Fan/CPU temp. + Battery + 3G + WiMAX + MT + S0I3/S3/DS3 + S4
+[14:22:35] Pega model: 1225B
+[14:22:35] Pega model: R252B
+[14:22:35] Pega model: K55N
+[14:22:36] Thread ID 8696, Process ID =9592 - GPU stress + Audio Loopback + EMMC Test
+[14:22:36] Running FurMark...
+[14:22:36] Thread ID 13188, Process ID 9592 - SHE + WIFI/CAM/BT Power + LCD display
+[14:22:36] Thread ID 6716, Process ID 9592 - S0 + S5 + Restart
+[14:23:05] Reset system idle timer!
+[14:23:35] End Aging HQ
+[14:23:35] Remaining time: 2
+[14:23:35] Reset system idle timer!
+[14:23:35] Going to stop state, please wait...
+[14:23:35] StopStage 1: close GPU stress program
+[14:23:35] ****CloseFurMarksApp(): calling AgingKillAliveProcess1(FurMark_ROG_Edition_x64.exe)
+[14:23:35] KillAliveProcess:FurMark_ROG_Edition_x64.exe
+[14:23:35] Terminated FurMark_ROG_Edition_x64.exe
+[14:23:35] StopStage 2: release mutex for log writing
+[14:23:35] StopStage 3: restore battery state
+[14:23:35] StopStage 4: restore power state of wifi/BT/camera
+[14:23:35] StopStage 5: destroy AAHQ objects
+[14:23:40] StopStage 5.1: Remove :\Test_User_Like_Scenario\IO_test.dat ok
+[14:23:40] StopStage 6: save records of CPU temperature to file
+[14:23:40] StopStage 7: save records of reboot time
+[14:23:40] StopStage 8: show device change notify window if needed
+[14:23:40] FIN
+[14:23:41] Checking E:\WTP weekly update\20180702\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ.\BiosSN\BiosSNdll.dll
+[14:23:44] Read SN = 708BCD129A7E
+[14:26:35] 2.Index:0, pSearchSchemeBuf= ??
+[14:26:35] 2.Index:1, pSearchSchemeBuf= ???
+[14:26:35] 2.Index:2, pSearchSchemeBuf= ??
+[14:26:35] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

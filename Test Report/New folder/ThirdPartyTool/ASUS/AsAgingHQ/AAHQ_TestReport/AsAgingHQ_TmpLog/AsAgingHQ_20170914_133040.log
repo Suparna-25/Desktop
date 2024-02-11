@@ -1,0 +1,26 @@
+[13:30:40] ASUS, NB BU, Aging HQ, Version 2.2.0.1 (Date: 2017/09/01)
+[13:30:40] Log path: E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ
+[13:30:40] OS: Windows 10
+[13:30:40] Intel CPU
+[13:30:40] Find shark bay info fail!
+[13:30:40] Checking E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[13:30:40] Checking E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[13:30:40] Load CPUUsage.dll success
+[13:30:40] Checking E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[13:30:40] E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[13:30:40] Checking E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[13:30:42] Configuration file: E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[13:30:42] Read configuration file --
+[13:30:42] TestS5: 1
+[13:30:42] blCSC_SymptomSetting: 0
+[13:30:42] bNoUseTaskScheduler: 0
+[13:30:42] bTestCinebench: 0
+[13:30:42] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[13:30:42] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[13:30:42] Failed to check for AAHQ power scheme
+[13:30:42] Model Name: GL553VW
+[13:30:42] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[13:30:45] 2.Index:0, pSearchSchemeBuf= ??
+[13:30:45] 2.Index:1, pSearchSchemeBuf= ???
+[13:30:45] 2.Index:2, pSearchSchemeBuf= ??
+[13:30:45] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme

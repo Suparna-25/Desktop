@@ -1,0 +1,12 @@
+<PwrTestLog date="05/05/2017" time="14:38:35" filename="G:\FILES\source\ASUSAgingHQ\1.Exe\AsAgingHQ_V2.1.5_20140413\pwrtest\x86\pwrtestlog.xml">
+  <SystemInformation>
+    <ComputerName>AA1200829-NB</ComputerName>
+    <OSBuildNumber>7601</OSBuildNumber>
+    <SystemManufacturer>ASUSTeK COMPUTER INC.</SystemManufacturer>
+    <SystemProductName>G750JW</SystemProductName>
+    <BIOSVersion>G750JW.210</BIOSVersion>
+    <BIOSReleaseDate>12/11/2013</BIOSReleaseDate>
+    <ProcessorCount>8</ProcessorCount>
+    <ProcessorPackageCount>1</ProcessorPackageCount>
+  </SystemInformation>
+</PwrTestLog>

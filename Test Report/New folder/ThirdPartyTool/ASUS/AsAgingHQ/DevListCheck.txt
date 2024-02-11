@@ -1,0 +1,55 @@
+Device category to generate: USB 
+Generated in 2016-02-22 18:12:36
+
+Class: USB
+DevName: USB Root Hub
+HWID: USB\ROOT_HUB20&VID8086&PID3B3C&REV0006
+State: OK1
+Class: USB
+DevName: USB Root Hub
+HWID: USB\ROOT_HUB20&VID8086&PID3B34&REV0006
+State: OK2
+Class: USB
+DevName: USB Composite Device
+HWID: USB\VID_0461&PID_0010&REV_0104
+State: OK3
+Class: HIDClass
+DevName: USB 輸入裝置
+HWID: USB\VID_0461&PID_0010&REV_0104&MI_00
+State: OK4
+Class: HIDClass
+DevName: USB 輸入裝置
+HWID: USB\VID_0461&PID_0010&REV_0104&MI_01
+State: OK5
+Class: USB
+DevName: USB Composite Device
+HWID: USB\VID_04F2&PID_B1BE&REV_2068
+State: OK6
+Class: Image
+DevName: USB 2.0 VGA UVC WebCam
+HWID: USB\VID_04F2&PID_B1BE&REV_2068&MI_00
+State: OK7
+Class: Bluetooth
+DevName: Generic Bluetooth Adapter
+HWID: USB\VID_0B05&PID_1712&REV_1915
+State: OK8
+Class: HIDClass
+DevName: USB 輸入裝置
+HWID: USB\VID_0B05&PID_17A9&REV_0100
+State: OK9
+Class: Biometric
+DevName: Validity Sensor (VFS300)
+HWID: USB\VID_138A&PID_0008&REV_0<90
+State: OK10
+Class: USB
+DevName: Generic USB Hub
+HWID: USB\VID_8087&PID_0020&REV_0000
+State: OK11
+Class: USB
+DevName: Generic USB Hub
+HWID: USB\VID_8087&PID_0020&REV_0000
+State: OK12
+Class: USB
+DevName: USB Mass Storage Device
+HWID: USB\VID_8564&PID_1000&REV_1075
+State: OK13

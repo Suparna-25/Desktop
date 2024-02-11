@@ -1,0 +1,38 @@
+[14:38:22] ASUS, NB BU, Aging HQ, Version 2.2.0.1 (Date: 2017/09/01)
+[14:38:22] Log path: E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ
+[14:38:22] OS: Windows 10
+[14:38:22] Intel CPU
+[14:38:22] Find shark bay info fail!
+[14:38:22] Checking E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\EMMCTest.dll
+[14:38:22] Checking E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CPUUsage.dll
+[14:38:22] Load CPUUsage.dll success
+[14:38:22] Checking E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe
+[14:38:22] E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\CINEBENCHR_v15.038\CINEBENCH Windows 64 Bit.exe not exist
+[14:38:22] Checking E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\SpecificDev.txt
+[14:38:24] Configuration file: E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[14:38:24] Read configuration file --
+[14:38:24] TestS5: 1
+[14:38:24] blCSC_SymptomSetting: 0
+[14:38:24] bNoUseTaskScheduler: 0
+[14:38:24] bTestCinebench: 0
+[14:38:24] 5.0.3.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:38:24] 5.0.4.***********g_user_conf.CSCConf.nCSCTotalStageNo=0, g_user_conf.CSCConf.nCSCStageNo=0
+[14:38:24] Failed to check for AAHQ power scheme
+[14:38:24] Model Name: GL553VW
+[14:38:24] MACHINE_NOTEBOOK or MACHINE_INSTALLED_ATK
+[14:38:28] Configuration file: E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[14:38:28] Read configuration file --
+[14:38:28] TestS5: 1
+[14:38:28] blCSC_SymptomSetting: 0
+[14:38:28] bNoUseTaskScheduler: 0
+[14:38:28] bTestCinebench: 0
+[14:56:42] Configuration file: E:\WTP weekly update\20170911\New_Merge_WTP_Setup-for_update\WTP\advance_test\AsAgingHQ\aging.conf
+[14:56:42] Read configuration file --
+[14:56:42] TestS5: 1
+[14:56:42] blCSC_SymptomSetting: 0
+[14:56:42] bNoUseTaskScheduler: 0
+[14:56:42] bTestCinebench: 0
+[15:00:04] 2.Index:0, pSearchSchemeBuf= ??
+[15:00:04] 2.Index:1, pSearchSchemeBuf= ???
+[15:00:04] 2.Index:2, pSearchSchemeBuf= ??
+[15:00:04] Aging Restore Power Scheme ok, there is no AsAgingHQ power scheme
